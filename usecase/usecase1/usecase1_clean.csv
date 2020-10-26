@@ -1,0 +1,13 @@
+Zipcode, City, State,Name, SSN, Gender, Relationship
+61820, Champaign, IL, Liu, 7063, female, wife
+61820, Champaign, IL, Liu, 7099, male, husband
+61820, Champaign, IL, Liu, 7063, female, wife
+61820, Champaign, Illinois, Luwei, 6066,male,Not-in-family
+61802, Urbana, Illinois, Howie, 5408,male,Not-in-family
+61802, Urbana, Illinois, Howard, 3444,male,husband
+61802, Urbana, Illinois, Penny, 4029,female,wife
+61802, Guangzhou, Guangdong, Bob, 4089, male, Not-in-family
+51000, Guangzhou, Guangdong, Wu, 6000, female, wife
+51000, Guangzhou, Guangdong, Ping, 4023, female, Not-in-family
+51000, Guangzhou, Guangdong, Dong, 3049, male, husband
+51000, Guangzhou, Guangdong, Peter, 2333, male, husband

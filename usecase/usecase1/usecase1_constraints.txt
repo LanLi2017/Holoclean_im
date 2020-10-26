@@ -1,0 +1,4 @@
+t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+t1&EQ(t1.Gender,"female")&EQ(t1.Relationship,"husband")
+t1&EQ(t1.Gender,"male")&EQ(t1.Relationship,"wife")

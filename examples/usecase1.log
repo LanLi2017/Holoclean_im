@@ -1,0 +1,2348 @@
+11:54:12 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+11:54:12 - [ INFO] - Loaded 12 rows with 96 cells
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [ INFO] - DONE Loading usecase1_dirty.csv
+11:54:12 - [DEBUG] - Time to load dataset: 0.07 secs
+11:54:12 - [DEBUG] - OPENED constraints file successfully
+11:54:12 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+11:54:12 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+11:54:12 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+11:54:12 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+11:54:12 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+11:54:12 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+11:54:12 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+11:54:12 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+11:54:12 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+11:54:12 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+11:54:12 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+11:54:12 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+11:54:12 - [DEBUG] - Time to load dirty data: 0.00 secs
+11:54:12 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+11:54:12 - [DEBUG] - Preparing to execute 4 queries.
+11:54:12 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+11:54:12 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+11:54:12 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+11:54:12 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+11:54:12 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+11:54:12 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+11:54:12 - [ INFO] - detected 28 potentially erroneous cells
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [ INFO] - DONE with error detection.
+11:54:12 - [DEBUG] - Time to detect errors: 0.03 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+11:54:12 - [DEBUG] - Collecting single/pair-wise statistics...
+11:54:12 - [DEBUG] - DONE computing statistics in 0.25s
+11:54:12 - [DEBUG] - preparing pruned co-occurring statistics...
+11:54:12 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+11:54:12 - [DEBUG] - generating initial set of un-pruned domain values...
+11:54:12 - [DEBUG] - DONE generating initial set of domain values in 0.01
+11:54:12 - [DEBUG] - training posterior model for estimating domain value probabilities...
+11:54:12 - [DEBUG] - DONE training posterior model in 0.00s
+11:54:12 - [DEBUG] - predicting domain value probabilities from posterior model...
+11:54:12 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+11:54:12 - [DEBUG] - re-assembling final cell domain table...
+11:54:12 - [DEBUG] - DONE assembling cell domain table in 0.01s
+11:54:12 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+11:54:12 - [DEBUG] - DONE generating domain and weak labels
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [DEBUG] - Time to create table: 0.00 secs
+11:54:12 - [DEBUG] - Time to create index: 0.00 secs
+11:54:12 - [ INFO] - DONE with domain preparation.
+11:54:12 - [DEBUG] - Time to setup the domain: 0.54 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - featurizing training data...
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - Preparing to execute 9 queries.
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+11:54:12 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+11:54:12 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+11:54:12 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+11:54:12 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+11:54:12 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+11:54:12 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+11:54:12 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+11:54:12 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+11:54:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+11:54:12 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+11:54:12 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+11:54:12 - [DEBUG] - DONE featurization.
+11:54:12 - [DEBUG] - generating weak labels...
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - DONE generating weak labels.
+11:54:12 - [DEBUG] - generating mask...
+11:54:12 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:12 - [DEBUG] - DONE generating mask.
+11:54:12 - [ INFO] - DONE setting up featurized dataset.
+11:54:12 - [DEBUG] - Time to featurize data: 0.04 secs
+11:54:12 - [ INFO] - DONE setting up repair model.
+11:54:12 - [DEBUG] - Time to setup repair model: 0.04 secs
+11:54:12 - [ INFO] - training with 68 training examples (cells)
+11:54:12 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+11:54:13 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+11:54:13 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+11:54:13 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+11:54:13 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+11:54:13 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+11:54:13 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+11:54:13 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+11:54:13 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+11:54:13 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+11:54:13 - [ INFO] - DONE training repair model.
+11:54:13 - [DEBUG] - Time to fit repair model: 0.23 secs
+11:54:13 - [ INFO] - inferring on 28 examples (cells)
+11:54:13 - [DEBUG] - Time to execute query: 0.00 secs
+11:54:13 - [DEBUG] - Time to create index: 0.00 secs
+11:54:13 - [DEBUG] - Time to create index: 0.00 secs
+11:54:13 - [ INFO] - DONE inferring repairs.
+11:54:13 - [DEBUG] - Time to infer correct cell values: 0.03 secs
+11:54:13 - [DEBUG] - Time to create table: 0.00 secs
+11:54:13 - [DEBUG] - Time to create index: 0.00 secs
+11:54:13 - [DEBUG] - Time to create index: 0.00 secs
+11:54:13 - [ INFO] - DONE collecting the inferred values.
+11:54:13 - [DEBUG] - Time to collect inferred values: 0.01 secs
+11:54:13 - [ INFO] - DONE generating repaired dataset
+11:54:13 - [DEBUG] - Time to store repaired dataset: 0.02 secs
+11:54:13 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+11:54:13 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+13:34:03 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+13:34:03 - [ INFO] - Loaded 12 rows with 96 cells
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [ INFO] - DONE Loading usecase1_dirty.csv
+13:34:03 - [DEBUG] - Time to load dataset: 0.06 secs
+13:34:03 - [DEBUG] - OPENED constraints file successfully
+13:34:03 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:34:03 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+13:34:03 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+13:34:03 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:34:03 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+13:34:03 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+13:34:03 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:34:03 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+13:34:03 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:34:03 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+13:34:03 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+13:34:03 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+13:34:03 - [DEBUG] - Time to load dirty data: 0.00 secs
+13:34:03 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+13:34:03 - [DEBUG] - Preparing to execute 4 queries.
+13:34:03 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+13:34:03 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:34:03 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+13:34:03 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:34:03 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+13:34:03 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:34:03 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+13:34:03 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:34:03 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+13:34:03 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+13:34:03 - [ INFO] - detected 28 potentially erroneous cells
+13:34:03 - [DEBUG] - Time to create index: 0.00 secs
+13:34:03 - [ INFO] - DONE with error detection.
+13:34:03 - [DEBUG] - Time to detect errors: 0.04 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+13:34:04 - [DEBUG] - Collecting single/pair-wise statistics...
+13:34:04 - [DEBUG] - DONE computing statistics in 0.24s
+13:34:04 - [DEBUG] - preparing pruned co-occurring statistics...
+13:34:04 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+13:34:04 - [DEBUG] - generating initial set of un-pruned domain values...
+13:34:04 - [DEBUG] - DONE generating initial set of domain values in 0.01
+13:34:04 - [DEBUG] - training posterior model for estimating domain value probabilities...
+13:34:04 - [DEBUG] - DONE training posterior model in 0.00s
+13:34:04 - [DEBUG] - predicting domain value probabilities from posterior model...
+13:34:04 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+13:34:04 - [DEBUG] - re-assembling final cell domain table...
+13:34:04 - [DEBUG] - DONE assembling cell domain table in 0.01s
+13:34:04 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+13:34:04 - [DEBUG] - DONE generating domain and weak labels
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [DEBUG] - Time to create table: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [ INFO] - DONE with domain preparation.
+13:34:04 - [DEBUG] - Time to setup the domain: 0.50 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - featurizing training data...
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Preparing to execute 9 queries.
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+13:34:04 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+13:34:04 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+13:34:04 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+13:34:04 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+13:34:04 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+13:34:04 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+13:34:04 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+13:34:04 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+13:34:04 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+13:34:04 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+13:34:04 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+13:34:04 - [DEBUG] - DONE featurization.
+13:34:04 - [DEBUG] - generating weak labels...
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - DONE generating weak labels.
+13:34:04 - [DEBUG] - generating mask...
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - DONE generating mask.
+13:34:04 - [ INFO] - DONE setting up featurized dataset.
+13:34:04 - [DEBUG] - Time to featurize data: 0.04 secs
+13:34:04 - [ INFO] - DONE setting up repair model.
+13:34:04 - [DEBUG] - Time to setup repair model: 0.04 secs
+13:34:04 - [ INFO] - training with 68 training examples (cells)
+13:34:04 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+13:34:04 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+13:34:04 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+13:34:04 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+13:34:04 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+13:34:04 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+13:34:04 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+13:34:04 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+13:34:04 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+13:34:04 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+13:34:04 - [ INFO] - DONE training repair model.
+13:34:04 - [DEBUG] - Time to fit repair model: 0.22 secs
+13:34:04 - [ INFO] - inferring on 28 examples (cells)
+13:34:04 - [DEBUG] - Time to execute query: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [ INFO] - DONE inferring repairs.
+13:34:04 - [DEBUG] - Time to infer correct cell values: 0.04 secs
+13:34:04 - [DEBUG] - Time to create table: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [DEBUG] - Time to create index: 0.00 secs
+13:34:04 - [ INFO] - DONE collecting the inferred values.
+13:34:04 - [DEBUG] - Time to collect inferred values: 0.01 secs
+13:34:04 - [ INFO] - DONE generating repaired dataset
+13:34:04 - [DEBUG] - Time to store repaired dataset: 0.01 secs
+13:34:04 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+13:34:04 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+13:35:51 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+13:35:51 - [ INFO] - Loaded 12 rows with 96 cells
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [ INFO] - DONE Loading usecase1_dirty.csv
+13:35:51 - [DEBUG] - Time to load dataset: 0.07 secs
+13:35:51 - [DEBUG] - OPENED constraints file successfully
+13:35:51 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:35:51 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+13:35:51 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+13:35:51 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:35:51 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+13:35:51 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+13:35:51 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:35:51 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+13:35:51 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:35:51 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+13:35:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+13:35:51 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+13:35:51 - [DEBUG] - Time to load dirty data: 0.00 secs
+13:35:51 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+13:35:51 - [DEBUG] - Preparing to execute 4 queries.
+13:35:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+13:35:51 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:35:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+13:35:51 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:35:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+13:35:51 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:35:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+13:35:51 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:35:51 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+13:35:51 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+13:35:51 - [ INFO] - detected 28 potentially erroneous cells
+13:35:51 - [DEBUG] - Time to create index: 0.00 secs
+13:35:51 - [ INFO] - DONE with error detection.
+13:35:51 - [DEBUG] - Time to detect errors: 0.04 secs
+13:35:51 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:51 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+13:35:51 - [DEBUG] - Collecting single/pair-wise statistics...
+13:35:52 - [DEBUG] - DONE computing statistics in 0.26s
+13:35:52 - [DEBUG] - preparing pruned co-occurring statistics...
+13:35:52 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+13:35:52 - [DEBUG] - generating initial set of un-pruned domain values...
+13:35:52 - [DEBUG] - DONE generating initial set of domain values in 0.01
+13:35:52 - [DEBUG] - training posterior model for estimating domain value probabilities...
+13:35:52 - [DEBUG] - DONE training posterior model in 0.00s
+13:35:52 - [DEBUG] - predicting domain value probabilities from posterior model...
+13:35:52 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+13:35:52 - [DEBUG] - re-assembling final cell domain table...
+13:35:52 - [DEBUG] - DONE assembling cell domain table in 0.01s
+13:35:52 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+13:35:52 - [DEBUG] - DONE generating domain and weak labels
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [DEBUG] - Time to create table: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [ INFO] - DONE with domain preparation.
+13:35:52 - [DEBUG] - Time to setup the domain: 0.51 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - featurizing training data...
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Preparing to execute 9 queries.
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+13:35:52 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+13:35:52 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+13:35:52 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+13:35:52 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+13:35:52 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+13:35:52 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+13:35:52 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+13:35:52 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+13:35:52 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+13:35:52 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+13:35:52 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+13:35:52 - [DEBUG] - DONE featurization.
+13:35:52 - [DEBUG] - generating weak labels...
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - DONE generating weak labels.
+13:35:52 - [DEBUG] - generating mask...
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - DONE generating mask.
+13:35:52 - [ INFO] - DONE setting up featurized dataset.
+13:35:52 - [DEBUG] - Time to featurize data: 0.04 secs
+13:35:52 - [ INFO] - DONE setting up repair model.
+13:35:52 - [DEBUG] - Time to setup repair model: 0.04 secs
+13:35:52 - [ INFO] - training with 68 training examples (cells)
+13:35:52 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+13:35:52 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+13:35:52 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+13:35:52 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+13:35:52 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+13:35:52 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+13:35:52 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+13:35:52 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+13:35:52 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+13:35:52 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+13:35:52 - [ INFO] - DONE training repair model.
+13:35:52 - [DEBUG] - Time to fit repair model: 0.22 secs
+13:35:52 - [ INFO] - inferring on 28 examples (cells)
+13:35:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [ INFO] - DONE inferring repairs.
+13:35:52 - [DEBUG] - Time to infer correct cell values: 0.03 secs
+13:35:52 - [DEBUG] - Time to create table: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [DEBUG] - Time to create index: 0.00 secs
+13:35:52 - [ INFO] - DONE collecting the inferred values.
+13:35:52 - [DEBUG] - Time to collect inferred values: 0.01 secs
+13:35:52 - [ INFO] - DONE generating repaired dataset
+13:35:52 - [DEBUG] - Time to store repaired dataset: 0.01 secs
+13:35:52 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+13:35:52 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+13:36:51 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+13:36:51 - [ INFO] - Loaded 12 rows with 96 cells
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [DEBUG] - Time to create index: 0.00 secs
+13:36:51 - [ INFO] - DONE Loading usecase1_dirty.csv
+13:36:51 - [DEBUG] - Time to load dataset: 0.07 secs
+13:36:51 - [DEBUG] - OPENED constraints file successfully
+13:36:51 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:36:51 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+13:36:51 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+13:36:51 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:36:51 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+13:36:51 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+13:36:51 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:36:51 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+13:36:51 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:36:51 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+13:36:51 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+13:36:51 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+13:36:51 - [DEBUG] - Time to load dirty data: 0.00 secs
+13:36:51 - [DEBUG] - DONE with Error Detector: NullDetector in 0.02 secs
+13:36:51 - [DEBUG] - Preparing to execute 4 queries.
+13:36:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+13:36:51 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:36:51 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+13:36:52 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:36:52 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+13:36:52 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:36:52 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+13:36:52 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:36:52 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+13:36:52 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+13:36:52 - [ INFO] - detected 28 potentially erroneous cells
+13:36:52 - [DEBUG] - Time to create index: 0.00 secs
+13:36:52 - [ INFO] - DONE with error detection.
+13:36:52 - [DEBUG] - Time to detect errors: 0.07 secs
+13:36:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:52 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+13:36:52 - [DEBUG] - Collecting single/pair-wise statistics...
+13:36:52 - [DEBUG] - DONE computing statistics in 0.49s
+13:36:52 - [DEBUG] - preparing pruned co-occurring statistics...
+13:36:52 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+13:36:52 - [DEBUG] - generating initial set of un-pruned domain values...
+13:36:52 - [DEBUG] - DONE generating initial set of domain values in 0.02
+13:36:52 - [DEBUG] - training posterior model for estimating domain value probabilities...
+13:36:52 - [DEBUG] - DONE training posterior model in 0.00s
+13:36:52 - [DEBUG] - predicting domain value probabilities from posterior model...
+13:36:52 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+13:36:52 - [DEBUG] - re-assembling final cell domain table...
+13:36:52 - [DEBUG] - DONE assembling cell domain table in 0.02s
+13:36:52 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+13:36:52 - [DEBUG] - DONE generating domain and weak labels
+13:36:52 - [DEBUG] - Time to create index: 0.00 secs
+13:36:52 - [DEBUG] - Time to create index: 0.00 secs
+13:36:52 - [DEBUG] - Time to create index: 0.00 secs
+13:36:52 - [DEBUG] - Time to create table: 0.00 secs
+13:36:52 - [DEBUG] - Time to create index: 0.00 secs
+13:36:52 - [ INFO] - DONE with domain preparation.
+13:36:52 - [DEBUG] - Time to setup the domain: 0.93 secs
+13:36:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:52 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - featurizing training data...
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - Preparing to execute 9 queries.
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+13:36:53 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+13:36:53 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+13:36:53 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+13:36:53 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+13:36:53 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+13:36:53 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+13:36:53 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+13:36:53 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+13:36:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+13:36:53 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+13:36:53 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+13:36:53 - [DEBUG] - DONE featurization.
+13:36:53 - [DEBUG] - generating weak labels...
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - DONE generating weak labels.
+13:36:53 - [DEBUG] - generating mask...
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - DONE generating mask.
+13:36:53 - [ INFO] - DONE setting up featurized dataset.
+13:36:53 - [DEBUG] - Time to featurize data: 0.06 secs
+13:36:53 - [ INFO] - DONE setting up repair model.
+13:36:53 - [DEBUG] - Time to setup repair model: 0.06 secs
+13:36:53 - [ INFO] - training with 68 training examples (cells)
+13:36:53 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+13:36:53 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+13:36:53 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+13:36:53 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+13:36:53 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+13:36:53 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+13:36:53 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+13:36:53 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+13:36:53 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+13:36:53 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+13:36:53 - [ INFO] - DONE training repair model.
+13:36:53 - [DEBUG] - Time to fit repair model: 0.29 secs
+13:36:53 - [ INFO] - inferring on 28 examples (cells)
+13:36:53 - [DEBUG] - Time to execute query: 0.00 secs
+13:36:53 - [DEBUG] - Time to create index: 0.00 secs
+13:36:53 - [DEBUG] - Time to create index: 0.00 secs
+13:36:53 - [ INFO] - DONE inferring repairs.
+13:36:53 - [DEBUG] - Time to infer correct cell values: 0.07 secs
+13:36:53 - [DEBUG] - Time to create table: 0.00 secs
+13:36:53 - [DEBUG] - Time to create index: 0.00 secs
+13:36:53 - [DEBUG] - Time to create index: 0.00 secs
+13:36:53 - [ INFO] - DONE collecting the inferred values.
+13:36:53 - [DEBUG] - Time to collect inferred values: 0.03 secs
+13:36:53 - [ INFO] - DONE generating repaired dataset
+13:36:53 - [DEBUG] - Time to store repaired dataset: 0.04 secs
+13:36:53 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+13:36:53 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+13:37:04 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+13:37:04 - [ INFO] - Loaded 12 rows with 96 cells
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [DEBUG] - Time to create index: 0.00 secs
+13:37:04 - [ INFO] - DONE Loading usecase1_dirty.csv
+13:37:04 - [DEBUG] - Time to load dataset: 0.06 secs
+13:37:04 - [DEBUG] - OPENED constraints file successfully
+13:37:04 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:37:04 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+13:37:04 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+13:37:04 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:37:04 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+13:37:04 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+13:37:04 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:37:04 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+13:37:04 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:37:04 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+13:37:04 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+13:37:04 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+13:37:04 - [DEBUG] - Time to load dirty data: 0.00 secs
+13:37:04 - [DEBUG] - DONE with Error Detector: NullDetector in 0.02 secs
+13:37:04 - [DEBUG] - Preparing to execute 4 queries.
+13:37:04 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+13:37:04 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+13:37:04 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+13:37:04 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+13:37:04 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+13:37:05 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+13:37:05 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+13:37:05 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+13:37:05 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+13:37:05 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.02 secs
+13:37:05 - [ INFO] - detected 28 potentially erroneous cells
+13:37:05 - [DEBUG] - Time to create index: 0.00 secs
+13:37:05 - [ INFO] - DONE with error detection.
+13:37:05 - [DEBUG] - Time to detect errors: 0.07 secs
+17:09:52 - [DEBUG] - Time to execute query: 0.02 secs
+17:09:52 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+17:09:52 - [DEBUG] - Collecting single/pair-wise statistics...
+17:09:53 - [DEBUG] - DONE computing statistics in 0.55s
+17:09:53 - [DEBUG] - preparing pruned co-occurring statistics...
+17:09:53 - [DEBUG] - DONE with pruned co-occurring statistics in 0.01 secs
+17:09:53 - [DEBUG] - generating initial set of un-pruned domain values...
+17:09:53 - [DEBUG] - DONE generating initial set of domain values in 0.03
+17:09:53 - [DEBUG] - training posterior model for estimating domain value probabilities...
+17:09:53 - [DEBUG] - DONE training posterior model in 0.00s
+17:09:53 - [DEBUG] - predicting domain value probabilities from posterior model...
+17:09:53 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+17:09:53 - [DEBUG] - re-assembling final cell domain table...
+17:09:53 - [DEBUG] - DONE assembling cell domain table in 0.02s
+17:09:53 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+17:09:53 - [DEBUG] - DONE generating domain and weak labels
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [DEBUG] - Time to create table: 0.00 secs
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [ INFO] - DONE with domain preparation.
+17:09:53 - [DEBUG] - Time to setup the domain: 12768.45 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - featurizing training data...
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Preparing to execute 9 queries.
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+17:09:53 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+17:09:53 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+17:09:53 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+17:09:53 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+17:09:53 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+17:09:53 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+17:09:53 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+17:09:53 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+17:09:53 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+17:09:53 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+17:09:53 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+17:09:53 - [DEBUG] - DONE featurization.
+17:09:53 - [DEBUG] - generating weak labels...
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - DONE generating weak labels.
+17:09:53 - [DEBUG] - generating mask...
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - DONE generating mask.
+17:09:53 - [ INFO] - DONE setting up featurized dataset.
+17:09:53 - [DEBUG] - Time to featurize data: 0.06 secs
+17:09:53 - [ INFO] - DONE setting up repair model.
+17:09:53 - [DEBUG] - Time to setup repair model: 0.06 secs
+17:09:53 - [ INFO] - training with 68 training examples (cells)
+17:09:53 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+17:09:53 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+17:09:53 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+17:09:53 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+17:09:53 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+17:09:53 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+17:09:53 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+17:09:53 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+17:09:53 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+17:09:53 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+17:09:53 - [ INFO] - DONE training repair model.
+17:09:53 - [DEBUG] - Time to fit repair model: 0.26 secs
+17:09:53 - [ INFO] - inferring on 28 examples (cells)
+17:09:53 - [DEBUG] - Time to execute query: 0.00 secs
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [DEBUG] - Time to create index: 0.00 secs
+17:09:53 - [ INFO] - DONE inferring repairs.
+17:09:53 - [DEBUG] - Time to infer correct cell values: 0.06 secs
+17:09:53 - [DEBUG] - Time to create table: 0.00 secs
+17:09:54 - [DEBUG] - Time to create index: 0.00 secs
+17:09:54 - [DEBUG] - Time to create index: 0.00 secs
+17:09:54 - [ INFO] - DONE collecting the inferred values.
+17:09:54 - [DEBUG] - Time to collect inferred values: 0.02 secs
+17:09:54 - [ INFO] - DONE generating repaired dataset
+17:09:54 - [DEBUG] - Time to store repaired dataset: 0.03 secs
+17:09:54 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+17:09:54 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+17:10:15 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+17:10:15 - [ INFO] - Loaded 12 rows with 96 cells
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [ INFO] - DONE Loading usecase1_dirty.csv
+17:10:15 - [DEBUG] - Time to load dataset: 0.07 secs
+17:10:15 - [DEBUG] - OPENED constraints file successfully
+17:10:15 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+17:10:15 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+17:10:15 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+17:10:15 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+17:10:15 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+17:10:15 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+17:10:15 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+17:10:15 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+17:10:15 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+17:10:15 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+17:10:15 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+17:10:15 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+17:10:15 - [DEBUG] - Time to load dirty data: 0.00 secs
+17:10:15 - [DEBUG] - DONE with Error Detector: NullDetector in 0.02 secs
+17:10:15 - [DEBUG] - Preparing to execute 4 queries.
+17:10:15 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+17:10:15 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+17:10:15 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+17:10:15 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+17:10:15 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+17:10:15 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+17:10:15 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+17:10:15 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+17:10:15 - [DEBUG] - Time to execute 4 queries: 0.01 secs
+17:10:15 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.02 secs
+17:10:15 - [ INFO] - detected 28 potentially erroneous cells
+17:10:15 - [DEBUG] - Time to create index: 0.00 secs
+17:10:15 - [ INFO] - DONE with error detection.
+17:10:15 - [DEBUG] - Time to detect errors: 0.07 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+17:10:16 - [DEBUG] - Collecting single/pair-wise statistics...
+17:10:16 - [DEBUG] - DONE computing statistics in 0.46s
+17:10:16 - [DEBUG] - preparing pruned co-occurring statistics...
+17:10:16 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+17:10:16 - [DEBUG] - generating initial set of un-pruned domain values...
+17:10:16 - [DEBUG] - DONE generating initial set of domain values in 0.01
+17:10:16 - [DEBUG] - training posterior model for estimating domain value probabilities...
+17:10:16 - [DEBUG] - DONE training posterior model in 0.00s
+17:10:16 - [DEBUG] - predicting domain value probabilities from posterior model...
+17:10:16 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+17:10:16 - [DEBUG] - re-assembling final cell domain table...
+17:10:16 - [DEBUG] - DONE assembling cell domain table in 0.02s
+17:10:16 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+17:10:16 - [DEBUG] - DONE generating domain and weak labels
+17:10:16 - [DEBUG] - Time to create index: 0.00 secs
+17:10:16 - [DEBUG] - Time to create index: 0.00 secs
+17:10:16 - [DEBUG] - Time to create index: 0.00 secs
+17:10:16 - [DEBUG] - Time to create table: 0.00 secs
+17:10:16 - [DEBUG] - Time to create index: 0.00 secs
+17:10:16 - [ INFO] - DONE with domain preparation.
+17:10:16 - [DEBUG] - Time to setup the domain: 0.87 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - featurizing training data...
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - Preparing to execute 9 queries.
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+17:10:16 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+17:10:16 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+17:10:16 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+17:10:16 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+17:10:16 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+17:10:16 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+17:10:16 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+17:10:16 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+17:10:16 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+17:10:16 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+17:10:16 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+17:10:16 - [DEBUG] - DONE featurization.
+17:10:16 - [DEBUG] - generating weak labels...
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - DONE generating weak labels.
+17:10:16 - [DEBUG] - generating mask...
+17:10:16 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:16 - [DEBUG] - DONE generating mask.
+17:10:16 - [ INFO] - DONE setting up featurized dataset.
+17:10:16 - [DEBUG] - Time to featurize data: 0.05 secs
+17:10:16 - [ INFO] - DONE setting up repair model.
+17:10:16 - [DEBUG] - Time to setup repair model: 0.05 secs
+17:10:16 - [ INFO] - training with 68 training examples (cells)
+17:10:16 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+17:10:17 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+17:10:17 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+17:10:17 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+17:10:17 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+17:10:17 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+17:10:17 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+17:10:17 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+17:10:17 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+17:10:17 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+17:10:17 - [ INFO] - DONE training repair model.
+17:10:17 - [DEBUG] - Time to fit repair model: 0.27 secs
+17:10:17 - [ INFO] - inferring on 28 examples (cells)
+17:10:17 - [DEBUG] - Time to execute query: 0.00 secs
+17:10:17 - [DEBUG] - Time to create index: 0.00 secs
+17:10:17 - [DEBUG] - Time to create index: 0.00 secs
+17:10:17 - [ INFO] - DONE inferring repairs.
+17:10:17 - [DEBUG] - Time to infer correct cell values: 0.05 secs
+17:10:17 - [DEBUG] - Time to create table: 0.00 secs
+17:10:17 - [DEBUG] - Time to create index: 0.00 secs
+17:10:17 - [DEBUG] - Time to create index: 0.00 secs
+17:10:17 - [ INFO] - DONE collecting the inferred values.
+17:10:17 - [DEBUG] - Time to collect inferred values: 0.02 secs
+17:10:17 - [ INFO] - DONE generating repaired dataset
+17:10:17 - [DEBUG] - Time to store repaired dataset: 0.02 secs
+17:10:17 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+17:10:17 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+23:22:10 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+23:22:10 - [ INFO] - Loaded 12 rows with 96 cells
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [ INFO] - DONE Loading usecase1_dirty.csv
+23:22:11 - [DEBUG] - Time to load dataset: 0.09 secs
+23:22:11 - [DEBUG] - OPENED constraints file successfully
+23:22:11 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+23:22:11 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+23:22:11 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+23:22:11 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+23:22:11 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+23:22:11 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+23:22:11 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+23:22:11 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+23:22:11 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+23:22:11 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+23:22:11 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+23:22:11 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+23:22:11 - [DEBUG] - Time to load dirty data: 0.01 secs
+23:22:11 - [DEBUG] - DONE with Error Detector: NullDetector in 0.02 secs
+23:22:11 - [DEBUG] - Preparing to execute 4 queries.
+23:22:11 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+23:22:11 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+23:22:11 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+23:22:11 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+23:22:11 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+23:22:11 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+23:22:11 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+23:22:11 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+23:22:11 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+23:22:11 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+23:22:11 - [ INFO] - detected 28 potentially erroneous cells
+23:22:11 - [DEBUG] - Time to create index: 0.00 secs
+23:22:11 - [ INFO] - DONE with error detection.
+23:22:11 - [DEBUG] - Time to detect errors: 0.06 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+23:22:12 - [DEBUG] - Collecting single/pair-wise statistics...
+23:22:12 - [DEBUG] - DONE computing statistics in 0.33s
+23:22:12 - [DEBUG] - preparing pruned co-occurring statistics...
+23:22:12 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+23:22:12 - [DEBUG] - generating initial set of un-pruned domain values...
+23:22:12 - [DEBUG] - DONE generating initial set of domain values in 0.02
+23:22:12 - [DEBUG] - training posterior model for estimating domain value probabilities...
+23:22:12 - [DEBUG] - DONE training posterior model in 0.00s
+23:22:12 - [DEBUG] - predicting domain value probabilities from posterior model...
+23:22:12 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+23:22:12 - [DEBUG] - re-assembling final cell domain table...
+23:22:12 - [DEBUG] - DONE assembling cell domain table in 0.02s
+23:22:12 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+23:22:12 - [DEBUG] - DONE generating domain and weak labels
+23:22:12 - [DEBUG] - Time to create index: 0.00 secs
+23:22:12 - [DEBUG] - Time to create index: 0.00 secs
+23:22:12 - [DEBUG] - Time to create index: 0.00 secs
+23:22:12 - [DEBUG] - Time to create table: 0.00 secs
+23:22:12 - [DEBUG] - Time to create index: 0.00 secs
+23:22:12 - [ INFO] - DONE with domain preparation.
+23:22:12 - [DEBUG] - Time to setup the domain: 0.73 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - featurizing training data...
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - Preparing to execute 9 queries.
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+23:22:12 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+23:22:12 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+23:22:12 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+23:22:12 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+23:22:12 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+23:22:12 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+23:22:12 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+23:22:12 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+23:22:12 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+23:22:12 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+23:22:12 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+23:22:12 - [DEBUG] - DONE featurization.
+23:22:12 - [DEBUG] - generating weak labels...
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - DONE generating weak labels.
+23:22:12 - [DEBUG] - generating mask...
+23:22:12 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:12 - [DEBUG] - DONE generating mask.
+23:22:12 - [ INFO] - DONE setting up featurized dataset.
+23:22:12 - [DEBUG] - Time to featurize data: 0.07 secs
+23:22:12 - [ INFO] - DONE setting up repair model.
+23:22:12 - [DEBUG] - Time to setup repair model: 0.07 secs
+23:22:12 - [ INFO] - training with 68 training examples (cells)
+23:22:12 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+23:22:12 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+23:22:12 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+23:22:12 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+23:22:12 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+23:22:12 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+23:22:12 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+23:22:13 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+23:22:13 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+23:22:13 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+23:22:13 - [ INFO] - DONE training repair model.
+23:22:13 - [DEBUG] - Time to fit repair model: 0.37 secs
+23:22:13 - [ INFO] - inferring on 28 examples (cells)
+23:22:13 - [DEBUG] - Time to execute query: 0.00 secs
+23:22:13 - [DEBUG] - Time to create index: 0.00 secs
+23:22:13 - [DEBUG] - Time to create index: 0.00 secs
+23:22:13 - [ INFO] - DONE inferring repairs.
+23:22:13 - [DEBUG] - Time to infer correct cell values: 0.04 secs
+23:22:13 - [DEBUG] - Time to create table: 0.00 secs
+23:22:13 - [DEBUG] - Time to create index: 0.00 secs
+23:22:13 - [DEBUG] - Time to create index: 0.00 secs
+23:22:13 - [ INFO] - DONE collecting the inferred values.
+23:22:13 - [DEBUG] - Time to collect inferred values: 0.02 secs
+23:22:13 - [ INFO] - DONE generating repaired dataset
+23:22:13 - [DEBUG] - Time to store repaired dataset: 0.03 secs
+23:22:13 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+23:22:13 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+00:22:20 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+00:22:20 - [ INFO] - Loaded 12 rows with 96 cells
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [ INFO] - DONE Loading usecase1_dirty.csv
+00:22:20 - [DEBUG] - Time to load dataset: 0.07 secs
+00:22:20 - [DEBUG] - OPENED constraints file successfully
+00:22:20 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:22:20 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+00:22:20 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+00:22:20 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:22:20 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+00:22:20 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+00:22:20 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:22:20 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+00:22:20 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:22:20 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+00:22:20 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+00:22:20 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+00:22:20 - [DEBUG] - Time to load dirty data: 0.00 secs
+00:22:20 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+00:22:20 - [DEBUG] - Preparing to execute 4 queries.
+00:22:20 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+00:22:20 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+00:22:20 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+00:22:20 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+00:22:20 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+00:22:20 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+00:22:20 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+00:22:20 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+00:22:20 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+00:22:20 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+00:22:20 - [ INFO] - detected 28 potentially erroneous cells
+00:22:20 - [DEBUG] - Time to create index: 0.00 secs
+00:22:20 - [ INFO] - DONE with error detection.
+00:22:20 - [DEBUG] - Time to detect errors: 0.04 secs
+00:22:20 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:20 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+00:22:20 - [DEBUG] - Collecting single/pair-wise statistics...
+00:22:20 - [DEBUG] - DONE computing statistics in 0.32s
+00:22:20 - [DEBUG] - preparing pruned co-occurring statistics...
+00:22:20 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+00:22:20 - [DEBUG] - generating initial set of un-pruned domain values...
+00:22:20 - [DEBUG] - DONE generating initial set of domain values in 0.01
+00:22:20 - [DEBUG] - training posterior model for estimating domain value probabilities...
+00:22:20 - [DEBUG] - DONE training posterior model in 0.00s
+00:22:20 - [DEBUG] - predicting domain value probabilities from posterior model...
+00:22:20 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+00:22:20 - [DEBUG] - re-assembling final cell domain table...
+00:22:20 - [DEBUG] - DONE assembling cell domain table in 0.01s
+00:22:20 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+00:22:20 - [DEBUG] - DONE generating domain and weak labels
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [DEBUG] - Time to create table: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [ INFO] - DONE with domain preparation.
+00:22:21 - [DEBUG] - Time to setup the domain: 0.58 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - featurizing training data...
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Preparing to execute 9 queries.
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+00:22:21 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+00:22:21 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+00:22:21 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+00:22:21 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+00:22:21 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+00:22:21 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+00:22:21 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+00:22:21 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+00:22:21 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+00:22:21 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+00:22:21 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+00:22:21 - [DEBUG] - DONE featurization.
+00:22:21 - [DEBUG] - generating weak labels...
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - DONE generating weak labels.
+00:22:21 - [DEBUG] - generating mask...
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - DONE generating mask.
+00:22:21 - [ INFO] - DONE setting up featurized dataset.
+00:22:21 - [DEBUG] - Time to featurize data: 0.05 secs
+00:22:21 - [ INFO] - DONE setting up repair model.
+00:22:21 - [DEBUG] - Time to setup repair model: 0.05 secs
+00:22:21 - [ INFO] - training with 68 training examples (cells)
+00:22:21 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+00:22:21 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+00:22:21 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+00:22:21 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+00:22:21 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+00:22:21 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+00:22:21 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+00:22:21 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+00:22:21 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+00:22:21 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+00:22:21 - [ INFO] - DONE training repair model.
+00:22:21 - [DEBUG] - Time to fit repair model: 0.27 secs
+00:22:21 - [ INFO] - inferring on 28 examples (cells)
+00:22:21 - [DEBUG] - Time to execute query: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [ INFO] - DONE inferring repairs.
+00:22:21 - [DEBUG] - Time to infer correct cell values: 0.04 secs
+00:22:21 - [DEBUG] - Time to create table: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [DEBUG] - Time to create index: 0.00 secs
+00:22:21 - [ INFO] - DONE collecting the inferred values.
+00:22:21 - [DEBUG] - Time to collect inferred values: 0.01 secs
+00:22:21 - [ INFO] - DONE generating repaired dataset
+00:22:21 - [DEBUG] - Time to store repaired dataset: 0.02 secs
+00:22:21 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+00:22:21 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+00:23:41 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+00:23:41 - [ INFO] - Loaded 12 rows with 96 cells
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [ INFO] - DONE Loading usecase1_dirty.csv
+00:23:41 - [DEBUG] - Time to load dataset: 0.07 secs
+00:23:41 - [DEBUG] - OPENED constraints file successfully
+00:23:41 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:23:41 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+00:23:41 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+00:23:41 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:23:41 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+00:23:41 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+00:23:41 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:23:41 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+00:23:41 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:23:41 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+00:23:41 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+00:23:41 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+00:23:41 - [DEBUG] - Time to load dirty data: 0.00 secs
+00:23:41 - [DEBUG] - DONE with Error Detector: NullDetector in 0.02 secs
+00:23:41 - [DEBUG] - Preparing to execute 4 queries.
+00:23:41 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+00:23:41 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+00:23:41 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+00:23:41 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+00:23:41 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+00:23:41 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+00:23:41 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+00:23:41 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+00:23:41 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+00:23:41 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.02 secs
+00:23:41 - [ INFO] - detected 28 potentially erroneous cells
+00:23:41 - [DEBUG] - Time to create index: 0.00 secs
+00:23:41 - [ INFO] - DONE with error detection.
+00:23:41 - [DEBUG] - Time to detect errors: 0.07 secs
+00:23:41 - [DEBUG] - Time to execute query: 0.00 secs
+00:23:41 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+00:23:41 - [DEBUG] - Collecting single/pair-wise statistics...
+00:23:42 - [DEBUG] - DONE computing statistics in 0.57s
+00:23:42 - [DEBUG] - preparing pruned co-occurring statistics...
+00:23:42 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+00:23:42 - [DEBUG] - generating initial set of un-pruned domain values...
+00:23:42 - [DEBUG] - DONE generating initial set of domain values in 0.02
+00:23:42 - [DEBUG] - training posterior model for estimating domain value probabilities...
+00:23:42 - [DEBUG] - DONE training posterior model in 0.00s
+00:23:42 - [DEBUG] - predicting domain value probabilities from posterior model...
+00:23:42 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+00:23:42 - [DEBUG] - re-assembling final cell domain table...
+00:23:42 - [DEBUG] - DONE assembling cell domain table in 0.02s
+00:23:42 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+00:23:42 - [DEBUG] - DONE generating domain and weak labels
+00:23:42 - [DEBUG] - Time to create index: 0.00 secs
+00:23:42 - [DEBUG] - Time to create index: 0.00 secs
+00:23:42 - [DEBUG] - Time to create index: 0.00 secs
+00:23:42 - [DEBUG] - Time to create table: 0.00 secs
+00:23:42 - [DEBUG] - Time to create index: 0.00 secs
+00:23:42 - [ INFO] - DONE with domain preparation.
+00:23:42 - [DEBUG] - Time to setup the domain: 1.11 secs
+00:23:42 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:04 - [DEBUG] - Time to execute query: 0.13 secs
+00:28:12 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+00:28:12 - [ INFO] - Loaded 12 rows with 96 cells
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [ INFO] - DONE Loading usecase1_dirty.csv
+00:28:13 - [DEBUG] - Time to load dataset: 0.07 secs
+00:28:13 - [DEBUG] - OPENED constraints file successfully
+00:28:13 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:28:13 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+00:28:13 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+00:28:13 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:28:13 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+00:28:13 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+00:28:13 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:28:13 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+00:28:13 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:28:13 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+00:28:13 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+00:28:13 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+00:28:13 - [DEBUG] - Time to load dirty data: 0.00 secs
+00:28:13 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+00:28:13 - [DEBUG] - Preparing to execute 4 queries.
+00:28:13 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+00:28:13 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+00:28:13 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+00:28:13 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+00:28:13 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+00:28:13 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+00:28:13 - [ INFO] - detected 28 potentially erroneous cells
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [ INFO] - DONE with error detection.
+00:28:13 - [DEBUG] - Time to detect errors: 0.04 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+00:28:13 - [DEBUG] - Collecting single/pair-wise statistics...
+00:28:13 - [DEBUG] - DONE computing statistics in 0.34s
+00:28:13 - [DEBUG] - preparing pruned co-occurring statistics...
+00:28:13 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+00:28:13 - [DEBUG] - generating initial set of un-pruned domain values...
+00:28:13 - [DEBUG] - DONE generating initial set of domain values in 0.01
+00:28:13 - [DEBUG] - training posterior model for estimating domain value probabilities...
+00:28:13 - [DEBUG] - DONE training posterior model in 0.00s
+00:28:13 - [DEBUG] - predicting domain value probabilities from posterior model...
+00:28:13 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+00:28:13 - [DEBUG] - re-assembling final cell domain table...
+00:28:13 - [DEBUG] - DONE assembling cell domain table in 0.02s
+00:28:13 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+00:28:13 - [DEBUG] - DONE generating domain and weak labels
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [DEBUG] - Time to create table: 0.00 secs
+00:28:13 - [DEBUG] - Time to create index: 0.00 secs
+00:28:13 - [ INFO] - DONE with domain preparation.
+00:28:13 - [DEBUG] - Time to setup the domain: 0.67 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - featurizing training data...
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - Preparing to execute 9 queries.
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+00:28:13 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+00:28:13 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+00:28:13 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+00:28:13 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+00:28:13 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+00:28:13 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+00:28:13 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+00:28:13 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+00:28:13 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+00:28:13 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+00:28:13 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+00:28:13 - [DEBUG] - DONE featurization.
+00:28:13 - [DEBUG] - generating weak labels...
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - DONE generating weak labels.
+00:28:13 - [DEBUG] - generating mask...
+00:28:13 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:13 - [DEBUG] - DONE generating mask.
+00:28:13 - [ INFO] - DONE setting up featurized dataset.
+00:28:13 - [DEBUG] - Time to featurize data: 0.07 secs
+00:28:13 - [ INFO] - DONE setting up repair model.
+00:28:13 - [DEBUG] - Time to setup repair model: 0.07 secs
+00:28:13 - [ INFO] - training with 68 training examples (cells)
+00:28:13 - [DEBUG] - Epoch 1, cost = 0.506820, acc = 86.76%
+00:28:13 - [DEBUG] - Epoch 2, cost = 0.484267, acc = 86.76%
+00:28:14 - [DEBUG] - Epoch 3, cost = 0.462406, acc = 86.76%
+00:28:14 - [DEBUG] - Epoch 4, cost = 0.441386, acc = 86.76%
+00:28:14 - [DEBUG] - Epoch 5, cost = 0.421275, acc = 86.76%
+00:28:14 - [DEBUG] - Epoch 6, cost = 0.402073, acc = 88.24%
+00:28:14 - [DEBUG] - Epoch 7, cost = 0.383761, acc = 88.24%
+00:28:14 - [DEBUG] - Epoch 8, cost = 0.366315, acc = 88.24%
+00:28:14 - [DEBUG] - Epoch 9, cost = 0.349707, acc = 89.71%
+00:28:14 - [DEBUG] - Epoch 10, cost = 0.333911, acc = 89.71%
+00:28:14 - [ INFO] - DONE training repair model.
+00:28:14 - [DEBUG] - Time to fit repair model: 0.37 secs
+00:28:14 - [ INFO] - inferring on 28 examples (cells)
+00:28:14 - [DEBUG] - Time to execute query: 0.00 secs
+00:28:14 - [DEBUG] - Time to create index: 0.00 secs
+00:28:14 - [DEBUG] - Time to create index: 0.00 secs
+00:28:14 - [ INFO] - DONE inferring repairs.
+00:28:14 - [DEBUG] - Time to infer correct cell values: 0.04 secs
+00:28:14 - [DEBUG] - Time to create table: 0.00 secs
+00:28:14 - [DEBUG] - Time to create index: 0.00 secs
+00:28:14 - [DEBUG] - Time to create index: 0.00 secs
+00:28:14 - [ INFO] - DONE collecting the inferred values.
+00:28:14 - [DEBUG] - Time to collect inferred values: 0.01 secs
+00:28:14 - [ INFO] - DONE generating repaired dataset
+00:28:14 - [DEBUG] - Time to store repaired dataset: 0.02 secs
+00:28:14 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9390,min -0.7407,avg 0.0301,abs_avg 0.3685,weights:
+Zipcode X Zipcode -0.139
+Zipcode X City 0.741
+Zipcode X State 0.368
+Zipcode X Name 0.814
+Zipcode X SSN -0.626
+Zipcode X Gender 0.094
+Zipcode X Relationship 0.4
+City X Zipcode -0.646
+City X City 0.103
+City X State -0.494
+City X Name -0.674
+City X SSN -0.547
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.598
+State X City 0.111
+State X State 0.015
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.68
+State X Relationship -0.345
+Name X Zipcode -0.501
+Name X City 0.056
+Name X State 0.939
+Name X Name 0.001
+Name X SSN 0.76
+Name X Gender 0.058
+Name X Relationship -0.038
+SSN X Zipcode -0.239
+SSN X City 0.169
+SSN X State -0.126
+SSN X Name 0.404
+SSN X SSN 0.201
+SSN X Gender 0.324
+SSN X Relationship -0.096
+Gender X Zipcode -0.741
+Gender X City 0.515
+Gender X State -0.203
+Gender X Name -0.439
+Gender X SSN 0.381
+Gender X Gender 0.0
+Gender X Relationship -0.559
+Relationship X Zipcode 0.698
+Relationship X City -0.379
+Relationship X State -0.548
+Relationship X Name -0.414
+Relationship X SSN 0.235
+Relationship X Gender 0.26
+Relationship X Relationship -0.197
+featurizer FreqFeaturizer,size 7,max 0.6256,min -0.5272,avg 0.0191,abs_avg 0.2091,weights:
+Zipcode 0.124
+City -0.1
+State -0.037
+Name 0.046
+SSN 0.003
+Gender -0.527
+Relationship 0.626
+featurizer ConstraintFeaturizer,size 9,max 0.6091,min -0.5006,avg 0.0856,abs_avg 0.3722,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.219
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.527
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.337
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.368
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.405
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.384
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.609
+
+00:28:14 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+09:53:05 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+09:53:05 - [ INFO] - Loaded 12 rows with 96 cells
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [ INFO] - DONE Loading usecase1_dirty.csv
+09:53:05 - [DEBUG] - Time to load dataset: 0.10 secs
+09:53:05 - [DEBUG] - OPENED constraints file successfully
+09:53:05 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+09:53:05 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.SSN,t2.SSN)&IQ(t1.Name,t2.Name)
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.SSN,t2.SSN)
+09:53:05 - [DEBUG] - DONE parsing predicate: IQ(t1.Name,t2.Name)
+09:53:05 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+09:53:05 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&EQ(t1.State,t2.State)&IQ(t1.Zipcode,t2.Zipcode)
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.State,t2.State)
+09:53:05 - [DEBUG] - DONE parsing predicate: IQ(t1.Zipcode,t2.Zipcode)
+09:53:05 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+09:53:05 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'female')&EQ(t1.Relationship,'husband')
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'female')
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'husband')
+09:53:05 - [DEBUG] - DONE pre-processing constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+09:53:05 - [DEBUG] - DONE extracting tuples from constraint: t1&EQ(t1.Gender,'male')&EQ(t1.Relationship,'wife')
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.Gender,'male')
+09:53:05 - [DEBUG] - DONE parsing predicate: EQ(t1.Relationship,'wife')
+09:53:05 - [ INFO] - DONE Loading DCs from usecase1_constraints.txt
+09:53:05 - [DEBUG] - Time to load dirty data: 0.00 secs
+09:53:05 - [DEBUG] - DONE with Error Detector: NullDetector in 0.01 secs
+09:53:05 - [DEBUG] - Preparing to execute 4 queries.
+09:53:05 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."SSN"=t2."SSN" AND t1."Name"<>t2."Name") with id 0
+09:53:05 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+09:53:05 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "usecase1" as t2 WHERE t1."City"=t2."City" AND t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode") with id 1
+09:53:05 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+09:53:05 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='female' AND t1."Relationship"='husband' with id 2
+09:53:05 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+09:53:05 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "usecase1" as t1 WHERE t1."Gender"='male' AND t1."Relationship"='wife' with id 3
+09:53:05 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+09:53:05 - [DEBUG] - Time to execute 4 queries: 0.00 secs
+09:53:05 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.01 secs
+09:53:05 - [ INFO] - detected 28 potentially erroneous cells
+09:53:05 - [DEBUG] - Time to create index: 0.00 secs
+09:53:05 - [ INFO] - DONE with error detection.
+09:53:05 - [DEBUG] - Time to detect errors: 0.04 secs
+09:53:05 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:05 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+09:53:05 - [DEBUG] - Collecting single/pair-wise statistics...
+09:53:06 - [DEBUG] - DONE computing statistics in 0.27s
+09:53:06 - [DEBUG] - preparing pruned co-occurring statistics...
+09:53:06 - [DEBUG] - DONE with pruned co-occurring statistics in 0.00 secs
+09:53:06 - [DEBUG] - generating initial set of un-pruned domain values...
+09:53:06 - [DEBUG] - DONE generating initial set of domain values in 0.01
+09:53:06 - [DEBUG] - training posterior model for estimating domain value probabilities...
+09:53:06 - [DEBUG] - DONE training posterior model in 0.00s
+09:53:06 - [DEBUG] - predicting domain value probabilities from posterior model...
+09:53:06 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+09:53:06 - [DEBUG] - re-assembling final cell domain table...
+09:53:06 - [DEBUG] - DONE assembling cell domain table in 0.01s
+09:53:06 - [ INFO] - number of (additional) weak labels assigned from posterior model: 0
+09:53:06 - [DEBUG] - DONE generating domain and weak labels
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [DEBUG] - Time to create table: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [ INFO] - DONE with domain preparation.
+09:53:06 - [DEBUG] - Time to setup the domain: 0.52 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - featurizing training data...
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Preparing to execute 9 queries.
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'SSN'   AND  t1."Name"<>t2."Name"   AND  t3.rv_val = t2."SSN" GROUP BY _vid_, val_id with id 0
+09:53:06 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Name'   AND  t1."SSN"=t2."SSN"   AND  t3.rv_val <> t2."Name" GROUP BY _vid_, val_id with id 1
+09:53:06 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'City'   AND  t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."City" GROUP BY _vid_, val_id with id 2
+09:53:06 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'State'   AND  t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode"   AND  t3.rv_val = t2."State" GROUP BY _vid_, val_id with id 3
+09:53:06 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, "usecase1" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'Zipcode'   AND  t1."City"=t2."City" AND t1."State"=t2."State"   AND  t3.rv_val <> t2."Zipcode" GROUP BY _vid_, val_id with id 4
+09:53:06 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='husband'   AND  t2.rv_val = 'female' GROUP BY _vid_, val_id with id 5
+09:53:06 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='female'   AND  t2.rv_val = 'husband' GROUP BY _vid_, val_id with id 6
+09:53:06 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Gender'   AND  t1."Relationship"='wife'   AND  t2.rv_val = 'male' GROUP BY _vid_, val_id with id 7
+09:53:06 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+09:53:06 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "usecase1" as t1, pos_values as t2 WHERE  t1._tid_ = t2._tid_   AND  t2.attribute = 'Relationship'   AND  t1."Gender"='male'   AND  t2.rv_val = 'wife' GROUP BY _vid_, val_id with id 8
+09:53:06 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+09:53:06 - [DEBUG] - Time to execute 9 queries: 0.01 secs
+09:53:06 - [DEBUG] - DONE featurization.
+09:53:06 - [DEBUG] - generating weak labels...
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - DONE generating weak labels.
+09:53:06 - [DEBUG] - generating mask...
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - DONE generating mask.
+09:53:06 - [ INFO] - DONE setting up featurized dataset.
+09:53:06 - [DEBUG] - Time to featurize data: 0.05 secs
+09:53:06 - [ INFO] - DONE setting up repair model.
+09:53:06 - [DEBUG] - Time to setup repair model: 0.05 secs
+09:53:06 - [ INFO] - training with 69 training examples (cells)
+09:53:06 - [DEBUG] - Epoch 1, cost = 0.491809, acc = 86.96%
+09:53:06 - [DEBUG] - Epoch 2, cost = 0.469749, acc = 86.96%
+09:53:06 - [DEBUG] - Epoch 3, cost = 0.448445, acc = 86.96%
+09:53:06 - [DEBUG] - Epoch 4, cost = 0.428017, acc = 86.96%
+09:53:06 - [DEBUG] - Epoch 5, cost = 0.408517, acc = 86.96%
+09:53:06 - [DEBUG] - Epoch 6, cost = 0.389935, acc = 88.41%
+09:53:06 - [DEBUG] - Epoch 7, cost = 0.372245, acc = 89.86%
+09:53:06 - [DEBUG] - Epoch 8, cost = 0.355419, acc = 91.30%
+09:53:06 - [DEBUG] - Epoch 9, cost = 0.339425, acc = 91.30%
+09:53:06 - [DEBUG] - Epoch 10, cost = 0.324233, acc = 91.30%
+09:53:06 - [ INFO] - DONE training repair model.
+09:53:06 - [DEBUG] - Time to fit repair model: 0.23 secs
+09:53:06 - [ INFO] - inferring on 28 examples (cells)
+09:53:06 - [DEBUG] - Time to execute query: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [ INFO] - DONE inferring repairs.
+09:53:06 - [DEBUG] - Time to infer correct cell values: 0.03 secs
+09:53:06 - [DEBUG] - Time to create table: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [DEBUG] - Time to create index: 0.00 secs
+09:53:06 - [ INFO] - DONE collecting the inferred values.
+09:53:06 - [DEBUG] - Time to collect inferred values: 0.01 secs
+09:53:06 - [ INFO] - DONE generating repaired dataset
+09:53:06 - [DEBUG] - Time to store repaired dataset: 0.01 secs
+09:53:06 - [ INFO] - featurizer InitAttrFeaturizer,size 7,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+Zipcode 1.0
+City 1.0
+State 1.0
+Name 1.0
+SSN 1.0
+Gender 1.0
+Relationship 1.0
+featurizer OccurAttrFeaturizer,size 49,max 0.9808,min -0.7394,avg 0.0302,abs_avg 0.3690,weights:
+Zipcode X Zipcode -0.135
+Zipcode X City 0.737
+Zipcode X State 0.366
+Zipcode X Name 0.812
+Zipcode X SSN -0.621
+Zipcode X Gender 0.093
+Zipcode X Relationship 0.397
+City X Zipcode -0.643
+City X City 0.099
+City X State -0.492
+City X Name -0.68
+City X SSN -0.544
+City X Gender 0.023
+City X Relationship -0.342
+State X Zipcode 0.596
+State X City 0.112
+State X State 0.014
+State X Name 0.442
+State X SSN 0.374
+State X Gender 0.674
+State X Relationship -0.341
+Name X Zipcode -0.484
+Name X City 0.056
+Name X State 0.981
+Name X Name 0.001
+Name X SSN 0.77
+Name X Gender 0.064
+Name X Relationship -0.11
+SSN X Zipcode -0.236
+SSN X City 0.165
+SSN X State -0.125
+SSN X Name 0.404
+SSN X SSN 0.196
+SSN X Gender 0.319
+SSN X Relationship -0.093
+Gender X Zipcode -0.739
+Gender X City 0.512
+Gender X State -0.202
+Gender X Name -0.436
+Gender X SSN 0.38
+Gender X Gender 0.0
+Gender X Relationship -0.553
+Relationship X Zipcode 0.698
+Relationship X City -0.375
+Relationship X State -0.544
+Relationship X Name -0.41
+Relationship X SSN 0.237
+Relationship X Gender 0.26
+Relationship X Relationship -0.192
+featurizer FreqFeaturizer,size 7,max 0.6198,min -0.5178,avg 0.0261,abs_avg 0.2118,weights:
+Zipcode 0.121
+City -0.098
+State -0.034
+Name 0.09
+SSN 0.002
+Gender -0.518
+Relationship 0.62
+featurizer ConstraintFeaturizer,size 9,max 0.6066,min -0.5006,avg 0.0835,abs_avg 0.3690,weights:
+fixed pred: t1."Name"<>t2."Name", violation pred: t1."SSN"=t2."SSN" -0.501
+fixed pred: t1."SSN"=t2."SSN", violation pred: t1."Name"<>t2."Name" -0.0
+fixed pred: t1."State"=t2."State" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."City"=t2."City" 0.216
+fixed pred: t1."City"=t2."City" AND t1."Zipcode"<>t2."Zipcode", violation pred: t1."State"=t2."State" 0.525
+fixed pred: t1."City"=t2."City" AND t1."State"=t2."State", violation pred: t1."Zipcode"<>t2."Zipcode" 0.332
+fixed pred: t1."Relationship"='husband', violation pred: t1."Gender"='female' 0.357
+fixed pred: t1."Gender"='female', violation pred: t1."Relationship"='husband' -0.403
+fixed pred: t1."Relationship"='wife', violation pred: t1."Gender"='male' -0.382
+fixed pred: t1."Gender"='male', violation pred: t1."Relationship"='wife' 0.607
+
+09:53:06 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+22:54:08 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+22:54:08 - [WARNING] - Dropping the following null column from the dataset: 'neighbourhood_group'
+22:54:08 - [ INFO] - Loaded 7594 rows with 121504 cells
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:09 - [DEBUG] - Time to create index: 0.00 secs
+22:54:10 - [DEBUG] - Time to create index: 0.00 secs
+22:54:10 - [ INFO] - DONE Loading Airbnbdirty.csv
+22:54:10 - [DEBUG] - Time to load dataset: 0.96 secs
+22:54:10 - [ERROR] - FAILED to load constraints from file hospital_constraints.txt
+22:55:25 - [DEBUG] - initiating session with parameters: {'db_user': 'holocleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+22:55:25 - [WARNING] - Dropping the following null column from the dataset: 'Address2'
+22:55:25 - [WARNING] - Dropping the following null column from the dataset: 'Address3'
+22:55:25 - [ INFO] - Loaded 1000 rows with 18000 cells
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [DEBUG] - Time to create index: 0.00 secs
+22:55:26 - [ INFO] - DONE Loading hospital.csv
+22:55:26 - [DEBUG] - Time to load dataset: 0.24 secs
+22:55:26 - [DEBUG] - OPENED constraints file successfully
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.Condition,t2.Condition)&EQ(t1.MeasureName,t2.MeasureName)&IQ(t1.HospitalType,t2.HospitalType)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.Condition,t2.Condition)&EQ(t1.MeasureName,t2.MeasureName)&IQ(t1.HospitalType,t2.HospitalType)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.Condition,t2.Condition)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.MeasureName,t2.MeasureName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.HospitalType,t2.HospitalType)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.ZipCode,t2.ZipCode)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.ZipCode,t2.ZipCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.ZipCode,t2.ZipCode)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.PhoneNumber,t2.PhoneNumber)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.PhoneNumber,t2.PhoneNumber)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.PhoneNumber,t2.PhoneNumber)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.MeasureName,t2.MeasureName)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.MeasureName,t2.MeasureName)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.MeasureName,t2.MeasureName)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.Stateavg,t2.Stateavg)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.Stateavg,t2.Stateavg)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.Stateavg,t2.Stateavg)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.ProviderNumber,t2.ProviderNumber)&IQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.ProviderNumber,t2.ProviderNumber)&IQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.ProviderNumber,t2.ProviderNumber)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.Condition,t2.Condition)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.MeasureCode,t2.MeasureCode)&IQ(t1.Condition,t2.Condition)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.Condition,t2.Condition)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.Address1,t2.Address1)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.Address1,t2.Address1)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.Address1,t2.Address1)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.HospitalOwner,t2.HospitalOwner)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.HospitalOwner,t2.HospitalOwner)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.HospitalOwner,t2.HospitalOwner)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.ProviderNumber,t2.ProviderNumber)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.ProviderNumber,t2.ProviderNumber)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.ProviderNumber,t2.ProviderNumber)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&EQ(t1.PhoneNumber,t2.PhoneNumber)&EQ(t1.HospitalOwner,t2.HospitalOwner)&IQ(t1.State,t2.State)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&EQ(t1.PhoneNumber,t2.PhoneNumber)&EQ(t1.HospitalOwner,t2.HospitalOwner)&IQ(t1.State,t2.State)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.PhoneNumber,t2.PhoneNumber)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalOwner,t2.HospitalOwner)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.State,t2.State)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.City,t2.City)&IQ(t1.CountyName,t2.CountyName)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.City,t2.City)&IQ(t1.CountyName,t2.CountyName)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.City,t2.City)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.CountyName,t2.CountyName)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.ZipCode,t2.ZipCode)&IQ(t1.EmergencyService,t2.EmergencyService)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.ZipCode,t2.ZipCode)&IQ(t1.EmergencyService,t2.EmergencyService)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.ZipCode,t2.ZipCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.EmergencyService,t2.EmergencyService)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.City,t2.City)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.HospitalName,t2.HospitalName)&IQ(t1.City,t2.City)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.HospitalName,t2.HospitalName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.City,t2.City)
+22:55:26 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.MeasureName,t2.MeasureName)&IQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.MeasureName,t2.MeasureName)&IQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [DEBUG] - DONE parsing predicate: EQ(t1.MeasureName,t2.MeasureName)
+22:55:26 - [DEBUG] - DONE parsing predicate: IQ(t1.MeasureCode,t2.MeasureCode)
+22:55:26 - [ INFO] - DONE Loading DCs from hospital_constraints.txt
+22:55:26 - [DEBUG] - Time to load dirty data: 0.01 secs
+22:55:26 - [DEBUG] - DONE with Error Detector: NullDetector in 0.06 secs
+22:55:26 - [DEBUG] - Preparing to execute 15 queries.
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."Condition"=t2."Condition" AND t1."MeasureName"=t2."MeasureName" AND t1."HospitalType"<>t2."HospitalType") with id 0
+22:55:26 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."ZipCode"<>t2."ZipCode") with id 1
+22:55:26 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."PhoneNumber"<>t2."PhoneNumber") with id 2
+22:55:26 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."MeasureCode"=t2."MeasureCode" AND t1."MeasureName"<>t2."MeasureName") with id 3
+22:55:26 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."MeasureCode"=t2."MeasureCode" AND t1."Stateavg"<>t2."Stateavg") with id 4
+22:55:26 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."ProviderNumber"=t2."ProviderNumber" AND t1."HospitalName"<>t2."HospitalName") with id 5
+22:55:26 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."MeasureCode"=t2."MeasureCode" AND t1."Condition"<>t2."Condition") with id 6
+22:55:26 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."Address1"<>t2."Address1") with id 7
+22:55:26 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."HospitalOwner"<>t2."HospitalOwner") with id 8
+22:55:26 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."ProviderNumber"<>t2."ProviderNumber") with id 9
+22:55:26 - [DEBUG] - Time to execute query with id 9: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."PhoneNumber"=t2."PhoneNumber" AND t1."HospitalOwner"=t2."HospitalOwner" AND t1."State"<>t2."State") with id 10
+22:55:26 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."City"=t2."City" AND t1."CountyName"<>t2."CountyName") with id 11
+22:55:26 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."ZipCode"=t2."ZipCode" AND t1."EmergencyService"<>t2."EmergencyService") with id 12
+22:55:26 - [DEBUG] - Time to execute query with id 12: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."HospitalName"=t2."HospitalName" AND t1."City"<>t2."City") with id 13
+22:55:26 - [DEBUG] - Time to execute query with id 13: 0.00 secs
+22:55:26 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "hospital" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "hospital" as t2 WHERE t1."MeasureName"=t2."MeasureName" AND t1."MeasureCode"<>t2."MeasureCode") with id 14
+22:55:26 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+22:55:26 - [DEBUG] - Time to execute 15 queries: 0.02 secs
+22:55:26 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.10 secs
+22:56:45 - [ INFO] - detected 11265 potentially erroneous cells
+22:56:48 - [DEBUG] - Time to create index: 0.00 secs
