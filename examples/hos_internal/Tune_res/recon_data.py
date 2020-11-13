@@ -41,7 +41,7 @@ def guess_type(value):
 
 def main():
     # file_p = '../../testdata1/hospital_clean.csv'
-    file_p = '../../testdata1/hospital_clean.csv'
+    file_p = 'recon_data/hospital_clean.csv'
     # with open(file_p) as csvf:
     #     file_content = csvf.read().strip('\n')
     #
@@ -63,7 +63,7 @@ def main():
     # for pn in df['ProviderNumber']:
     #     str(pn)
 
-    df.to_csv('recon_hospital_clean.csv', index=False)
+    df.to_csv('Ground_truth/hospital_clean.csv', index=False)
     # df.to_csv('recon_hospital_100_clean.csv', index=False)
 
 
