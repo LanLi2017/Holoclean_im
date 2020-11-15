@@ -50,7 +50,7 @@ featurizers = [
 hc.repair_errors(featurizers)
 
 # 5. Evaluate the correctness of the results.
-hc.evaluate(fpath='../testdata/hospital_clean.csv',
+hc.evaluate(fpath='../testdata/hospital_clean_recon.csv',
             tid_col='tid',
             attr_col='attribute',
             val_col='correct_val')

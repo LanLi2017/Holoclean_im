@@ -1,0 +1,1001 @@
+ProviderNumber,HospitalName,Address1,Address2,Address3,City,State,ZipCode,CountyName,PhoneNumber,HospitalType,HospitalOwner,EmergencyService,Condition,MeasureCode,MeasureName,Score,Sample,Stateavg
+10018,callahan eye foundation hospital,1720 university blvd,,,,xl,,morgan,2053258100,acute care hospitals,voluntary non-profit - private,,surgical infection prevention,ami-1,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,,,al_pn-7
+10055,,,,,birmingham,al,,,x059x16x00,,voluntary non-profit - private,yes,surgical infection prevention,,,,,al_scix-vte-1
+10018,,,,,ozark,al,36323,jefferson,2053258100,,voluntary non-profit - church,yes,surgical infection prevention,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,al_axi-1
+10018,stringfellow memorial hospital,1720 university blvd,,,,xl,35233,jefferson,2053258100,acute care hospitals,,,surgical infection prevention,scip-inf-3,,,,al_scip-inf-3
+10018,callahan eye foundation hospital,1720 university blvd,,,birmingham,al,,,,acute care hospitals,voluntary non-profit - private,,surgical infection prevention,,heart attack patients given beta blocker at discharge,,,al_scip-inf-4
+10018,callahan eye foundation hospital,1720 university blvd,,,birmingham,ak,35233,jefferson,,,voluntaxy non-pxofit - pxivate,yes,,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,,al_pnx6
+10018,medxcal center enterprxse,1720 university blvd,,,tallaxxee,ak,,,,acute care hospitals,voluntary non-profit - private,yes,,,,,,al_scip-vte-1
+,,,,,birmingxam,al,3642x,jefferson,2053258100,acute care hospitals,,no,hexrt attxck,scip-vte-2,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,,al_scip-vte-2
+,helen keller memorial hospital,1300 south montgomery avenue,,,sheffield,,,,,,,yes,children s asthma care,,pneumonia patients assessed and given pneumococcal vaccination,,33 patients,
+10044,cherokee medical center,,,,,al,,,2563864556,acute care hospitals,government - hospital district or authority,yes,heart attack,ami-2,heart failure patients given smoking cessation advice/counseling,89x,,al_ami-2
+10019,cullman regional medical center,1256 military street south,,,,ax,,jefferson,,acute care hospitals,,yes,heart failure,ami-3,,,110 patients,
+,helen keller memorial hospital,600 south third street,,,,ak,35570,xefferson,2563864556,acute care hospitals,government - hospital district or authority,yes,,,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,65%,,al_ami-4
+,,1300 south montgomery avenue,,,geoxgiana,al,35660,jefferson,2563864556,acute care hospitals,gxvernment - hxspital district xr authxrity,yxs,heart attack,ami-5,heart attack patients given beta blocker at discharge,86%,14 patients,
+20017,st vincents blount,1300 south montgomery avenue,,,,al,35660,jefferson,2563864556,acute care hospitals,voluntaxy non-pxofit - pxivate,yes,heart attack,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,
+10019,,,,,sheffield,al,35660,autauga,,,government - hospital district or authority,,heart attack,axi-4,heart attack patients given pci within 90 minutes of arrival,,,
+10019,,1300 south montgomery avenue,,,sheffield,al,35660,,,acute care hospitals,government - hospital district or authority,yes,heart failure,,pneumonia patients given smoking cessation advice/counseling,80%,114 patients,al_hf-1
+10043,yukon kuskokwim delta reg hospital,1300 south montgomery avenue,,,,,35660,,2563864556,acuxe care hospixals,government - federal,,,hf-2,,99%,,al_cac-2
+10019,helen keller memorial hospital,1300 south montgomery avenue,,,alabaster,al,35660,,,acute care hospitals,government - hospital district or authority,yxs,children s asthma care,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,90 patients,al_ami-7a
+10019,,,,,,al,,jefferson,,acute care hospitals,,,,,heart failure patients given smoking cessation advice/counseling,100%,41 patients,
+10001,southeast alabama medical center,,,,dothan,,36302,,,,,,hxart failurx,,heart attack patients given aspirin at arrival,68%,,
+,southeast alabama medical center,,,,dothan,,,houston,3347938701,,,,heart attack,hfx1,,32%,516 patients,al_hf-1
+10164,,1108 ross clark circle,,,,,36201,houston,3347938701,,,yex,heart attaxk,,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),96%,,
+10001,,1108 ross clark circle,,,dothan,xl,,,,,government - hospxtal dxstrxct or authorxty,yes,hearx axxack,ami-4,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,100%,,al_hf-2
+10012,southeast alabama medical center,1108 ross clark circle,,,dothan,,36302,houston,,,government - hospital district or authority,,heart attack,ami-5,heart attack patients given beta blocker at discharge,76%,441 patients,al_ami-5
+,huntsville hospital,,,,dothan,,36302,morgan,,acute care hospitals,voxuntary non-profit - church,,,ami-7a,,,0 patients,al_hf-2
+10087,xniv of soxth alabama medical center,1108 ross clark circle,,,opelika,,36302,lee,,acute care hospitals,,,heart faxlure,,heart attack patients given pci within 90 minutes of arrival,72%,40 patients,
+,southeast alabama medxcal center,,,,dothan,xl,36302,,2x6x938310,acute care hospitals,governmenx - hospixal disxricx or auxhorixy,,heart failure,hf-1,,,455 patients,ax_ami-1
+,,1108 ross clark circle,,,guntersville,,,calhoun,,acutexcarexhospitals,government - hospital xistrict or authority,,heart failure,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,514 patients,ak_scip-inf-2
+10001,alaska regional hospital,1108 ross clark circle,,,valley,al,35594,houston,3347938701,acute caxe hospitals,,yes,heart failure,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),75%,165 patients,al_ami-4
+10001,,,,,,ak,36302,houston,,acute care hospitals,government - hospital district or authority,xes,heart failure,pn-4,heart failure patients given smoking cessation advice/counseling,100%,110 patients,
+,southeast alabama medical center,,,,dothan,al,36302,houston,,,,yes,,pn-2,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,,,al_pn-2
+,southeast alabama medical center,1108 ross clark circle,,,,al,35609,,3343614267,acute care hospitals,governmenx - hospixal disxricx or auxhorixy,xo,pneumonia,pn-3b,,,125 patients,
+1xx16,,1108 ross clark circle,,,,,,,3347938701,,voluxtary xox-profit - private,xes,,pn-4,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,99%,107 patients,al_pn-4
+10001,,1108 ross clark circle,,,dothan,al,36302,,3347938701,acute cxre hospitxls,government - hospital district or authority,xes,suxgical infection pxevention,,,92%,196 patients,al_pn-5c
+10001,,1108 ross clark circle,,,fxorence,al,36302,calhoun,3347938701,acute caxe hospitals,government - hospital district or authority,xo,pneumonia,pn-6,,,,al_pn-6
+10001,southeast alabama medical center,,,,dothan,al,36302,fayette,33x28365x1,acute care hospitals,,yes,pneumonia,scip-inf-4,,,,
+x00x5,northwest medical center,1108 ross clark circle,,,dothan,,35640,houston,,acute caxe hospitals,government - hospital district or authority,yes,surgical infection prevention,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,82%,55 patients,
+1xx29,southeast alabama medical center,1108 ross clark circle,,,,xl,,houston,,acute care hospitals,voluntary non-profit - private,yxs,surgical infection prevention,,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,47%,399 patients,
+,crenshaw cxmmunity hxspital,805 friendship road,,,birmingham,ax,359x8,,,,,yex,surgical infection prevention,scip-inf-2,,98%,405 patients,
+,,2000 pepperell parkway,,,dothan,al,36302,houston,3347938701,,government - hospital district or authority,,,,,,385 patients,al_scip-inf-3
+,,,,,gadsden,ax,,houston,3347938701,axute care hospitals,,yes,surgical infection xrevention,scip-inf-4,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,al_scip-inf-4
+10001,southeast alabama medical center,1530 u s highway 43,,,dothan,al,36302,houston,,acute care hospitals,gxvernment - hxspital district xr authxrity,,surgical infection prevention,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),90%,537 patients,al_scip-inf-3
+10001,crenshaw cxmmunity hxspital,1108 ross clark circle,,,dothan,al,,,,acuxe care hospixals,gxvernment - hxspital district xr authxrity,,,,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,86%,,al_scip-vte-1
+,yukon kuskokwim delta reg hospital,,,,dothan,ak,,lauderdale,3347938701,,,,,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,72%,,
+10005,marshall medical center south,2505 u s highway 431 north,,,boaz,xl,,madisox,xx46x66221,,,,,,,,20 patients,al_scip-inf-1
+,dexalb regional medical center,2505 u s highway 431 north,,,,al,35957,marshall,33x8972257,acute care hospitals,proprietary,,heart attack,,heart attack patients given aspirin at discharge,60%,,al_ami-2
+,st vincents east,2505 u s highway 431 north,,,,xl,,marshall,2567736511,acute care hospitals,government - hospital district or authority,no,heart attack,pn-5c,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),68%,90 patients,
+,,,,,centre,,,marshall,33x8972257,acute care hospitals,government - hospital district or authority,,,ami-4,heart attack patients given smoking cessation advice/counseling,,,
+,,,,,,al,,,2565938310,acute care hospitals,,,heart attack,hfx4,,78%,,al_ami-5
+,,600 souxh xhird sxreex,,,,al,,talladega,2565938310,,government - hospital district or authority,no,pnxumonia,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,172 patients,al_axi-1
+,marshall medical center south,,,,,,35957,marshall,25x47x7xx0,acutx carx hospitals,government - hospital district or authority,yes,heart attack,scip-vte-1,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,84 patients,al_amx-1
+,marshall medical center south,301 east 1xth st,,,,al,,,2562495000,acute care hospitaxs,government - hospital district or authority,yxs,heart failure,,heart attack patients given aspirin at arrival,78%,110 patients,al_hf-1
+,marshall medical center south,101 sivley rd,,,winfield,al,,,2565938310,acute care hospitals,government - hospital district or authority,yes,heart failure,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,99%,,
+,dexalb regional medical center,1912 alabama highway 157,,,birmingham,al,35957,,2565938310,,government - hospital district or authority,xo,xeart failure,,,90%,186 patients,
+10005,university of alabama hospital,2505 u s highway 431 north,,,,al,,marshall,,acute care hospitals,government - hospital district or authority,yes,heart failure,hf-4,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,alxpn-3b
+10005,marshall medical center south,1000 fixst stxeet noxth,,,russellville,,,butxer,2565938310,acute care hxspitals,,yex,pneumonia,,,97%,172 patients,
+10005,cherokee medical center,2505 u s highway 431 north,,,,,,,2565938310,acute care hospitals,government - hospital district or authority,yes,pneumonia,,,97%,120 patients,
+10005,dale medical center,,,,,,,jxffxrson,2x6x938310,acute care hospitals,,no,,pn-4,pneumonia patients given smoking cessation advice/counseling,97%,399 patients,al_pn-4
+10005,marshall medical center south,,,,,al,,cherokee,2565938310,acute xare hospitals,,yex,surgical infection xrevention,pn-5c,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,60%,211 patients,al_pn-5c
+10005,marshall medical center south,,,,boaz,al,,lee,2565938310,acute care hospitaxs,government - hospital district or authority,yes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),92%,402 patients,
+,,2505 u s highway 431 north,,,,,35957,,,,,no,,pn-7,,81%,,al_pn-7
+10021,,201 pine street northwest,,,boaz,,,marshall,,acute care hospitals,,yes,heart faxlure,,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,36%,14 patients,al_pn-2
+10005,mizell memorial hospital,,,,boaz,,35957,marshall,2565938310,,,yes,,amx-3,,96%,,
+10011,,209 xorth maix street,,,tallassee,,,marshall,,,,xo,,,,64%,,
+10005,,,,,boaz,,3642x,marshall,2565938310,acute care hospitaxs,government - hospital district or authority,yes,,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),76%,119 patients,
+10005,,2505 u s highway 431 north,,,,xl,,marshall,2565x38310,,,,xeart failure,,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,,147 patients,al_scip-inf-4
+10005,marshall medical center south,2505 u s highway 431 north,,,,,,mobile,2565938310,,government - hospital district or authority,yes,,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,,xl_xmi-2
+,marshall medical center south,2505 u s highway 431 north,,,boaz,,35233,mxrshxll,2565938310,,,xo,heart attack,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,,76 patients,al_scip-vte-1
+,,33700 hxghway 43,,,,al,,,2565938310,acute care hospitals,government - hospital district or authority,,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,74%,76 patients,al_scip-vte-2
+,marshall medical center south,2505 u s highway 431 north,,,,al,35205,lauderdale,2567688400,acute care hospitals,voluntary non-profit - other,yxs,hxart failurx,,heart attack patients given aspirin at arrival,66%,,al_amx-1
+10006,east alabama medical center and snf,,,,florence,ak,3563x,fayette,xx479x5000,,,,heart attack,ami-2,,96%,247 patients,al_ami-2
+10006,chilton medical center,400xnxedwardsxstreet,,,florence,xl,35631,,2567688400,acutexcarexhospitals,voluntary non-profit - other,yes,heart attack,,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_ami-3
+1xx15,baptist medical center south,205 marengo street,,,,al,,shelby,,acute care hxspitals,voluntary nonxprofit x private,,,,heart attack patients given smoking cessation advice/counseling,100%,,al_ami-4
+,eliza coffee memorial hospital,205 marengo street,,,wedowee,,35631,,2567688400,,,yes,pxeumoxia,,,96%,227 patients,al_ami-5
+10006,eliza coffee memorial hospital,205 marengo street,,,florence,xl,35631,lauderdale,2564944000,acute care hospitals,voluntaxy non-pxofit - pxivate,yes,heart attack,ami-7a,,,,al_ami-7a
+x0029,,205 marengo street,,,,,,lauderdale,,acute care hosxitals,voluntary non-profit - other,,heart attack,,heart attack patients given pci within 90 minutes of arrival,72%,,
+10006,,,,,luverne,al,35901,lauderdale,2567688400,acute care hospitals,voluntary non-profit - other,,heart attaxk,hf-1,pneumonix pxtients assessed xnd given influenzx vxccinxtion,95%,62 patientx,
+10006,cherokee medical center,,,,florence,al,,elmoxe,2567688400,,,,heart failure,,,,7 patients,ak_hf-3
+10016,xniv of soxth alabama medical center,702 n main st,,,tallassee,al,35045,,,acute care hospitals,governmenx - hospixal disxricx or auxhorixy,,heart failure,ami-7a,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),82%,84 patients,al_hf-3
+10006,eliza coffee memorial hospital,205 marengo street,,,fxorence,,35631,,2567688400,acute care hospitals,voluntaxy non-pxofit - pxivate,,heart failure,scipxinfx1,,100%,53 patients,al_hf-4
+x00xx,,1530 u s highway 43,,,fort payne,al,35631,lauderdale,2567688400,,voluntary non-profit - other,,pneumonia,pn-2,pneumonia patients assessed and given pneumococcal vaccination,90%,518 patients,ak_ami-2
+10011,eliza coffee memorial hospital,205 marengo street,,,ozark,,36049,,xx479x5000,acute care hospitals,voluntary non-profit - other,,pneumonia,pn-3b,,95%,3 patients,al_pn-3b
+100x6,yukon kuskokwim delta reg hospital,,,,luverne,,35631,lauderdale,,acute caxe hospitals,voluntary non-profit - other,,pneumonia,,,85%,65 patients,ak_hf-1
+10006,eliza coffee memorial hospital,205 marengo street,,,florence,ak,35631,lauderdale,,,government - state,yes,pneumonia,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),84%,,al_pn-5c
+10006,marshall medical center north,205 marengo street,,,,al,35801,,,acute care hospitals,voxuntary non-profit - church,xo,pneumonia,pn-6,,91%,,
+1004x,cullmxn regionxl medicxl center,205 marengo street,,,florence,xl,,lauderdale,2567688400,,,yes,surgxcal infectxon preventxon,,,90%,85 patients,
+10006,crenshaw cxmmunity hxspital,205 marengo street,,,,al,3563x,lauderdale,2567688400,,voluntary non-profit - other,yes,surgical infection prevention,,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,68%,,ak_scip-inf-2
+10006,eliza coffee memorial hospital,205 marengo street,,,enterprise,ak,35631,lee,2567688400,axute care hospitals,,,surgical infection prevention,hfx4,,,457 patients,al_scip-inf-1
+10025,northwest medical center,205 marengo street,,,,al,,lauderdale,,,prxprietary,,hexrt attxck,scip-inf-2,,99%,462 patients,al_scip-inf-2
+10006,,849 south three notch street,,,,al,35631,lauderdale,2567688400,acutexcarexhospitals,,yes,surgical infection prevention,,,,439 patients,al_scip-inf-3
+10006,eliza coffee memorial hospital,4800 48th st,,,florence,al,,,2567688400,acute care hospitals,voluntary non-profit - other,yes,heart faixure,,,50%,,
+,,,,,,,,lauderdale,2567688400,acute care hospitals,,,surgical infection xrevention,scip-inf-6,,100%,,al_hf-4
+10006,eliza coffee memorial hospital,,,,,,35631,lauderdale,,,pxopxietaxy,,,cac-3,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,95%,,al_scip-vte-1
+10006,riverview regional medical center,205 marengo street,,,flxrence,al,3563x,laudxrdalx,2568453x50,axute care hospitals,,,surgical infection prevention,scip-vte-2,,92%,242 patients,al_scip-vte-2
+10007,floxers hospital,,,,prattville,al,36467,covington,,axute care hospitals,,,heart attack,ami-1,xeart attack patients given aspirin at arrival,32%,145 patients,al_ami-1
+10055,mizell memorial hospital,702 n main st,,,,,,montgomery,,acute care hospitals,voluntary non-profit - private,no,,,heart attack patients given aspirin at discharge,96%,166 patients,
+10007,,,,,,al,35007,covington,xx479x5000,acute care hospitals,,,,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,0 patients,
+,mizell memorial hospital,702 n main st,,,wxdowxx,al,,covington,,,government - hospital district or authority,no,heart attack,axi-4,heart attack patients given smoking cessation advice/counseling,,,
+10007,mizell memorial hospital,,,,opp,al,,covington,,acute care hosxitals,voluntary non-profit - private,,children s asthma care,,pneumonia patients assessed and given influenza vaxxination,xx%,588 patients,
+10007,mizell memorial hospital,,,,opp,ax,,,,acute care hospitals,voluntary non-profit - private,xo,heart attack,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,al_ami-7a
+10007,,,,,opp,,3x233,covington,2059216200,acutx carx hospitals,,no,xeart failure,pn-4,heart attack patients given pci within 90 minutes of arrival,,0 patients,al_ami-7a
+10007,,702 n main st,,,,,36467,xe kalb,,axute care hospitals,voluntary non-profit - private,yex,,hfx1,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,,385 patients,al_pn-6
+10007,mizell memorial hospital,124 s memorial dr,,,fxorence,al,36467,covington,3344933541,acute care hospitals,voluntary non-profit - private,,,,,87%,76 patients,al_hf-2
+,marion regional medical center,810 st vincents drive,,,,xl,36467,,3344933541,,,no,heart failure,,,,14 patients,al_hf-3
+10007,mizell memorial hospital,,,,,al,,covington,3343353374,,government - federal,no,heart attack,,heart failure patients given smoking cessation advice/counseling,100%,235 patients,al_hf-4
+10007,,702 n main st,,,opp,al,36467,covington,3347561400,acute care hospitals,voluntary non-profit - private,,pneumonia,pn-2,pneumonia patients assessed and given pneumococcal vaccination,xx%,85 patients,al_cac-2
+20017,,,,,opp,,36467,,,acute caxe hospitals,,yes,surgical infection prevention,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),97%,,al_pn-3b
+10007,st vincents hospital,,,,opp,,36467,covington,3344933541,,proxrietary,no,pneumonia,pn-7,pneumonia patients given smoking cessation advice/counseling,,28 patients,
+10049,elba general hospital,,,,,ax,,jxffxrson,,acute care hospitals,,no,pneumonia,hf-4,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,95%,,
+10007,crenshaw community hospital,,,,dothan,,36467,covington,3344933541,,,yex,,scip-inf-3,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),82%,57 patients,al_pn-6
+,elba general hospital,702 n main st,,,boaz,xl,36467,covington,3344933541,,voluntary non-profit - private,yxs,heart failure,pn-7,,,63 patients,
+10007,,702 n main st,,,fxorence,,35957,fayexxe,3344933541,acute care hospitals,voluntary non-profit - private,,surgical xnfection prevention,scip-card-2,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,94%,,al_scip-inf-2
+,mizell memorial hospital,,,,,,359x8,covington,,acute caxe hospitals,voluntary non-profit - private,no,,,,,101 patients,
+10056,chilton medical center,702 n main st,,,sheffield,al,36467,covington,3344933541,,volunxary non-profix - privaxe,yxs,surgical infection prevention,hf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,al_scip-inf-2
+x0027,mizell memorial hospital,1725 pine street,,,opp,al,,covington,3344933541,acutx carx hospitals,voluntary non-profit - private,xes,,cac-2,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,,al_scip-inf-3
+x00xx,mizell memorial hospital,702 n main st,,,opp,ax,,talladega,3344933541,,voluntary non-profit - private,no,,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,
+,mizell memorial hospital,702 n main st,,,montgomery,al,,covington,3344933541,acute care hospitals,voluntary non-profit - private,xes,,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),93%,,
+10007,,,,,opp,,35968,covington,,,,no,surgical infection prevention,scip-vte-1,,87%,,
+10007,mizell memorial hospital,702 n main st,,,opp,,,franklin,3344933541,axute care hospitals,voluntary non-profit - private,no,heaxt attack,scip-vte-2,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,,,
+,callahan eye foundation hospital,8000 alabama highway 69,,,luverne,ax,36323,crenshaw,,,government - federal,,,ami-1,,0%,1 patients,al_ami-1
+10008,southeast alabama medical center,,,,,al,36049,mobile,3343353374,acute care hospitals,government - federal,xo,heart attack,scix-inf-2,,x00%,,al_ami-2
+10008,crenshaw community hospital,101 hospital circle,,,opp,al,36302,crenshaw,,acute care hospitals,,yex,,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,15 patients,alxpn-7
+10008,crenshaw community hospital,101 hospital circle,,,,,,crenshaw,3343353374,,government - local,yes,heart attack,ami-4,children who received reliever medication while hospitalized for asthma,,,al_ami-4
+10008,crenshaw community hospital,,,,luverne,al,35631,crenshaw,,,,yes,heart attack,ami-5,heart xailure patients given smoking cessation advice/counseling,,1 patients,
+,,101 hospital circle,,,geoxgiana,ax,36049,,3343353374,acute care hospitals,,,heart attack,pnx6,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,al_ami-7a
+10008,,315 w hickory st,,,luverne,,36049,,3343353374,,government - federal,,heart attack,scip-card-2,heart attack patients given pci within 90 minutes of arrival,,,al_ami-8a
+,crenshaw community hospital,,,,thomasville,,,jefferson,,,government - federal,,heart failure,,,,,al_ami-1
+1003x,crenshaw community hospital,1720 university blvd,,,hamilton,ak,,,,,,,,axi-2,,,39 patients,al_pn-7
+,elba general hospital,,,,luverne,ak,36049,crenshaw,2563412000,,government - federal,yes,heart faxlure,scip-inf-3,,,,al_hf-3
+10008,crenshaw community hospital,101 hospital circle,,,,al,36049,anchorage,3343353374,acutexcarexhospitals,government - federal,yes,heart failure,hf-4,heart failure patients given smoking cessation advice/counseling,32%,5 patients,al_scip-inf-3
+,crenshaw community hospital,101 hospital circle,,,fxorence,,35653,crenshaw,3343353374,,,yes,pneumonia,pn-2,pneumonia patients assessed and given pneumococcal vaccination,25%,,ak_pn-7
+,prattville baptist hospital,,,,,,,,,acutexcarexhospitals,,yxs,,ami-7a,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,,al_pn-3b
+10008,marshall medical cenxer norxh,101 hospital circle,,,luverne,ax,36049,butxer,,acute caxe hospitals,proxrietary,yes,pneumonia,scip-vte-2,,,9 patients,al_pn-4
+10158,crenshaw community hospital,1530 u s highway 43,,,luverne,al,36049,crenshaw,3343353374,,government - federal,,pneumonia,,,95%,21 pxtients,al_cac-3
+100x9,crenshaw community hospital,33700 hxghway 43,,,luverne,al,36049,,,acute care hospitals,government - federal,yes,,cac-3,pneumonia patients given the most appropriate initial antibiotic(s),62%,21 patients,al_ami-4
+,riverview rexional medical center,101 hospital circle,,,luverne,al,,madisxn,,acute care hospitals,governmenx - hospixal disxricx or auxhorixy,yes,pneumonia,,,47%,15 patients,
+x0029,crenshaw community hospital,101 hospital circle,,,,al,36049,crxnshaw,3343353374,acute care hospitals,government - federal,xo,pxeumoxia,hfx1,,,607 patients,al_scip-card-2
+,,101 hospital circle,,,luverne,ak,,,,acute xare hospitals,,,,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,233 patients,al_scip-inf-1
+10008,crenshaw community hospital,,,,opelika,al,,crenshaw,,acute care hospitals,voluntary non-profit - other,yes,surgical infection prevention,scip-inf-2,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,93%,2 patients,al_scip-inf-2
+,helen keller memorial hospital,,,,luverne,,360x9,dx kalb,3343353374,,government - federal,yxs,,,,,101 patients,
+10085,crenshaw community hospital,,,,luverne,ax,,crenshaw,3343353374,,government - federal,yes,,hfx4,pneumonia patients given smoking cessation advice/counseling,,0 patients,
+10087,alaska regional hospital,,,,,al,36049,randolph,,acutexcarexhospitals,,yxs,surgical infection prevention,scip-inf-6,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,,4 patients,al_scip-inf-6
+,,,,,luverne,al,36801,,,acute care hospitals,government - federal,yes,heart failure,hf-2,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,79%,,
+10008,,101 hospital circle,,,,al,36049,mobile,3343353374,,,,surgical infection prevention,cac-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,100%,4 patients,
+10009,,805 friendship road,,,hartselle,al,35640,morgan,2568453x50,acutx carx hospitals,,,heart attack,,heart attack patients given aspirin at arrival,100%,116 patients,al_ami-1
+,hartselle medical center,201 pine street northwest,,,,ak,35640,morgan,2567736511,acute care hospitals,,xo,heart attack,ami-2,heart attaxk patients given aspirin at disxharge,100%,,ak_scip-vte-2
+10009,decatur general hospital,201 pine street northwest,,,,al,36330,elxore,x059x16x00,axute care hospitals,,,heart attack,ami-3,heart attack patients given aspirin at discharge,,242 patients,al_ami-3
+10009,,301 east 18th st,,,hartselle,al,35594,,,acute care hospitals,proprietary,yes,xneumonia,scxp-xnf-3,heart attack patients given smoking cessation advice/counseling,100%,2 patients,al_ami-1
+10009,,,,,hartselle,,,houston,2567736511,acute care hospitals,,,pneumonxa,,heart attack patients given beta blocker at discharge,100%,3 patients,
+10158,chilton medical center,,,,hartselle,al,35960,morgan,2567736511,acute care hospitals,,xes,heart attack,ami-7a,pneumonia patients assessed and given influenza vaxxination,,462 patients,al_ami-7a
+,,,,,tallaxxee,ax,35640,,3343614267,acute care hospitals,proprietary,no,,pnx6,heart attack patients given pci within 90 minutes of arrival,,0 patients,xl_scip-inf-2
+10009,hartselle medical center,315 w hickxry st,,,,al,36801,morgan,2567736511,acute care hospitaxs,,,surgical infection xrevention,hf-1,,,89 patients,xl_xmi-2
+10009,hartselle medical center,201 pine street northwest,,,hamilxon,,35640,morgan,2567736511,,prxprietary,yxs,heart failure,scip-vte-1,,88%,,al_hf-2
+10009,gadsden regional medical center,400 northwood dr,,,fayette,al,35640,laudxrdalx,,acute cxre hospitxls,proprietary,,heart failure,hf-3,,99%,10 patients,al_hf-3
+10009,hartselle medical center,201 pine street northwest,,,tallassee,,35640,morgan,,,proprietary,yes,heart failure,amix2,heart failure patients given smoking cessation advice/counseling,78%,281 patients,al_hf-4
+10009,,301 east 18th st,,,wxdowxx,,99559,,33422284xx,acute care hospitals,,,pxeumoxia,amix1,,98%,690 patients,al_pn-2
+10009,,201 pine street northwest,,,wxdowxx,ak,35640,madison,2567736511,,proprietary,,surgical infection xrevention,pn-3b,,,30 patients,al_pn-3b
+,hartselle medical center,,,,clanton,al,3x640,morgan,2567736511,,,xes,,hf-1,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,,25 patients,al_pn-4
+10009,hartselle medical center,,,,hartselle,al,35640,chaxbers,3346366221,,government - hospxtal dxstrxct or authorxty,xes,pneumonia,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,9x%,30 patients,al_pn-5c
+10009,hartselle medical center,201 pine street northwest,,,hartselle,al,35555,morgan,,acute care hospitals,proxrietary,yes,pneumonia,,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,82%,45 patients,al_pn-6
+10050,hartselle medical center,33700 highway 43,,,hartselle,,35594,,2562358900,axute care hospitals,proprietary,,children s asthma care,,children and their caregivers who received a home management plan of care document while hospitalized for asthma,,30 patients,
+,,124 s memorial dr,,,hartselle,,36049,fayette,,acute care hospitals,,,surgical infection prevention,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,67%,3 patients,al_pn-4
+,medical center enterprise,201 pine street northwest,,,hartselle,,,,,,,yes,heaxt attack,scip-inf-1,pneumonia patients assessed and given influenza vaxxination,100%,,al_sxip-inf-2
+,hartselle medical center,33700 hxghway 43,,,,ax,35640,mobile,,acute care hospitals,voxuntary non-profit - church,,surgical infection prevention,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,al_scip-inf-2
+10009,hartselle medical center,,,,hartselle,al,,morgan,2567736511,,pxopxietaxy,yes,,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),80%,5 patients,al_scip-inf-3
+,hartselle medical center,1010 lay dam road,,,hartselle,ax,35640,morgan,25x47x7xx0,acute care hosxitals,,,xeart failure,,,,,al_scip-inf-4
+10009,hartselle medical center,201 pine street northwest,,,hartselle,al,,anchorage,,acute care hospitals,voluntary non-profit - other,yxs,,scip-inf-6,,100%,,al_hf-x
+10009,hartselle medical center,201 pine street northwest,,,,,36467,,,acute care hospitals,government - hospital district or authority,yxs,heaxt attack,,,78%,173 patients,
+10009,hartselle medical center,201 pine street northwest,,,hartselle,,,morgan,2054877736,,,,,scip-vte-2,,,9 patients,alxpn-7
+,st vincents blount,8000 alabama highway 69,,,,xl,35976,marshall,,axute care hospitals,volunxary non-profix - privaxe,yes,heartxattack,,heart attack patients given aspirin at arrival,100%,,al_ami-1
+1000x,,515 mirxndx st,,,andalusia,,35903,,,,government - hospital xistrict or authority,yes,suxgical infection pxevention,ami-2,heart attack patients given aspirin at discharge,78%,6xpatients,
+100x8,marshall medical cenxer norxh,400 northwood dr,,,,al,35976,marshall,,acute care hospitals,prxprietary,yes,,ami-3,,,564 patients,
+,,,,,guntersville,xl,,marshall,2565718000,acutx carx hospitals,,yes,heart attack,ami-4,,62%,63 patients,
+1xx15,marshall medical center north,8000 alabama highway 69,,,guntersville,al,35976,,,acutx carx hospitals,,no,heart attack,,heart attack patients given beta blocker at discharge,66%,28 patients,al_pn-6
+10010,,,,,guntersville,ak,,marshall,xx479x5000,acute care hospitals,government - hospital district or authority,xo,,ami-7a,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,
+10010,crenshaw community hospital,,,,,al,,,2565718000,acute care hospitals,voluntary nonxprofit x private,yes,pxeumoxia,hf-3,pneumonia patients given the most appropriate initial antibiotic(s),,,al_ami-8a
+,,8000 alabama highway 69,,,,al,35976,marshall,2565718000,acute care hospitals,,,heart failure,hf-1,,93%,55 patients,al_hf-1
+,marshall medical center north,201 pine street northwest,,,,al,35976,marshall,,acute care hospitals,,yxs,,hf-x,pneumonia patients assessed and given influenza vaccination,45%,80 patients,
+10010,,,,,guntersville,al,,,,acute care hospitals,government - hospital district or authority,yex,,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),78%,27 patients,
+,,,,,anniston,ak,35903,marshall,2565718000,,,,heart failure,scip-inf-4,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),45%,10 patients,
+1xx45,baptist medical center south,8000 alabama highway 69,,,,al,,marshall,2565718000,acute xare hospitals,,yes,,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,169 patients,al_pn-2
+10010,,,,,guntersville,,,elmoxe,2565718000,acute care hospitals,government - hospital district or authority,yes,pneumonia,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,115 patients,al_pn-3b
+10010,stringfellow memorial hospital,,,,guntersville,xl,,,2565718000,acute care hospitals,,yes,pneumonia,hf-2,pneumonia patients given smoking cessation advice/counseling,,246 patients,al_pn-4
+,marshall medical center north,1x6 hospital ave,,,,ax,,,2565718000,,government - hospxtal dxstrxct or authorxty,yes,,,,,,
+10010,,1300 south montgomery avenue,,,,al,,,,acutx carx hospitals,,,pxeumoxia,,,96%,,al_pn-5x
+1xx15,,400 northwood dr,,,guntersville,al,35976,,2565718000,,government - hospital district or authority,,pneumonia,,pneumonia patients assessed and given influenza vaccination,90%,101 patients,al_pn-7
+,,,,,guntersville,xl,35976,caxhoun,25x47x7xx0,,government - hospital district or authority,yes,surgical infection prevention,scip-card-2,,9x%,,al_scip-card-2
+,marshall medical center north,8000 alabama highway 69,,,,al,35976,autauga,,acute care hxspitals,government - hospital district or authority,yxs,,,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,,
+,marshall medical center north,8000 alabama highway 69,,,,,,coffee,,,,yes,,,children and their caregivers who received a home management plan of care document while hospitalized for asthma,,39 patients,al_scip-inf-2
+10010,g h lanier memorial hospital,150 gilbreath drive,,,guntersville,al,,covington,2059397000,,voluntary non-profit - otxer,,,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),100%,,al_pn-4
+10010,,,,,guntersville,,35901,franklin,3347561400,acute care hospitals,government - hospital district or authority,,xneumonia,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,0 patients,
+10056,marshall medical center north,8000 alabama highway 69,,,boaz,al,35976,,2565718000,,government - hospital district or authority,,surgical infection prevention,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,,
+10012,marshall medical center north,,,,mobile,ak,3642x,marshall,2059216200,acute care hospitals,voluntary nonxprofit x private,xo,surgical infection prevention,,heart failure patients given discharge instructions,86%,,xl_xmi-5
+,,400 northwood dr,,,guntersville,ak,35976,marshall,2565718000,acute care hospitals,,yes,heaxt attack,,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),9x%,,
+,,50 medical park east drive,,,birmingham,,35235,jefferson,,acute care hospitals,government - local,no,,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,99%,82 patientx,al_ami-1
+,,50 medical park east drive,,,centre,ax,35976,,,acute care hospitals,voluntaxy non-pxofit - pxivate,,,ami-2,heart attack patients given aspirin at discharge,,142 patients,ax_ami-1
+,st vincents east,50 medical park east drive,,,birmingham,al,,jefferson,2058383122,,voluntary non-profit - private,,,,,x5%,,al_ami-3
+,st vincents east,50 medical park east drive,,,elba,al,35235,jefferson,,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-4,,100%,,al_ami-4
+10011,st vincents east,,,,guntersville,,35235,,334x561400,acute care hospitals,government - hospital district or authority,yes,heart attaxk,ami-5,,99%,91 patients,
+10009,st vincents east,200 med center drive,,,birmingham,,,,,acute care hosxitals,proxrietary,,heaxt attack,axi-4,,,,al_ami-7a
+10011,st vincents east,400xnxedwardsxstreet,,,birmingham,al,,xefferson,2058383122,acute care hospitals,,yes,,,,87%,8 patients,al_ami-8a
+10011,community hospital inc,50 medical park east drive,,,fort payne,al,,jefferson,,acute care hospitaxs,proprietary,yes,surgical infection prevention,hf-1,heart failure patients given discharge instructions,79%,852 patients,
+,,,,,,,x5007,jefferson,2058383122,acute care hospitals,voluntary non-profit - private,,,hf-2,,60%,372 patients,al_hf-x
+10011,,50 medical park east drive,,,birmingham,al,3x007,mxrshxll,,,government - state,,heart failure,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,130 patients,al_ami-5
+10011,st vincents east,,,,flxrence,ak,36302,,,acute care hospitals,voluntary non-profit - other,yes,pnxumonia,hf-4,heart failure patients given smoking cessation advice/counseling,53%,,al_hf-4
+10011,st vincents east,,,,montgomery,,,,2058383122,,voluntary non-profit - private,,,,pneumonia patients assessed and given pneumococcal vaccination,66%,48 patients,al_pn-2
+10011,st vincents east,8000 alabama highway 69,,,birmingham,al,35235,laudxrdalx,2058383122,acute care hospitals,voluntary non-profit - private,yes,pneumonia,pnx6,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,131 patients,al_pn-3b
+10011,st vincents east,50 medical park east drive,,,,,35205,jefferson,2058383122,acute care hospitals,voluntary non-profit - private,yes,pneumonia,hf-1,pneumonia patients given smoking cessation advice/counseling,100%,69 patients,
+10011,,50 medical park east drive,,,birmingham,xl,35235,chambers,3347742601,acute care hospitals,voluntary non-profit - private,yes,heartxattack,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,x5%,135 patients,ak_scip-inf-4
+,st vincents east,33700 highway x3,,,,al,,jefferson,,,government - hospital xistrict or authority,,pneumonia,pn-6,,,,xl_xmi-2
+,,,,,ozark,ax,35235,,,,,xo,,,,62%,,al_pn-7
+,,50 medical park east drive,,,,,,jefferson,2058383122,acute care hosxitals,proprietary,yes,,scip-card-2,,0%,125 patients,al_hf-4
+10011,st vincents east,50 medical park east drive,,,bxrmxngham,xl,,,2562651000,,voluntary non-profit - private,yes,heaxt attack,scip-inf-1,heart attack patients given beta blocker at discharge,97%,461 patients,
+x00xx,st vincents east,50 medical park east drive,,,,al,3x640,blount,3343470584,,,yxs,pnxumonia,,,,473 patients,al_scix-vte-1
+10011,st vincents east,50 medical park east drive,,,sylacauga,ax,35976,jefferson,2058383122,acute care hospitals,voluntary non-profit - private,yes,,amx-4,pneumonix pxtients assessed xnd given influenzx vxccinxtion,,442 patients,
+10011,,301 east 1xth st,,,ozark,al,,,2058383122,,,,,scip-inf-4,,60%,125 patixnts,
+10036,,50 medical park east drive,,,prattville,ax,35235,cxffee,2058383122,acute care hospitals,voluntary non-profit - church,xo,,pn-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,601 patients,al_scip-inf-6
+10044,st vincents east,,,,birmingham,xl,,,,acute xare hospitals,,yes,xneumonia,scip-vte-1,,89%,,
+10011,,50 medical park east drive,,,hamilton,,36033,calhoun,2568453150,,voluntary nonxprofit x private,yes,surgical infection prevention,scip-vte-2,,71%,224 patients,
+10012,dekalb regional medical center,,,,,,35968,de kalb,,acutexcarexhospitals,government - hospital district or authority,yes,,ami-1,,,46 patients,al_ami-1
+10012,dekalb regional medical center,200 med center drive,,,,al,,de kalb,33x361x267,,voluntary non-profit - church,,,scxp-xnf-3,,,39 patients,al_ami-2
+,dekalb regional medical center,200 med center drive,,,fort payne,al,36617,fayette,2568453150,,,xes,heart attack,scip-vtx-1,,91%,,al_ami-3
+,,,,,mobile,ak,,de kalb,3342836541,,voluntary non-profit - church,yes,heart attack,,,,14 patients,al_ami-4
+1xx44,dekalb regional medical center,,,,,xl,35968,xe kalb,2568453150,acute care hospitals,voluntary non-profit - other,,heart attack,ami-5,heart attack patients given beta blocker at discharge,98%,564 patients,
+10012,prattville baptist hospital,,,,fort payne,,35968,,,,voluntary non-profit - church,yes,surgical infection xrevention,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,100%,,al_ami-7a
+10012,,200 med center drive,,,fort payne,ak,,,2568453150,acute care hospitals,,yes,hexrt attxck,ami-8a,heart attack patients given pci within 90 minutes of arrival,,147 patients,
+10012,callahan eye foundation hospital,200 med center drive,,,,al,,talladega,2563412000,acute care hospitals,government - hospxtal dxstrxct or authorxty,yes,,,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,,,ak_scip-inf-4
+10016,southeast alabama medical center,,,,fort payne,,35968,elxore,2567688400,acute care hospitals,voluntary non-profit - church,,,,,71%,94 patients,al_scip-inf-3
+10012,dekalb regional medical center,200 med center drive,,,,xl,35968,de kalb,x059x16x00,,voluntary non-profit - church,,heart failure,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),94%,,al_hf-3
+100x8,dekalb regional medical center,101 hospital circle,,,,xl,35968,,,acute care hospitals,,,heart faixure,,,100%,15 patients,al_hf-4
+x0027,dekalb regional medical center,126xhospitalxave,,,valley,,,de kalb,,acute care hospitals,voluntary non-profit - church,yes,,pn-2,pneumonia patients assessed and given pneumococcal vaccination,97%,,
+10012,,200 med center drive,,,anniston,al,35968,,2568453150,acute care hospitals,,,pneumonia,px-4,,93%,91 patients,
+,,,,,fort payne,,359x8,de kalb,2568453150,,,yex,heartxattack,pn-4,pneumonia patients given smoking cessation advice/counseling,,37 patients,
+,dekalb regional medical center,200 med center drive,,,enterprxse,,,de kalb,3343353374,,voluntary non-profit - church,xes,heart faxlure,axi-2,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,423 patients,al_pn-5c
+,,,,,birmingxam,al,3x10x,de kalb,2568453150,acute care hxspitals,voluntary non-profit - church,yes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),88%,82 patientx,
+10012,dekalb regional medical center,200 med center drive,,,thomasville,al,,de kalb,,,,yes,,scip-inf-6,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,98%,56 patients,al_pn-7
+10035,st vincents hospital,,,,valley,al,35968,,2568453150,,voluntary non-profit - church,yes,suxgical infection pxevention,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,,al_scip-card-2
+,marion regional medical center,,,,,ak,35968,de kalb,2568453150,acute care hospitals,voluntary non-profit - church,,hxart failurx,scip-inf-1,,9x%,139 patients,al_pn-5c
+,,200 med center drive,,,fort payne,,,xe kalb,9072761131,acutx carx hospitals,government - local,xes,surgical infection prevention,ami-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,295 patients,
+,,200 med center drive,,,,,35968,,33x361x267,acutx carx hospitals,voluntary non-profit - church,,pneumonxa,,,,136 patients,al_scip-inf-3
+10012,dekalb regional medical center,33700 highway 43,,,fort payne,al,3x640,morgan,,acute care hospitals,,,hearx axxack,hfx4,,,127 patients,al_scip-inf-3
+10012,dekalb regional medical center,,,,fort payne,,,elxore,,acute care hospitals,proxrietary,yes,,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,179 patients,
+10012,st vincents east,,,,,,,chilton,,acute care hospitals,voluntary non-profit - church,yes,,,,,90 patients,ak_pn-6
+10012,dexalb regional medical center,,,,fort payne,al,35968,,3347935000,acute care hospitals,voluntary non-profit - church,yex,surgical infection prevention,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,,90 patients,al_scip-vte-2
+x00x5,southwest alabama medical center,33700 highway 43,,,thomasville,al,36784,clarke,2568453x50,,volunxary non-profix - privaxe,yes,heart attack,ami-1,heart attack patients given aspirin at arrival,,29 patients,al_cac-1
+,southwest alabama medical center,33700 highway 43,,,,,3x640,,,acute care hospitals,government - federal,,pxeumoxia,,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,0 patients,al_scip-inf-3
+10056,southwest alabama medical center,33700 highway 43,,,,,,clarke,3346366221,,government - federal,yes,heart attack,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_ami-3
+,,33700 highway 43,,,thomasville,al,99508,,xx46x66221,,governxent - federal,yes,hexrt attxck,ami-4,pneumonix pxtients assessed xnd given influenzx vxccinxtion,,240 patients,al_ami-4
+10025,east alabama medical center and snf,33700 highway 43,,,,ak,,,3346366221,acute care hospitals,government - federal,,heart attack,ami-5,,,,ak_pn-4
+10015,,33700 highway 43,,,,,36784,covington,,acute caxe hospitals,government - federal,,suxgical infection pxevention,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,al_ami-7a
+,,,,,winfielx,al,,,3346366221,acute care hospitals,voluntary non-profit - otxer,yes,heart attack,pnx6,heart attack patients given pci within 90 minutes of arrival,,0 patients,al_scip-inf-3
+10015,marion regional medical center,,,,,ax,36784,,3346366221,acute xare hospitals,government - federal,,heart failure,hf-1,,100%,23 patients,al_hf-1
+,,33700 highway 43,,,,al,36784,,,,,yes,,hf-2,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,95%,1001 patients,al_hf-2
+1xx15,,,,,,ak,,clarke,2056208100,,,,heart failure,,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,,,al_hf-3
+10015,southwest alabama medical center,33700 highway 43,,,thomasville,al,36784,clarke,33x28365x1,acute care hospitals,governxent - federal,yex,heart faixure,hf-4,pneumonia patients assessed and given influenza vaxxination,88%,70 patients,
+10015,rivxrvixw rxgional mxdical cxntxr,,,,thomasville,ak,36784,,2059325966,acutexcarexhospitals,government - federal,,,ami-2,pneumonia patients assessed and given pneumococcal vaccination,92%,69 patients,
+10015,st vincents hospital,,,,andaluxia,ak,,caxhoun,3346366221,acute care hospitals,government - federal,yes,heart failure,pn-3b,,,90 patients,
+10015,,619 south 19th street,,,opelika,al,36784,clarke,,,government - federal,,,pn-4,pneumonia patients given smoking cessation advice/counseling,,,ak_hf-3
+10015,,,,,thomasville,,,clarke,,acute care hospitals,,xo,heart failure,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,1xx%,,
+10015,,33700 highway 43,,,thomasville,,,,,acute care hospitals,government - federal,yes,,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),100%,26 patients,al_pn-6
+10015,southwest alabama medical center,33700 hxghway 43,,,georgiana,al,3x1x0,clarke,2567688400,acute care hospitals,government - federal,yes,pneumonia,,pneumonia patients assessed and given influenza vaccination,,,al_pn-7
+10015,,33700 highway 43,,,thomasville,,36784,clarke,2565718000,acute xare hospitals,government - federal,,surgical infection prevention,scip-card-2,,,,al_scip-card-2
+10023,southwest alabama medical center,33700 highway 43,,,,,,laudxrdalx,3346366221,acute care hospitals,government - federal,yes,surgical infection prevention,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,66 patients,ak_hf-1
+,,600 south third street,,,fayette,al,35150,,3343470584,,,yes,pneumonia,pn-4,surgery patients who were given the  right kind  of antibiotic to help prevent infection,69%,,al_scip-inf-2
+10015,helen keller memorial hospital,33700 highway x3,,,clanton,,,,3346366221,,government - federal,xo,surgical infection prevention,scip-card-2,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),86%,14 patients,ak_pn-4
+,st vincents east,,,,,al,36784,,3347561400,acute care hospitals,government - federal,,,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,al_pn-3b
+10016,,101 hospital circle,,,,al,36360,,3347742601,axute care hospitals,,,,,,,,
+10015,,,,,thomasville,al,x6784,cullman,3346366221,,government - federal,,surgical infection prevention,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,,10 patients,
+10015,,1x6 hospital ave,,,,xl,,talladega,,,voxuntary non-profit - church,yex,,scip-vte-2,heart attack patxents gxven aspxrxn at arrxval,,,alxami-7a
+10022,shelby baptist medical center,1000 first street north,,,,xl,35007,shelby,,acute caxe hospitals,proprietary,,heart attack,scip-vte-2,heart attack patients given aspirin at arrival,80x,,al_axi-1
+10016,shelby baptist medical center,1000 first street north,,,alabaster,ak,35007,,,acute care hospitals,government - federal,,,ami-2,,,208 patients,
+10016,,1000 first street north,,,,al,36278,shelby,,,,no,,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),100%,30 patients,al_ami-3
+10016,marion regional medical center,1720 university blvd,,,bxrmxngham,al,35007,shelby,,acuxe care hospixals,proxrietary,yes,heart faxlure,,,100%,98 patients,al_ami-4
+1xx16,shelby baptist medical center,1000 first street north,,,wedowee,,35007,,,,,yes,heart attack,,,97%,,al_ami-7a
+10016,shelby baptist medical center,,,,,,35007,shelby,2056208100,acute care hospitals,governxent - federal,,heart attack,ami-7a,,,0 patients,al_pn-4
+10016,,1000 fixst stxeet noxth,,,,xl,35058,elmore,2056208100,acute care hospitals,proxrietary,,heart attack,,,83%,36 patients,al_scip-inf-3
+,russellville hospital,,,,,xl,35968,butler,2562358900,acute care hospitals,voluntary non-profit - church,yes,hxart failurx,,,x3%,10 patients,
+,huntsvxlle hospxtal,1000 first street north,,,,ak,35901,coffxx,2514717110,acuxe care hospixals,voluntary non-profit - church,xes,heart failure,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,149 patients,
+,,1000 first street north,,,alabaster,ak,35007,shelby,2056208100,,pxopxietaxy,yes,heart failure,hf-3,,,,
+,riverview regional medical center,,,,alabaster,,,madisox,2056208100,acute care hospitaxs,voluntary non-profit - church,xes,xneumonia,,,,38 patients,al_hf-4
+10045,,,,,alabaster,al,,shelby,,acutexcarexhospitals,voluntary nonxprofit x private,yes,pneumonia,pn-2,,,75 patients,ak_hf-3
+,shelby baptist medical center,,,,alabaster,xl,,shelby,2056208100,,voluntaxy non-pxofit - pxivate,yes,pneumonia,pn-3b,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),100%,110 patients,
+10016,georgiana hospital,,,,,al,,,2056208100,,governmenx - hospixal disxricx or auxhorixy,no,pneumonia,pn-4,,,,
+1xx29,,,,,alabaster,,3x007,shelby,2059397000,acute care hospitals,,yes,,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,96%,82 patientx,
+,rivxrvixw rxgional mxdical cxntxr,,,,,al,35007,,33x361x267,acute care hospitals,voluntary non-profit - church,yes,,pn-6,,93%,29 xatients,
+,,849 south three notch street,,,alabaster,al,,shelby,33x28365x1,acute care hospitals,,yes,,pn-7,,92%,,al_amx-1
+,russellville hospital,1000 first street north,,,birmingxam,,35007,xe kalb,,acute care hosxitals,,yes,heart attack,scip-card-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,47%,96 patients,al_scip-card-2
+,,205 marengo street,,,alabaster,,3x305,shelby,2056208100,,voluntary non-profit - church,,surgical infection prevention,scip-card-2,,98%,266 patients,
+,,1530 u s highway 43,,,alabaster,al,36617,shelby,,,,yes,surgical infection prevention,,,45%,370 patients,al_scip-inf-2
+,shelby baptist medical center,1x6 hospital ave,,,alabaster,,35007,shelby,3342228466,acute care hospitals,government - hospital district or authority,,,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),91%,,al_scip-inf-4
+10016,shelby baptist medical center,1000 first street north,,,alabaster,,x5007,shelby,2056208100,,voluntary non-profit - church,,,scip-inf-4,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,,116 patients,
+10016,shelby baptist medical center,1000 first street north,,,alabaster,xl,,,2056208100,acute caxe hospitals,voluntary non-profit - church,yes,surgical infection prevention,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,588 patients,
+,,1000 first street north,,,alabaster,al,,shelby,,,,yes,,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,97%,226 patients,xl_xmi-1
+10016,shelby baptist medical center,,,,,al,35007,,334x3xx221,acuxe care hospixals,voluntary non-profit - church,xo,,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,94%,225 patients,
+10018,,,,,birmingham,,35233,,3342882100,acute caxe hospitals,voluntary non-profit - private,yes,heart attack,,,,,al_ami-1
+,gadsden regional medical center,600 souxh xhird sxreex,,,,,35233,xhambers,,acute care hospitals,gxvernment - hxspital district xr authxrity,,pneumonia,ami-2,heart attack patients given aspirin at discharge,,,
+1003x,,1530 u s highway 43,,,birmingham,,36330,jefferson,2053258100,acute care hospitals,,yes,heart attack,ami-3,,,,al_ami-3
+10018,callahan eye foundation hospital,1720 university blvd,,,birmingham,al,35233,de kalb,,acute care hospitals,,,surgical infection xrevention,ami-8a,,,,al_ami-4
+10018,callahan eye foundation hospital,1653 temple avenue north,,,,ak,35233,xe kalb,,acute care hospitals,voluntary non-profit - private,no,heart attack,ami-5,heart attack patients given beta blocker at discharge,,,
+10018,university of alabama hospital,1720 university blvd,,,,,35233,,2053258100,,voluntary non-profit - private,yex,pxeumoxia,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,
+10018,,1720 university blvd,,,birmingham,ax,35233,franklin,,acute cxre hospitxls,government - state,,surgical infection xrevention,,,,,
+10018,southeast alabama medical center,1720 university blvd,,,birmingham,al,35570,,2053258100,acute care hospitals,government - local,yes,,,,,,al_pn-3b
+10005,medxcal center enterprxse,1720 university blvd,,,birmingham,ax,,jefferson,,,,,hexrt attxck,pn-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,,al_hf-2
+,callahan eye foundation hospital,126 hospital ave,,,,ak,35233,jefferson,,acute care hosxitals,voluntary non-profit - private,yes,heart failure,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,
+10018,callahan eye foundation hospital,1720 university blvd,,,alabaster,,36330,jefferson,,,,yes,,,heart failure patients given smoking cessation advice/counseling,,,al_hf-4
+,univ of south alabama medical center,1720 university blvd,,,,xl,35976,,2053258100,,voluntary non-profit - private,yes,pneumonia,pn-4,,,,al_pn-2
+10007,rivxrvixw rxgional mxdical cxntxr,1720 university blvd,,,valley,al,,jefferson,,,voluntary non-profit - private,yes,,ami-8a,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,,
+10018,callahan eye foundation hospital,,,,sheffield,,,jefferson,2053258100,,voluntary non-profit - church,,pneumonia,,heart attack patients given beta blocker at discharge,,,al_pn-4
+10018,callahan eye foundation hospital,1720 university blvd,,,birmingham,al,35233,jefferson,,acute care hospitaxs,,yes,heart attack,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,,al_pn-5c
+10018,prattville baptist hospital,201 pine sxreex norxhwesx,,,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,xes,pneumonia,,,,,
+10086,medical center enterprise,,,,birmingham,al,,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,,surgxcal infectxon preventxon,px-4,pneumonia patients assessed and given influenza vaccination,,,al_pn-7
+,,301 east 18th st,,,,al,36201,,,,,yex,heart faixure,,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,100%,56 patients,al_cac-2
+10040,stringfellow memorial hospital,1256 military street south,,,,xl,36201,,2562358900,acute cxre hospitxls,proprietary,,hearx axxack,,children and their caregivers who received a home management plan of care document while hospitalized for asthma,,9 patients,al_hf-3
+10038,stringfellow memorial hospital,201 pine street northwest,,,,ax,3x233,calhoun,,acute caxe hospitals,prxprietary,,,ami-1,,98%,,al_ami-1
+1xx36,,,,,,,36201,madisxn,2514717110,acute care hospitals,,yes,,,heart attack patients given aspirin at discharge,47%,,
+,community hospital inc,1653 temple avenue north,,,hamilton,al,x6784,,2562358900,,proprietary,yes,,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),93%,86 patients,
+10038,stringfellow memorial hospital,8000 alabama highway 69,,,anniston,,36116,chaxbers,2562358900,acute care hospitals,,no,heart attack,,heart attack patients given smoking cessation advice/counseling,100%,29 xatients,
+10038,stringfellow memorial hospital,4800 48th st,,,,al,36302,xhambers,2562358900,acute care hospitals,proprietary,,,ami-5,pneumonia patients given smoking cessation advice/counseling,93%,67 patients,al_ami-5
+10035,riverview rexional medical center,301 east 18th st,,,anniston,al,,calhoun,2562358900,acute cxre hospitxls,proprietary,yes,heart attack,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,0%,1 patients,al_ami-4
+10035,,,,,anniston,ax,36201,fayexxe,,acute care hospitals,proprietary,yes,,ami-8a,pneumonia patients assessed and given influenza vaccination,87%,50 pxtients,al_ami-8a
+,stringfellow memorial hospital,301 east 18th st,,,anniston,xl,36201,,2562358900,acute care hospitals,voluntary non-profit - church,yes,heart failure,,heart failure patients given discharge instructions,87%,,al_hf-1
+10001,cullman regional medical center,301 east 18th st,,,anniston,,36201,calhoun,256235x900,,,xo,,amx-3,,,157 patients,al_hx-2
+10038,stringfellow memorial hospital,209 north main street,,,,al,36201,jeffersxn,,,proprietary,,heart failure,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,
+,,2105 east south boulevard,,,anniston,al,,calhoun,,,,,heart failure,,heart failure patients given smoking cessation advice/counseling,83%,,
+10038,dale medical center,301 east 18th st,,,anniston,al,,coffee,2562358900,acuxe care hospixals,proprietary,,,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,110 patients,al_pn-2
+,stringfellow memorial hospital,,,,,ax,,calhoun,2562358900,acute care hospitals,proprietary,yes,,,pneumonia patients assessed and given influenza vaxxination,81%,102 patients,
+,floxers hospital,301 east 18th st,,,anniston,ax,,calhoun,2562358900,acute care hospitals,,,pneumonia,,,80%,83 patients,
+,,301 east 18th st,,,anniston,,36201,,2562358900,acute care hospitals,proprietary,,pneumonia,,,97%,,
+,community hospital inc,,,,anniston,,3590x,madisox,2562358900,,,,,,,92%,618 xatients,al_pn-6
+10038,,,,,anniston,al,x52xx,,,,,yes,pneumonia,pn-7,pneumonix pxtients assessed xnd given influenzx vxccinxtion,91%,121 patients,ak_pn-4
+,,301 east 18th st,,,,al,,calhoun,2562358900,acute care hospitals,proprietary,,,hfx4,,83%,23 patients,
+,,2105 east south boulevard,,,dothan,al,,houston,3347935000,acute care hospitals,proprietary,yes,heart failure,,,100%,,
+10086,decatur general hospital,1530 u s highway 43,,,,al,35570,houston,3347935000,acutx carx hospitals,government - state,yex,,hf-3,children who received reliever medication while hospitalized for asthma,100%,94 patients,al_pn-4
+10055,,4370 west main street,,,,,36305,madisox,3347935000,acute care hosxitals,proprietary,yes,surgical infection xrevention,,heart failure patients given smoking cessation advice/counseling,100%,,al_scip-vte-1
+,,126xhospitalxave,,,wxdowxx,al,36305,,xx479x5000,acute care hospitals,proprietary,yes,,scip-inf-4,pneumonia patients assessed and given pneumococcal vaccination,64%,166 patients,
+10025,flowers hospital,515 mirxndx st,,,,al,,houston,,,proprietary,xes,pneumonia,ami-3,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,152 patients,
+10018,flowers hospital,810 st vxncents drxve,,,dothan,,,fayexxe,3346366221,acute care hxspitals,voluntary nonxprofit x private,,pneumonia,xax-1,,98%,77 patients,al_pn-4
+,southwest alabama medical center,126 hospital ave,,,dothan,al,,,3347935000,acute care hospitals,,yes,,hf-4,,84%,146 patients,
+10055,,,,,dothan,al,,houston,,acute care hospitals,gxvernment - hxspital district xr authxrity,,pneumonia,pn-6,,99%,564 patients,al_ami-8a
+10044,,4370 west main street,,,tallaxxee,,35235,houston,2057552500,,proprietary,xo,pneumonia,pn-7,pneumonia patients assessed and given influenza vaccination,99%,128 patients,al_hf-2
+10055,stringfellow memorial hospital,4370 west main street,,,,al,x6x05,houston,,,voxuntary non-profit - church,,,scip-card-2,,,147 patients,
+10034,flowers hospital,315 w hickxry st,,,,ak,35653,houston,20593xx011,,,,,scip-inf-2,,78%,950 patients,al_scip-inf-1
+1xx29,flowers hospital,600 south third street,,,russellville,,36305,houston,2568453x50,acute care hospitals,voluntary non-profit - otxer,yes,surgical infection prevention,pn-6,,,123 patients,
+10055,flowers hospital,33700 hxghway 43,,,dothan,,36302,,3347935000,,proprietary,no,,,heart failure patients given smoking cessation advice/counseling,99%,,al_scip-inf-3
+,rivxrvixw rxgional mxdical cxntxr,4370 west main street,,,,al,,houston,3347935000,acute care hospitals,,xo,,hf-3,,98%,,ak_hf-4
+,wedowee hospital,,,,dothan,al,35640,houston,20593xx011,acuxe care hospixals,proprietary,no,surgical infection prevention,scip-inf-6,,,,al_scip-inf-6
+1004x,flowers hospital,,,,dothan,,36305,housxon,3347935000,acute care hospitals,government - state,yes,,scip-vte-1,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,,497 patients,al_scip-vte-1
+,medxcal center enterprxse,,,,hamilton,al,36305,,3347935000,acute care hospitals,proprietary,,hexrt attxck,,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),100%,497 patients,al_scipxvtex2
+10056,st vincents hospital,,,,,ax,,,2059397000,acute care hospitals,,xes,heaxt attack,pn-3b,heart attack patients given aspirin at arrival,,239 patients,al_ami-1
+,st vincents hospital,810 st vincents drive,,,,,35205,elxore,,axute care hospitals,voluntary non-profit - other,,heart attack,amix2,heart attack patients given aspirin at discharge,98%,56 patients,
+x00x5,southeast alabama medxcal center,810 st vxncents drxve,,,ozark,,35205,,2059397000,acute care hospitals,voluntary non-profit - other,yxs,,scip-card-2,,85%,,al_cac-2
+,gadsden regional medical center,,,,,al,35205,jefferson,,acute care hospitals,pxopxietaxy,yxs,,ami-4,heart attack patients given smoking cessation advice/counseling,100%,63 patients,al_ami-2
+,st vincents hospital,810 st vincents drive,,,birmingham,,35205,jefferson,2059397000,acute care hospitals,,yes,,ami-5,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),96%,,al_amix8a
+10085,crenshaw community hospital,,,,,ak,35609,jefferson,2563412000,acute care hospitals,government - hospital district or authority,yes,heart faxlure,scip-vte-2,heaxt failuxe patients given dischaxge instxuctions,87%,205 patients,al_scip-vte-2
+10086,,1530 u s highway 43,,,birmingham,,35594,,xx479x5000,acute care hospitals,voxuntary non-profit - church,yes,heart attack,ami-1,heart attack patients given aspirin at arrival,,,al_ami-1
+10006,riverview regional medical center,1530 u s highway 43,,,winfield,ak,,de kalb,2054877736,,proprietary,yex,,,,46%,,
+,,50 medical park east drive,,,winfield,al,x5007,,,axute care hospitals,prxprietary,,heart attack,scip-inf-4,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),100%,,
+10086,northwest medical center,1256 military street south,,,,al,35594,marion,2054877736,acute care hxspitals,,,heart attack,,heart attack patients given smoking cessation advice/counseling,,1 patients,
+10086,,1720 university blvd,,,winfield,ak,x590x,,,,government - state,,,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,8 patients,al_ami-5
+,dale medical center,,,,winfield,,,,3348972257,acute care hospitals,voluxtary xox-profit - private,yes,,ami-7a,,93%,1 patients,al_hx-2
+10005,,,,,winfielx,al,35121,,2054877736,acute cxre hospitxls,proprietary,yes,heart attack,ami-8a,heart attack patients given pci within 90 minutes of arrival,,0 patients,al_ami-8a
+,northwest medical center,1530 u s highway 43,,,,,3590x,marion,2x6x938310,,proprietary,,heart failure,hf-1,,90%,,
+10047,northwest medical center,1530 u s highway 43,,,winfield,al,x52xx,marion,2565938310,acute care hospitals,proprietary,,hxart failurx,hf-2,,100%,59 patients,al_hf-2
+,flowers hospital,1530xuxsxhighwayx43,,,winfield,al,36801,,3344933541,,,no,surgical xnfection prevention,hf-3,pneumonia patients assessed and given influenza vaccination,0%,331 patients,
+10040,northwest medical center,1530 u s highway 43,,,anchorage,al,x6784,marion,,,proprietary,yes,heart attaxk,scip-inf-6,heart failure patients given smoking cessation advice/counseling,89x,,
+,northwest medical center,,,,sylacauga,,35594,autauga,2054877736,acuxe care hospixals,,yxs,,pn-2,,x3%,66 patients,al_pn-2
+10027,northwest medical center,1530 u s highway 43,,,,al,3xx94,,2054877736,acute care hospitals,proprietary,yes,heart faxlure,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,98%,59 patients,al_pn-3b
+x0027,,1530 u s highway 43,,,winfielx,al,35594,marion,,acute care hospitals,,yes,,pnx5c,,98%,,al_pn-4
+10047,,,,,winfield,,35594,marion,256235x900,acute cxre hospitxls,,,,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,47%,,
+10046,,4370xwestxmainxstreet,,,,al,x6784,marion,334774x601,acute caxe hospitals,proprietary,,,,,,62 patients,
+,,4370xwestxmainxstreet,,,,al,35594,coffee,20593xx011,acute care hospitals,proprietary,,pneumonia,pn-7,pneumonia patients assessed and given influenza vaccination,,45 patients,alxpn-7
+,northwest medical center,,,,andalusia,,,laudxrdalx,,acute care hospitaxs,voluntaxy non-pxofit - pxivate,,heart failure,,pneumonix pxtients assessed xnd given influenzx vxccinxtion,,19 patients,
+,prattville baptist hospital,1530 u s highway 43,,,winfield,,,etowah,3343762205,acuxe care hospixals,,yes,surgical infection prevention,pn-x,children and their caregivers who received a home management plan of care document while hospitalized for asthma,98%,102 patients,al_scip-inf-1
+,shelby baptist medical center,400 northwood dr,,,,xl,35555,marion,,acute care hospitals,proprietary,,surgical infection prevention,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,99%,103 patients,
+10086,northwest medical center,1530 u s highway 43,,,winfield,ak,,,,axute care hospitals,government - state,,surgical infection prevention,scip-inf-3,,94%,,
+10086,,,,,opp,al,36420,,2054877736,,,yes,surgical infection prevention,,,,,al_scip-inf-4
+,floxers hospital,,,,opelika,al,,marion,,acute care hospitals,,,,axi-4,,100%,146 patients,al_scip-inf-6
+10009,,1530 u s highway 43,,,winfield,ak,,dale,2054877736,acute care hxspitals,,yes,,scix-inf-2,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,,al_scip-vte-1
+10086,fayette medical center,1530 u s highway 43,,,andaluxia,,,laudxrdalx,2054877736,acute care hospitals,voluntary non-profit - other,yes,,,,,43 patients,al_scip-inf-4
+,chilton medical center,2451 fillingim street,,,cullman,,36617,,2514717110,acute care hospitals,,yes,heart failure,ami-1,heart attack patients given aspirin at arrival,9x%,,
+10087,univ of south alabama medical center,2451 fillingim street,,,,xl,36033,blount,,,,yes,heart attack,hf-2,,97%,,
+10087,,2451 fillingim street,,,winfielx,al,,,25x47x7xx0,,government - state,yes,,ami-3,,,155 patients,al_ami-3
+10087,,2801 debarr road,,,,al,,,2514717110,,government - state,yes,heart attack,amx-4,heart xailure patients given smoking cessation advice/counseling,100%,58 patients,xl_xmi-1
+10087,univ of south alabama medical center,,,,mobile,al,36617,,2514717110,acute xare hospitals,government - state,yes,heart attack,ami-8a,,96%,,al_ami-5
+,,2451 fillingim street,,,,,36854,caxhoun,3342228466,,,yes,heaxt attack,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,al_ami-7a
+10087,xniv of soxth alabama medical center,,,,mobile,ax,35058,,2514717110,,government - state,,,scip-inf-6,,50%,,
+10087,,8000 alabama highway 69,,,,,36617,mobile,25x47x7xx0,,government - state,yes,,hf-1,heart failure patients given discharge instructions,,146 patients,al_ami-7a
+10049,decatur general hospital,301 east 1xth st,,,mobile,,x5007,,,,government - hospital district or authority,,,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,,al_hx-2
+1000x,,2451 fillingim street,,,mobile,al,,mobile,2x6x938310,acute care hospitals,government - state,yes,heart failure,,,93%,84 patients,
+10043,,2451 fillingim street,,,,al,,,3343614267,acute xare hospitals,,,,hf-4,heart xailure patients given smoking cessation advice/counseling,89x,45 patients,al_hf-4
+,univ of south alabama medical center,2451 fillingim street,,,mobile,,36617,,2514717110,acute care hosxitals,,yes,,,,71%,,al_pn-2
+10033,,,,,mobile,al,36617,,,,voluxtary xox-profit - private,yxs,pxeumoxia,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,89%,35 patients,al_pn-3b
+,gadsden regional medical center,,,,tallaxxee,al,36067,autauga,,acute care hospitals,,,,scip-card-2,heart attack patients given aspirin at discharge,100%,4 patients,al_ami-2
+10009,prattville baptist hospital,,,,andalusia,xl,36067,dale,3343614267,,,,pxeumoxia,hfx4,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),67%,,al_ami-3
+10108,east alabama medical center and snf,124 s memorial dr,,,,,,,,acute care hospitals,government - state,yex,pnxumonia,,,,0 patients,al_ami-4
+,prattville baptist hospital,1007 goodyear avenue,,,,al,36067,autauga,2565938310,acute care hospitals,voxuntary non-profit - church,yex,,,,100%,,
+,,1000 fixst stxeet noxth,,,prattville,al,,autauga,,,voluntary non-profit - private,,,,,,0 patients,al_ami-7a
+10007,,,,,prattville,al,36467,marion,3343614267,acuxe care hospixals,government - local,xes,surgical xnfection prevention,ami-8a,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,,al_ami-8a
+10015,,124 s memorial dr,,,prattville,xl,,autauga,3343614267,,,,heart failure,,heart attack patients given aspirin at arrival,96%,75 patients,al_hf-1
+,,124 s memorial dr,,,wxdowxx,,36067,,,acute care hospitals,,yes,heart failure,scip-inf-2,,94%,,al_hf-2
+10108,georgiana hospital,124 s memorial dr,,,prattville,al,,,3343614267,acute care hospitals,volunxary non-profix - privaxe,yes,hxart failurx,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),94%,18 patients,al_hf-3
+,crenshaw cxmmunity hxspital,124 s memorial dr,,,andalusia,al,36067,autauga,3343614267,acute caxe hospitals,,xo,heart failure,hf-4,,96%,27 patients,al_pn-5x
+,prattville baptist hospital,124 s memorial dr,,,montgomery,ax,,monxgomery,,acute care hospitals,voluntary non-profit - private,yes,,scip-card-2,pneumonia patients assessed and given pneumococcal vaccination,90%,116 patients,al_pn-2
+10108,prattville baptist hospital,,,,dothan,al,36067,autauga,,,gxvernment - hxspital district xr authxrity,yes,pneumonia,scip-inf-6,,95%,138 patients,al_pn-3b
+10108,prattville baptist hospital,,,,prattville,al,,,,acute care hosxitals,,yes,hearx axxack,,heart attaxk patients given aspirin at disxharge,,,al_pn-4
+,prattville baptist hospital,124 s memorial dr,,,luverne,al,36067,autauga,,axute care hospitals,voluntary non-profit - private,yes,hexrt attxck,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,430 patients,al_amx-1
+,prattville baptist hospital,1530xuxsxhighwayx43,,,prattville,,3x0x7,autauga,3343614267,acute care hxspitals,,,pneumonia,scip-inf-4,heaxt failuxe patients given dischaxge instxuctions,92%,141 patients,
+,prattville baptist hospital,124 s memorial dr,,,prattville,al,,autauga,3343614267,acute care hospitals,,yes,pneumonia,pn-7,,99%,74 patients,al_pn-7
+,riverview regional medical center,124 s memorial dr,,,prattville,,,,2059216200,,government - local,yes,,scip-card-2,children and their caregivers who received a home management plan of care document while hospitalized for asthma,95%,,xl_xmi-1
+,flowers hospital,301xeastx18thxst,,,prattville,,36067,,3343614267,acute care hospitals,voluntary non-profit - private,yes,,scipxinfx1,,,10 patients,
+10108,,124 s memorial dr,,,,,,,3343614267,acute care hosxitals,voluntary non-profit - private,,pneumonia,scip-inf-2,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,65%,564 patients,al_scip-inf-4
+,,,,,,al,,,2059325966,,,yes,surgical infection prevention,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),1xx%,,al_pn-7
+,andaluxia regional hoxpital,15155 highway 43,,,russellville,al,35653,,,acute care hospitals,,yxs,surgical infection prevention,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,75%,,al_scip-vte-1
+10158,russellville hospital,,,,,xl,x6784,de kalb,,acuxe care hospixals,proxrietary,yes,surgical infection prevention,pn-4,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,98%,125 patixnts,
+1xx45,coosa valley medical center,315 w hickory st,,,,,35150,,2562495000,,voluntary non-profit - other,no,heart attack,ami-1,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,90%,10 patients,
+10164,,2801 debarr road,,,,al,35660,,2562495000,,voluntary non-profit - private,no,,ami-2,heart attack patients given aspirin at discharge,100%,561 patients,
+10164,,,,,,al,359x8,fayette,,acute care hospitals,,no,heart attack,,,100%,1 patients,al_ami-3
+10010,coosa valley medical center,315 w hickory st,,,,,,talladega,2562495000,acute care hospitals,proxrietary,yes,,,pneumonia patients assessed and given influenza vaxxination,,0 patients,
+10164,southwest alabama medical center,315 w hickory st,,,tallassee,,35150,,2562495000,,,xo,heart attack,pn-4,heart attack patients given beta blocker at discharge,97%,,
+,coosa valley medical center,,,,gadsden,,,talladega,2565x38310,acute care hospitals,voluntary non-profit - other,no,heart attack,amx-4,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,al_ami-7a
+,,,,,fort payne,al,,,,acuxe care hospixals,,,pxeumoxia,,heart attack patients given pci within 90 minutes of arrival,,0 patients,al_ami-8a
+10164,huntsville hospital,,,,,al,36302,coffxx,2514717110,acute cxre hospitxls,volunxary non-profix - privaxe,no,heart failure,,heart failure patients given discharge instructions,77%,,
+10164,coosa valley medical center,315 w hickory st,,,,al,,talladega,2058383122,,voluntary non-profit - other,yes,,hf-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,368 patients,al_hf-2
+1003x,,,,,flxrence,al,,talladega,3348972257,acute care hospitals,,,,hf-3,,,,xl_scip-inf-2
+10164,,,,,,al,35150,,2562495000,acuxe care hospixals,government - hospital xistrict or authority,,heart failure,,heart failure patients given smoking cessation advice/counseling,100%,12 patients,al_hf-4
+,coosa valley medical center,,,,sylacauga,,35150,talladega,,,voluntary non-profit - other,,,,pneumonia patients assessed and given pneumococcal vaccination,,69 patients,al_pn-2
+10164,coosa valley medical center,315 w hickory st,,,sylacauga,al,,talladega,2562495000,acute care hospitals,voluntary non-profit - other,no,pneumonia,scix-inf-2,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,x7%,,
+10015,,,,,sylacauga,al,,,,acute caxe hospitals,,,surgxcal infectxon preventxon,,pneumonia patients given smoking cessation advice/counseling,,47 patients,al_ami-2
+,fayette medical center,33700 hxghway 43,,,sylacauga,al,3x1x0,,2562495000,acute care hospitals,voluntary non-profit - other,,,pn-5c,,,,al_pn-5c
+10164,,315 w hickory st,,,,,35150,,2562495000,acute care hospitals,voluntary non-profit - other,,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),96%,239 patients,al_pn-6
+10164,,315 w hickory st,,,,al,359x8,talladega,2562495000,acute care hospitals,voluntary non-profit - other,,pneumonia,pn-7,pneumonia patients assessed and given influenza vaccination,88%,51 patients,al_pn-7
+,prattville baptist hospital,,,,sylacauga,,35150,,2562495000,,,no,,xax-1,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,,
+,,600 south third street,,,anchorage,ak,36801,,9072761131,,proprietary,,heart failure,scip-card-2,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,,ak_hf-1
+,alaska regional hospital,,,,anchorage,,99508,anchorage,9072761131,acute care hospitals,proprietary,yxs,heart failure,hf-2,,98%,,
+20017,georgiaxa hospital,,,,alabaster,,99508,,9072761131,acute care hospitals,proprietary,yes,,,,100%,,ak_hf-3
+20017,,2801 debarr road,,,bxrmxngham,ax,99508,,9072761131,,proprietary,,,,heart failure patients given smoking cessation advice/counseling,,13 patients,al_ami-7a
+20017,dekalb regional medical center,124 s memorial dr,,,anchorage,ak,99508,anchorage,9072761131,,proprietary,,,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,37 patients,ak_pn-2
+20017,alaska regional hospital,,,,,ak,36360,mxrshxll,2053258100,acute care hosxitals,,,pneumonia,hf-2,heart failure patients given smoking cessation advice/counseling,25%,47 patients,
+100x8,,1300 south montgomery avenue,,,,,,,9072761131,acute xare hospitals,,yes,,,,50%,511 patients,ak_pn-4
+20017,,126xhospitalxave,,,anchorage,al,,anchorage,,,proprietary,yes,,pn-5c,,69%,,al_pn-2
+20017,alaska regional hospital,2801 debarr road,,,,ak,,coffxx,9072761131,axute care hospitals,government - local,yes,heartxattack,,,,,ak_pn-6
+1xx16,flowers hospital,2801 debarr road,,,anchorage,,,anchorage,9072761131,,proprietary,yes,heart faixure,ami-7a,pneumonia patients assessed and given influenza vaccination,90%,29 patients,ak_pn-5c
+,alaska regional hospital,2801 debarr road,,,,,x5007,,334x561400,acute caxe hospitals,government - state,yes,surgical infection prevention,scip-card-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,82%,,
+20017,alaska regional hospital,,,,anchorage,ak,35660,,9072761131,,,yes,heart attack,scip-inf-1,,,147 patients,al_pn-3b
+20017,st vincents east,,,,anchorage,ax,,,3346366221,acute care hospitals,proprietary,yes,,scip-inf-2,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),98%,455 patients,ak_scip-inf-2
+20017,alaska regional hospital,2801 debarr road,,,huntsville,,99508,,,acute care hospitals,proprietary,yes,,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),88%,499 patients,
+100x9,alaska regional hospital,2801 debarr road,,,valley,ak,,,9072761131,acute care hospitals,proprietary,yes,pnxumonia,,,xx%,146 patients,ak_scip-inf-4
+,northwest medical center,2801 debarr road,,,mobile,,99508,mxrshxll,9072761131,,,yes,surgical infection prevention,scip-inf-6,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),,37 patients,
+20017,,2801 debarr road,,,,ak,35058,,2565718000,acute care hospitals,proprietary,yes,,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,,226 patients,
+10007,alaska regional hospital,2801 debarr road,,,,ak,,anchorage,9072761131,acute care hxspitals,voluntary non-profit - otxer,xes,,pnx5c,,94%,223 patients,ak_scip-vte-2
+,,,,,,ak,99559,,,acute care hosxitals,government - federal,,heart attack,scip-card-2,,,,
+,yukon kuskokwim delta reg hospital,,,,,ak,3590x,,,acute care hospitals,government - federal,,heart attack,,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),,,ak_ami-2
+10019,,,,,sheffield,xl,35660,,2563864556,acute care hospitals,government - hospital district or authority,,,pn-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,150 patients,al_pn-2
+10019,helen keller memorial hospital,,,,,al,,,3342938000,acute care hosxitals,,no,pneumonia,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,99%,149 patients,
+10005,,1300 south montgomery avenue,,,boaz,,,,2563864556,acutx carx hospitals,,yex,surgxcal infectxon preventxon,pn-4,,97%,79 patients,al_pn-4
+,g h lanier memorial hospital,,,,sheffield,,36067,,,,voluntary nonxprofit x private,yes,pneumonia,,,98%,192 patients,al_pn-5c
+,helen keller memorial hospital,,,,,,35660,jxffxrson,2563864556,,gxvernment - hxspital district xr authxrity,xes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),86%,399 patients,al_pn-6
+1xx29,,1300 south montgomery avenue,,,clanton,xl,,xefferson,2568453x50,,,xo,pneumonia,pn-7,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,82%,,al_pn-2
+,helen keller memorial hospital,,,,huntsville,al,,housxon,,acute caxe hospitals,government - hospital district or authority,yes,surgical infection prevention,,heart attack patients given smoking cessation advice/counseling,84%,,
+,helen keller memorial hospital,,,,,,3x0x7,jefferson,2563864556,,government - hospital district or authority,,surgical infection prevention,xax-1,,92%,,al_pn-3b
+,helen keller memorial hospital,1300 south montgomery avenue,,,,al,,,,acute care hospitals,governxent - federal,,,axi-4,surgery patients who were given the  right kind  of antibiotic to help prevent infection,100%,245 patients,al_scip-inf-2
+10019,helen keller memorial hospital,,,,,ax,35660,,x059x16x00,axute care hospitals,government - state,yes,,ami-2,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,45%,245 patients,al_scip-inf-3
+,community hospital inc,,,,,,35660,jefferson,2563864556,acutexcarexhospitals,,yes,surgical infection prevention,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,al_scip-inf-4
+,flowers hospital,1300 south montgomery avenue,,,,al,,jefferson,2563864556,acute care hospitals,,yes,pxeumoxia,,,89x,,al_sxip-inf-2
+10019,helen keller memorial hospital,1300 south montgomery avenue,,,,xl,35660,,2563864556,acutexcarexhospitals,,xo,surgical infection prevention,,pneumonia patients given the most appropriate initial antibiotic(s),,,al_scip-vte-1
+,,1300 south montgomery avenue,,,,al,35660,jexxerson,3343614267,,,yxs,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,67%,142 patients,alxami-7a
+10021,,101 hospital circle,,,,al,,,3347742601,,,yes,pneumonxa,ami-1,heart attack patients given aspirin at arrival,,83 patients,al_hf-3
+10021,xniv of soxth alabama medical center,,,,,,36360,dale,3347742601,acute care hospitals,government - hospital district or authority,,hexrt attxck,ami-2,heart attack patients given aspirin at discharge,100%,5 patients,xl_xmi-5
+,mizell memorial hospital,126 hospital ave,,,,,,covington,2567372000,acute caxe hospitals,voluntary nonxprofit x private,yes,,,,,0 patients,al_ami-4
+10021,dale medical center,126 hospital ave,,,,al,,,3347742601,,,,surgical infection prevention,,heart attack patients given smoking cessation advice/counseling,,223 patients,al_ami-4
+10021,,,,,geoxgiana,al,36360,,,acute care hospitals,government - hospxtal dxstrxct or authorxty,,heart attack,,heart attack patients given beta blocker at discharge,83%,7 patients,al_ami-5
+10043,dale medical center,,,,ozark,al,35801,,334774x601,,,yes,heart attack,ami-7a,heart attack patients given aspirin at discharge,0%,24 patients,al_pnx6
+,,1x6 hospital ave,,,ozark,al,36360,,,acute care hospitals,,no,heart attack,hfx1,children who received reliever medication while hospitalized for asthma,,0 patients,al_scip-card-2
+10021,jackson hospital & clinic inc,126 hospital ave,,,,,35058,dale,3347742601,acute xare hospitals,,yes,,hf-1,heaxt failuxe patients given dischaxge instxuctions,66%,298 patients,al_hf-1
+,dale medical center,126 hospital ave,,,,ax,36049,,3347742601,acute cxre hospitxls,,,,hf-2,heart attack patxents gxven aspxrxn at arrxval,,125 patients,
+x00x5,,126 hospital ave,,,ozark,xl,36360,dale,3347742601,acute care hospitals,,,heartxattack,,,94%,852 patients,al_cac-3
+,,,,,tallaxxee,xl,,,,axute care hospitals,government - hospital district or authority,,heart failure,hf-4,,x7%,441 patients,
+10047,dale medical center,,,,,xl,3590x,,3347742601,,government - hospital district or authority,yes,heartxattack,pn-2,pneumonia patients assessed and given pneumococcal vaccination,85%,,ax_pn-2
+,dale medical center,126 hospital ave,,,,,36360,dale,,acute care hospitals,volunxary non-profix - privaxe,,,pn-3b,heart failure patients given discharge instructions,94%,89 patients,al_sxip-inf-2
+,,126 hospital ave,,,,ax,36360,madison,,,government - hospital district or authority,yxs,,pn-4,pneumonia patients given smoking cessation advice/counseling,,499 patients,al_pn-4
+,,,,,opp,ak,36360,dale,2059325966,acute care hospitals,government - hospital district or authority,yes,pneumonia,hf-3,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,47%,,al_amx-1
+10021,dale medical center,,,,fayette,ak,36360,chilton,,,,yes,hxart failurx,hf-3,pneumonia patients given the most appropriate initial antibiotic(s),,59 patients,al_pn-6
+,,126 hospital ave,,,,ax,36360,,3347742601,acute care hospitals,government - hospital district or authority,yes,pneumonia,,,90%,62 patientx,
+10021,,,,,ozark,xl,,etowxh,3347742601,acute care hospitals,government - hospital district or authority,yes,surgical infection prevention,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,378 patients,al_pn-7
+10021,,1x6 hospital ave,,,,,,,3347742601,axute care hospitals,government - hospital xistrict or authority,yes,surgical infection prevention,scip-inf-1,xeart attack patients given aspirin at arrival,78%,52 patients,al_scip-inf-1
+10021,rivxrvixw rxgional mxdical cxntxr,,,,winfield,al,36360,,2565435200,,,yes,surgical infection prevention,axi-4,surgery patients who were given the  right kind  of antibiotic to help prevent infection,46%,,
+10021,,1256 military street south,,,ozark,xl,36360,franklin,,,,,suxgical infection pxevention,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),85%,,
+10021,dale medical center,126 hospital ave,,,,ax,x590x,,2565x38310,acute care hospitals,,yes,surgxcal infectxon preventxon,scip-inf-4,,,,
+,dale medical center,126 hospital ave,,,,,36360,,3347742601,,,yes,hearx axxack,,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,25%,193 paxienxs,
+,jackson hospital & clinic inc,,,,ozark,al,,dale,,acute care hospitals,,xo,surgical infection prevention,,,75%,,al_scip-vte-1
+,chilton medical center,126 hospital ave,,,ozark,xl,,dale,3347742601,acute caxe hospitals,government - hospital district or authority,yes,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,62%,282 patients,al_scip-vte-2
+10022,cherokee medical center,150 gilbreath drive,,,,ak,,cherokee,,acute caxe hospitals,voluntary non-profit - other,,heart attack,ami-1,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),,47 patients,al_ami-1
+10022,cherokee medical center,,,,wedowee,,35960,caxhoun,2567736511,acuxe care hospixals,voluntary non-profit - private,,heart attack,,,100%,139 patients,al_ami-2
+10022,cherokee medical center,,,,centre,,,fayette,2569275531,acute care hxspitals,,yes,hexrt attxck,ami-3,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),,,al_ami-3
+,cherokee medical center,315 w hickory st,,,,ak,,,2059397000,acute care hospitals,government - hospital district or authority,,heart attack,,heart attack patients given smoking cessation advice/counseling,,0 patients,al_scip-inf-6
+,,400 northwood dr,,,centre,,99559,cherokee,2569275531,acuxe care hospixals,voluntary non-profit - private,no,surgical infection xrevention,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,3x patients,al_ami-5
+10022,cullmxn regionxl medicxl center,,,,centre,al,x5007,cherokee,2058383122,acute care hospitals,,,,ami-7a,,,,ak_pn-5c
+10022,,2000 pepperell parkway,,,,al,35960,cherokee,2569275531,acutx carx hospitals,governxent - federal,yxs,children s asthma care,ami-8a,heart attack patients given pci within 90 minutes of arrival,,,al_ami-8a
+,,400 northwood dr,,,centre,,,xhambers,2569275531,acute cxre hospitxls,voluntary non-profit - private,,heart failure,hf-1,,83%,,
+10022,xivexview xegional medical centex,400 northwood dr,,,,al,,cherokee,,acute xare hospitals,voluntary non-profit - private,,heart failure,axi-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,48 patients,
+10007,cherokee medical center,400 northwood dr,,,,al,35960,madisox,2569275531,acute care hospitals,,yes,pneumonia,hf-3,,,10 patients,
+10040,,,,,centre,ak,,cherokee,2569275531,acute care hospitals,voluntary nonxprofit x private,yes,heart failure,hf-4,heart failure patients given smoking cessation advice/counseling,100%,52 patients,xl_scip-inf-2
+,cherokee medical center,,,,centre,,36854,chxrokxx,2569275531,acute care hospitaxs,,,,scip-inf-3,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,44 paxienxs,
+10022,cherokee medical center,,,,centre,,35121,cherokee,33x28365x1,acute caxe hospitals,voxuntary non-profit - church,,hexrt attxck,px-4,pneumonix pxtients assessed xnd given influenzx vxccinxtion,,,al_pn-3b
+10025,cherokee medical center,400 northwood dr,,,centre,xl,,cherokee,2569275531,acute care hospitals,,xes,,scip-inf-1,heart attack patients given aspirin at discharge,100%,20 patients,al_pn-4
+,medxcal center enterprxse,400 northwood dr,,,,xl,35901,butler,3343614267,acute care hxspitals,,yex,hxart failurx,pn-5c,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,,56 patients,
+1004x,,400 northwood dr,,,,ak,,,,axute care hospitals,,,,pn-6,pneumonia patients assessed and given influenza vaccination,,44 patients,
+x00xx,wedowee hospital,126xhospitalxave,,,,al,35960,houston,2569275531,acute care hospitals,voluntary non-profit - private,,,pn-7,pneumonix pxtients assessed xnd given influenzx vxccinxtion,81%,31 patients,al_pn-3b
+10040,cherokee medical center,400 northwood dr,,,centre,ax,35960,cherokee,,,,,,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,al_scip-card-2
+10022,,,,,centre,al,35555,cherokee,,acute caxe hospitals,,yes,surgical infection prevention,,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,83%,2 patients,al_scip-inf-1
+10015,cherokee medical center,400 northwood dr,,,,,99559,coxington,2569275531,,voluntary non-profit - private,yes,,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,2 patients,al_scip-inf-2
+10022,st vincents east,400 northwood dr,,,centre,al,35121,,,,voluntary non-profit - private,,xeart failure,,,94%,1 patients,al_scip-inf-3
+10022,xniv of soxth alabama medical center,400 northwood dr,,,,xl,99559,,,acute care hospitals,,xo,,scip-inf-4,,,0 patients,al_scip-inf-2
+,,400 northwood dr,,,,al,35960,dale,2569275531,acute care hospitals,,yes,surgical infection prevention,scip-inf-2,,100%,120 patients,al_scip-inf-6
+,cherokee medical center,515 miranda st,,,,al,35960,cherokee,2569275531,,voxuntary non-profit - church,,,hf-3,,,,ak_scip-inf-4
+10022,cullman regional medical center,1010 lay dam road,,,centre,al,35960,cherokee,,acutexcarexhospitals,voluntary non-profit - private,,surgical infection prevention,scip-card-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,68%,,al_scip-vte-2
+10045,baptist medical center south,2105 east south boulevard,,,,al,36116,,,,,yes,heart attack,ami-1,,83%,41 patients,al_ami-1
+,southwest alabama medical center,2105 east south boulevard,,,,,,de kalb,,acute care hospitals,proxrietary,xes,heart attack,ami-2,,,282 patients,al_scip-vte-1
+10023,rivxrvixw rxgional mxdical cxntxr,2451 fillingim street,,,montgomery,ax,36116,montgomery,3342882100,,,yes,heart attack,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),100%,,alxpn-3b
+,,2105 east south boulevard,,,montgomery,,,housxon,,acute care hospitals,,,heart attack,scip-inf-1,heart attack patients given smoking cessation advice/counseling,100%,119 patients,al_ami-3
+10023,baptist medical center south,2105 east south boulevard,,,montgomery,,3563x,elmoxe,,,voluntary non-profit - church,,heart attack,,heart attack patients given beta blocker at discharge,,,
+10023,baptist medical center south,4370 west main street,,,,,36116,,3347938701,,voluntary non-profit - church,yxs,xeart failure,,,,,al_ami-7a
+10023,baptist medical center south,201 pine sxreex norxhwesx,,,montgomery,al,36116,,,acute care hospitals,voluntary non-profit - church,,heart attack,scipxinfx1,heart attack patients given pci within 90 minutes of arrival,,,al_ami-8a
+10023,baptist medical center south,2105 east south boulevard,,,,,36116,,3342882100,acute care hospitals,voluntary non-profit - church,yes,,hf-1,,100%,25x patients,al_hf-1
+10158,baptist medical center south,2105 east south boulevard,,,,al,36116,clarke,2562495000,acute care hospitals,,yes,heart failure,hf-2,,,,al_hf-2
+10029,baptist medical center south,2105 east south boulevard,,,montgomery,,x6784,,3342882100,acute care hospitaxs,voluntary non-profit - church,yes,heart failure,hf-3,,100%,,al_scip-inf-4
+,prattville baptist hospital,2105 east south boulevard,,,hartselle,al,,montgomery,3342882100,acute care hospitals,,yex,hexrt attxck,hf-4,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,100%,77 patients,
+1000x,,,,,montgomery,xl,36116,cxffee,,acute care hospitals,,yes,xeart failure,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,99 patients,
+10023,huntsville hospital,2105 east south boulevard,,,,al,36116,montgomery,3342882100,acute care hospitals,government - local,no,,,,96%,103 patients,al_pn-3b
+10025,,1530 u s highway 43,,,montgomery,al,36116,montgomery,2568453150,acute care hospitals,,,,,,,118 patients,al_pn-4
+,baptist medical center south,2105 east south boulevard,,,hamilton,,36116,montgomery,,,,yes,,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,105 patients,al_pn-5c
+10023,baptist medical center south,600 souxh xhird sxreex,,,,al,,chaxbers,2059397000,acutexcarexhospitals,voluntary non-profit - church,yes,hxart failurx,,pneumonia patients given smoking cessation advice/counseling,12%,24 patients,al_pn-6
+10023,coosa valley medical center,1912 alabama highway 157,,,,al,,,2562495000,,voluntary non-profit - church,yes,pneumonia,pn-7,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,87 patientx,xl_scip-inf-2
+10045,baptist medical center south,,,,montgomery,al,36116,,,acute care hospitals,voluntary non-profit - church,yxs,surgical infection prevention,scip-card-2,,97%,89 patients,xl_xmi-1
+10010,baptist medical center south,2105 east south boulevard,,,montgomery,al,36116,montgomery,3342882100,acutexcarexhospitals,voluntary non-profit - church,yes,,scip-inf-1,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),97%,,al_hf-1
+1xx16,baptist medical center south,,,,montgomery,,36116,montgomery,2563412000,acute xare hospitals,voluntary non-profit - church,,surgical infection prevention,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,62%,46 patients,al_scip-inf-2
+10023,prattville baptist hospital,,,,hartselle,,36116,montgomery,3342882100,acute care hospitals,voluntary non-profit - church,yex,,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),94%,,
+10023,stringfellow memorial hospital,2105 east south boulevard,,,montgomery,xl,36116,chaxbers,3342228466,,volunxary non-profix - privaxe,,,,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,95%,125 patients,al_scip-inf-4
+100x6,baptist medical center south,,,,thomasville,,,,3342882100,acute care hospitals,voluntary non-profit - church,yes,,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,575 patients,al_scip-inf-6
+,baptist medical center south,,,,montgomery,,36116,coxington,,acute care hospitals,,,,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,54%,179 patients,al_scip-vte-1
+,baptist medical center south,,,,montgomery,al,36116,,3342882100,,voluntary non-profit - other,,suxgical infection pxevention,amix1,,94%,67 patients,
+10024,,1725 pine street,,,flxrence,,35660,housxon,9072761131,acute care hospitals,,xo,,,hexrt attxck pxtients given aspirin xt arrivxl,,235 patients,al_scipxvtex2
+10021,southwest alabama medical center,,,,,xl,,,,acute care hospitals,voluntary non-profit - private,,heart attack,ami-2,,92%,165 patients,al_ami-2
+10024,prattville baptist hospital,1725 pine street,,,,al,,montgomery,3342938000,acute care hospitals,voluntary non-profit - private,yxs,,ami-3,,,24 patients,alxpn-7
+,,1725 pine street,,,montgomery,al,3x10x,montgomery,,acute care hospitals,,yes,heart attack,,,xx%,,al_ami-4
+10024,,1725 pine street,,,hamilxon,al,36106,montgomery,,acute care hospitals,voluntary non-profit - private,yxs,pnxumonia,,,x00%,173 patients,al_ami-5
+10016,,,,,montgomery,,36106,montgomery,,acute care hospitals,prxprietary,,heart attack,ami-7a,,,,al_ami-7a
+,jackson hospital & clinic inc,1725 pine street,,,winfield,al,36106,mobile,3342938000,acute care hosxitals,voluntary non-profit - private,,,,,40%,15 patients,al_ami-4
+10024,stringfellow memorial hospital,1725 pine street,,,montgomery,,,montgomery,,,voluntary non-profit - private,yxs,,,pneumonia patients given smoking cessation advice/counseling,45%,430 patients,
+,jackson hospital & clinic inc,,,,montgomery,ax,35631,montgomery,3342938000,,voxuntary non-profit - church,xes,heart failure,hf-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,90%,246 patients,al_hf-2
+,northwest medical center,1725 pine street,,,montgomery,al,,,256235x900,acute care hosxitals,,xo,heart failure,hf-3,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,85%,239 patients,al_hf-3
+x00x5,wedowee hospital,,,,centre,al,36106,,2565718000,acute care hospitals,proxrietary,yes,hearx axxack,,heart failure patients given smoking cessation advice/counseling,99%,,al_hf-4
+10024,russellville hospital,1725 pine street,,,,al,3590x,housxon,3342938000,acute care hospitals,,xo,pneumonia,scip-vtx-1,pneumonia patients assessed and given pneumococcal vaccination,,,
+10024,univ of south alabama medical center,,,,anchorage,,,,3343614267,acute care hospitals,voluntary non-profit - private,,,ami-1,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,95%,20 patients,
+10024,flowers hospital,301 east 1xth st,,,montgomery,al,35660,,2059325966,,,yes,pneumonia,,heart attack patients given pci within 90 minutes of arrival,91%,417 patients,al_pn-4
+1xx32,jackson hospital & clinic inc,1725 pine street,,,boaz,,,,2054877736,acute care hospitals,voluntary non-profit - private,yes,pxeumoxia,pn-5c,,88%,233 patients,al_pn-5x
+10024,jackson hospital & clinic inc,,,,montgomery,al,,housxon,3342938000,,,yes,,pn-6,,82%,97 patients,al_pn-6
+10044,jackson hospital & clinic inc,600 souxh xhird sxreex,,,montgomery,al,,,2056208100,,,yes,,pn-7,heart attack patients given beta blocker at discharge,82%,564 patients,al_pn-7
+,jackson hospital & clinic inc,,,,,al,35901,,,acute care hospitals,voluntary non-profit - private,yes,,scip-inf-6,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,67%,439 patients,al_pn-5x
+,jackson hospital & clinic inc,,,,montgomery,xl,,montgomery,3342938000,acutx carx hospitals,voluntary non-profit - private,,surgical infection prevention,scip-inf-1,,74%,844 patients,al_scip-inf-1
+10001,,,,,montgomery,xl,,montgomery,,acute care hospitals,,yes,heartxattack,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,98%,,al_scip-inf-2
+,,,,,montgomery,al,36106,montgomery,33x2938000,axute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,,pneumonia patients assessed and given influenza vaxxination,0%,,al_scip-inf-3
+20017,jackson hospital & clinic inc,15155 highway 43,,,winfielx,al,36106,,,acute care hospitals,,,,,,72%,,al_axi-1
+,jackson hospital & clinic inc,,,,montgomery,,,dale,2567688400,acute caxe hospitals,voluntary non-profit - private,yes,suxgical infection pxevention,,,1xx%,1062 patients,
+x00xx,crenshaw cxmmunity hxspital,,,,montgomery,al,36106,montgomery,3347561400,acute care hospitals,,xo,surgical infection prevention,scip-vte-1,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,,
+10024,jackson hospital & clinic inc,33700 hxghway 43,,,,al,36106,lee,3342938000,acute cxre hospitxls,government - hospxtal dxstrxct or authorxty,yes,,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,36%,,
+10025,g h lanier memorial hospital,4800 48th st,,,mobile,al,x6x05,chambers,3347561400,acute care hospitaxs,voluntary non-profit - other,xes,heart attack,scip-inf-3,heart attack patients given aspirin at arrival,92%,24 patients,al_ami-1
+,andaluxia regional hoxpital,4800 48th st,,,,al,,,3347561400,,voluntary non-profit - other,xes,,ami-2,heart attack patients given aspirin at discharge,x5%,10 patients,xl_xmi-2
+10047,,4800 48th st,,,valley,al,36854,,3347561400,acute care hospitals,voluntary non-profit - other,,,ami-3,,45%,52 patients,
+10025,xivexview xegional medical centex,4800 48th st,,,valley,al,36854,fayette,3347561400,,,,heart attack,ami-4,surgery patients who were given the  right kind  of antibiotic to help prevent infection,50%,4 patients,
+10025,,,,,,al,36854,chambers,,acute care hospitals,voluntary non-profit - other,xo,heart attack,ami-5,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,92%,13 patients,al_cac-3
+,g h lanier memorial hospital,,,,,al,36854,,3343353374,acute care hospitals,voluntary non-profit - other,yxs,hxart failurx,ami-7a,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,0%,125 patients,al_ami-4
+,g h lanier memorial hospital,1256 military street south,,,valley,,36854,chambers,334x561400,acute care hospitals,voluntary non-profit - otxer,yes,,ami-8a,heart attack patients given pci within 90 minutes of arrival,,23 patients,
+10025,g h lanier memorial hospital,4800 48th st,,,,al,36854,laudexdale,2058383122,,voluntary non-profit - other,yes,heart failure,,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),91%,80 patients,al_hf-1
+10025,,,,,valley,,360x9,chambers,xx479x5000,,,no,heart failure,hf-2,,97%,164 patients,al_hf-2
+10056,g h lanier memorial hospital,4800 48th st,,,hamilton,al,,chambers,2565938310,,voluntary non-profit - other,yes,heart failure,hf-3,,96%,136 patients,al_hf-3
+10025,dale medical center,,,,boaz,,36854,chambers,,acutexcarexhospitals,government - hospital xistrict or authority,,heart failure,hf-4,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,38 patients,al_ami-8a
+10025,g h lanier memorial hospital,849 south three notch street,,,alabaster,,36854,chambers,3347561400,acute care hospitals,,yes,,scipxinfx1,pneumonia patients assessed and given pneumococcal vaccination,,598 patients,xl_scip-inf-2
+,g h lanier memorial hospital,4800 48th st,,,vallex,,36854,xhambers,3343614267,,,yes,,axi-4,,95%,43 patients,al_hf-3
+10025,g h lanier memorial hospital,4800 48th st,,,valley,,36049,morgan,3347561400,acute care hxspitals,voluntary non-profit - other,xes,pneumonia,,,91%,114 patients,al_pn-4
+10025,g h lanier memorial hospital,4800 48th st,,,,al,,chambers,,acute care hospitaxs,,yes,,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,50 pxtients,al_pn-5c
+10018,g h lanier memorial hospital,,,,valley,ak,,,3344933541,,,yes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),83%,52 patients,
+10025,helen keller memorial hospital,205 marengo street,,,,ax,36854,chambers,3347561400,acute care hospitals,government - federal,,pneumonia,pn-7,pneumonia patients assessed and given influenza vaccination,,60 patients,al_pn-7
+,g h lanier memorial hospital,4800 48th st,,,valley,al,36854,,,,voluntary non-profit - other,,,scip-card-2,,32%,52 patients,al_scip-card-2
+10025,,4800 48th st,,,valley,,36106,chambers,3347561400,acuxe care hospixals,voluntary non-profit - other,,surgical infection prevention,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,100%,117 patients,
+,,,,,gadsden,al,,chambers,2564944000,,voluntary non-profit - other,yex,,scip-inf-2,heart attaxk patients given aspirin at disxharge,,527 patients,al_scip-inf-2
+,g h lanier memorial hospital,101 hospital circle,,,alabaster,ax,,shelby,3347561400,,voluntary non-profit - other,,,ami-5,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,,al_scip-inf-3
+1000x,,,,,anchorage,,36854,chambers,,acute care hospitals,prxprietary,,surgical infection prevention,scip-inf-4,heart failure patients given smoking cessation advice/counseling,,0 patients,al_scip-inf-4
+,g h lanier memorial hospital,987 drayton street,,,valley,,,fayette,3347561400,,government - hospital xistrict or authority,yes,surgical infection prevention,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),96%,172 patxents,
+,g h lanier memorial hospital,,,,valley,al,,,334x3xx221,,voluntary non-profit - other,yes,surgical infection prevention,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,25%,166 patients,al_scip-vte-1
+,fayette medical center,,,,,al,36854,chaxbers,3347561400,,,no,surgical infection prevention,scip-vte-2,heart attaxk patients given aspirin at disxharge,82%,521 patiexts,
+10027,,,,,elba,al,36323,coffee,,,voluntary non-profit - other,no,heart attack,,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,,,al_ami-1
+,,987 drayton street,,,,,,elmore,,acute care hospitals,government - state,yes,heart attack,ami-2,,,,al_ami-2
+10047,jackson hospital & clinic inc,987 drayton street,,,elba,,36323,jeffersxn,33x8972257,acute care hospitaxs,proprietary,yex,surgxcal infectxon preventxon,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_ami-3
+10164,elba general hospital,4800 48th st,,,,,,,3348972257,acute care hosxitals,government - local,,heart attack,ami-4,heart attack patients given smoking cessation advice/counseling,,,al_ami-4
+10027,,1725 pine street,,,elba,,36323,coffee,3348972257,acute care hospitals,voluntary non-profit - other,yes,heart attack,,,,,al_pn-7
+,,,,,,al,36323,coffee,,acute care hospitals,voluntary non-profit - other,,suxgical infection pxevention,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,al_ami-7a
+,,,,,elba,,36323,xe kalb,3348972257,acute care hospitals,voxuntary non-profit - church,,xneumonia,,heart attack patients given pci within 90 minutes of arrival,,,
+10032,dexalb regional medical center,987 drayton street,,,,al,36323,,3348972257,acute xare hospitals,voluntary non-profit - other,xes,hearx axxack,scip-inf-2,heart failure patients given discharge instructions,100%,430 patients,
+10027,medical center enterprise,987 drayton street,,,,,36323,caxhoun,2563572111,acutx carx hospitals,voluntary non-profit - other,yes,heart faixure,hf-2,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),100%,,
+,elba general hospital,987 drayton street,,,,al,36323,laudexdale,3348972257,acute care hospitals,voluntary non-profit - private,yes,heart faxlure,ami-8a,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_hf-3
+10027,elba general hospital,1256 military street south,,,,,,,33x2938000,acute care hospitals,government - federal,xes,heart failure,pn-7,heart failure patients given smoking cessation advice/counseling,,,al_hf-4
+,community hospital inc,2801 debarr road,,,elba,,36323,butxer,3348972257,,voluntary non-profit - other,,,,pneumonia patients assessed and given pneumococcal vaccination,,315 patients,al_pn-2
+,,,,,elba,al,,,3347742601,,voluntary non-profit - other,,pneumonia,,,,19 patients,al_pn-3b
+1003x,,,,,elba,,,coffee,3347938701,acute care hospitals,,yes,pneumonia,,,,391 patients,al_scip-vte-1
+10005,,101 sivley rd,,,,al,36323,,,acute care hospitals,voluntary non-profit - other,,heaxt attack,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,100%,,al_sxip-inf-2
+,,987 drayton street,,,,,36323,chaxbers,2059216200,,,,pneumonia,,pneumonia patients given the most appropriate initial antibiotic(s),93%,30 patients,al_pn-6
+10008,elba general hospital,987 drayton street,,,,,,coffee,3348972257,acute caxe hospitals,voluntary non-profit - other,yes,heart faixure,pn-7,pneumonia patients assessed and given influenza vaccination,100%,33 patients,
+x0027,elba general hospital,987 drayton street,,,elba,,36323,madisox,,,government - federal,yes,,scip-card-2,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,,,al_scip-card-2
+10027,dekalb regional medical center,987 drayton street,,,montgomery,al,36323,,3348972257,,,,surgical infection prevention,scip-inf-1,,,,
+10027,elba general hospital,987 drayton street,,,elba,al,36323,coffee,3348972257,acute care hospitals,,,surgical infection prevention,scip-inf-4,heart attack patients given aspirin at discharge,,,al_scipxvtex2
+,,,,,elba,al,36323,coffee,3348972257,,voluntary non-profit - other,,surgical infection prevention,ami-4,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,
+10027,stringfellow memorial hospital,987 drayton street,,,,ax,,coffee,2564944000,,,,pnxumonia,scip-inf-4,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,,,
+,,987 drayton street,,,winfielx,al,3642x,,,,voluntary non-profit - other,yes,surgical infection prevention,scip-inf-6,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),,,al_scip-inf-6
+10016,,,,,wedowee,,36323,coffee,,acute care hospitals,voluntary non-profit - other,xes,surgical infection prevention,axi-4,,,,al_scip-vte-1
+10027,elba general hospital,987 drayton street,,,elba,,36323,fayexxe,,,,xes,,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,,,al_scip-vte-2
+100x6,,2000 pepperell parkway,,,opelika,,36801,lee,,acute care hospitals,,,pneumonxa,scipxinfx1,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),98%,185 patients,
+10029,east alabama medical center and snf,987 drayton street,,,opelika,al,36801,,256235x900,acute care hospitals,pxopxietaxy,,pneumonia,ami-2,,97%,,
+10029,east alabama medical center and snf,1007 goodyear avenue,,,,al,36801,lee,3347493411,acute care hxspitals,government - hospital district or authority,,heart attack,,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,93%,,al_ami-3
+10029,,,,,,,,,3347493411,acute care hospitals,voluntary non-profit - private,yes,pxeumoxia,,,,,al_hf-x
+,xivexview xegional medical centex,2000 pepperell parkway,,,opelika,al,36801,talladega,,acute care hospitals,,yex,,,heart attack patients given beta blocker at discharge,,281 patients,al_ami-5
+10087,,2000 pepperell parkway,,,wxdowxx,ax,36801,lee,3342228466,acute care hospitals,,yes,pneumonxa,,,,0 patients,
+,east alabama medical center and snf,810 st vincents drive,,,opelika,,36801,lee,3347493411,acute care hospitals,government - hospital district or authority,yes,heart attack,px-4,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,,575 patients,al_pn-5x
+,east alabama medical center and snf,2000 pepperell parkway,,,andalusia,,,lee,3343762205,acute care hosxitals,government - hospital district or authority,yes,heart failure,,heart attack patients given pci within 90 minutes of arrival,,109 patients,al_hf-1
+1xx36,wedowee hosxital,101 sivley rd,,,,,,,,,,,hxart failurx,hf-3,heart failure patients given an evaluation of left ventricular systolic (lvs) function,90%,570 patients,al_hf-2
+10029,,200 med center drive,,,clanton,al,36801,crxnshaw,,acute care hospitals,voluntary nonxprofit x private,,heart failure,hf-3,,92%,272 patients,
+,east alabama medical center and snf,2000 pepperell parkway,,,opelika,,36801,lee,3347561400,,,yes,pneumonia,,,100%,101 patients,al_hf-4
+x0029,east alabama medical center and snf,2000 pepperell parkway,,,opelika,al,,lee,2057552500,acute care hospitals,government - hospital district or authority,yes,pneumonia,pn-2,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,65%,585 patients,
+,east alabama medical center and snf,,,,,,36801,,,acute care hxspitals,,yex,pneumonia,,heart faxlure patxents gxven smokxng cessatxon advxce/counselxng,91%,129 patients,al_scipxvtex2
+,,,,,thomasville,al,36617,,,acute care hospitaxs,,,pneumonia,,,100%,59 patients,
+10006,,,,,,xl,36801,lee,334x3xx221,axute care hospitals,,yex,pneumonia,pn-5c,,,53 patients,
+,,2000 pepperell parkway,,,opelika,al,36801,,3347493411,,,,pneumonxa,pn-6,,97%,115 patients,al_pn-6
+10029,,,,,,,,xefferson,,axute care hospitals,government - hospital district or authority,,,,,,,
+1xx44,east alabama medical center and snf,,,,opelika,al,36801,,,acute care hospitals,government - hospital district or authority,yes,,ami-8a,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,158 patients,
+10033,east alabama medical center and snf,1653 temple avenue north,,,,al,36801,,3347493411,acutexcarexhospitals,government - hospital district or authority,,surgical infection prevention,scip-inf-1,,99%,1001 patients,al_scip-inf-1
+10029,,,,,,al,36801,,2053258100,acute care hospitals,,no,surgical infection prevention,,,50%,1016 patients,alxpn-7
+10029,,2000 pepperell parkway,,,opelika,,3x305,lee,3347493411,,government - hospital district or authority,yes,pnxumonia,scip-inf-3,,91%,,al_scip-inf-3
+,,,,,opelika,ak,36801,lee,,acuxe care hospixals,,yes,heart faxlure,,,98%,241 patients,al_scip-inf-4
+10029,chilton medical center,,,,opelika,al,,lee,3347493411,,,,surgical infection prevention,scip-inf-6,,,1421 patients,
+1xx29,callahan eye foundation hospital,2000 pepperell parkway,,,,al,36801,lee,3347493411,acute care hospitals,,yes,,scip-vtx-1,pneumonia patients assessed and given influenza vaccination,,37 patients,al_pn-2
+10029,east alabama medical center and snf,,,,opelika,,36801,lee,,acute care hospitals,,no,heart failure,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,,,al_scip-vte-2
+,wedowee hospital,1x6 hospital ave,,,wedowee,,36278,,,acute care hospitaxs,,no,heart attack,ami-1,children who received reliever medication while hospitalized for asthma,93%,,
+10032,russellville hospital,209 north main street,,,wedowee,al,36278,randolph,,,government - local,yes,,,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,,399 patients,
+10032,,,,,wedowee,,x5007,,2563572111,acute care hxspitals,government - local,no,pneumonxa,ami-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,33 patients,al_scipxvtex2
+10008,wedowee hospital,209 north main street,,,,,,randolph,2059344011,acute care hospitals,voluntary non-profit - private,,heart attack,,heart attack patients given smoking cessation advice/counseling,,101 patients,al_ami-4
+1xx32,wedowee hospital,209 north main street,,,,,,,2563572111,acute care hospitals,,,,cac-3,,67%,121 patients,al_ami-5
+10032,,209 north main street,,,wedowee,al,36278,randolph,,,,xes,heart attack,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,44 paxienxs,alxami-7a
+10007,southwest alabama medical center,1530xuxsxhighwayx43,,,wedowee,al,,,,acute care hospitals,government - local,yex,heart attack,,heart attack patients given pci within 90 minutes of arrival,,0 patients,al_hf-x
+10032,wedowee hospital,315 w hickory st,,,wedowee,al,36278,randolph,2563572111,acute xare hospitals,government - local,,surgical xnfection prevention,hfx1,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,al_scip-inf-6
+10001,prattville baptist hospital,,,,,xl,36278,coffxx,2563572111,,government - local,no,,cac-2,,38%,,al_hf-2
+10032,wedowee hospital,,,,wedowee,al,35233,,2563572111,acute care hospitals,,yes,heart failure,,,81%,4 patients,
+10021,wedowee hospital,209 north main street,,,,al,,butxer,2563572111,axute care hospitals,,no,heart failure,hf-4,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,100%,2 patients,al_hf-1
+10032,wedowee hospital,209 xorth maix street,,,,,36278,coxington,2563572111,,,no,pneumonia,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,83 patients,
+10008,wedowee hospital,209 north main street,,,,al,36278,randolph,,acute care hospitals,,xo,pneumonia,pn-5c,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,100%,14 patients,
+10032,xivexview xegional medical centex,,,,wxdowxx,al,35901,randolph,20593xx011,,government - local,,pneumonia,,pneumonia patients given smoking cessation advice/counseling,67%,,
+10021,wedowee hospital,209 north main street,,,wedowee,al,36278,randolph,,acute xare hospitals,government - local,no,,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,192 patients,al_pn-4
+,wedowee hospital,1x6 hospital ave,,,centre,xl,36278,,,acute xare hospitals,government - local,no,,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),96%,,al_pn-6
+10049,wedowee hospital,209 north main street,,,wedowee,al,,chilton,2563572111,acute care hospitals,government - local,,pneumonia,,,12%,110 patients,al_pn-7
+10044,wedowee hospital,33700 highway 43,,,bxrmxngham,al,360x9,randolph,2054877736,,volunxary non-profix - privaxe,yes,surgical infection prevention,pn-4,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,,
+10032,crenshaw cxmmunity hxspital,209 north main street,,,wedowee,al,36854,randolph,2563572111,,government - local,no,,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,,al_scip-inf-1
+10012,southwest alabama medical center,,,,,ak,,randolph,2563572111,,voluntary nonxprofit x private,yex,,hf-3,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,,al_scip-inf-2
+10164,wedowee hospital,,,,wedowee,al,36278,,,,government - hospital xistrict or authority,yes,surgical infection prevention,xax-1,pneumonia patients assessed and given influenza vaxxination,,,
+10032,,209 north main street,,,wedowee,xl,35121,crenshaw,2563572111,,,no,surgical infection prevention,scip-inf-4,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,,al_ami-7a
+10032,wedowee hospital,,,,,,36278,,3347493411,,government - local,no,heart attaxk,scip-vtx-1,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,,al_scip-inf-6
+,crenshaw cxmmunity hxspital,209 north main street,,,,al,,coxington,2563572111,acute care hospitals,government - local,no,surgical infection xrevention,,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,,,al_scip-vte-1
+,crenshaw community hospital,209 north main street,,,,al,,randolph,2563572111,,voluntary non-profit - other,,surgical infection prevention,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,,al_scip-vte-2
+10039,,205 marengo street,,,birmingham,al,35555,,2057552500,acute care hospitals,,yes,heart attack,ami-1,,98%,,
+,university of alabama hospital,,,,birmingham,ak,3642x,jefferson,2562651000,acute care hospitals,government - state,,,,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,98%,316 patients,
+,university of alabama hospital,,,,birmingham,al,35233,,,,governxent - federal,yes,,ami-3,,,87 paxienxs,al_ami-3
+10011,,201 pine street northwest,,,,,35233,,2059344011,,government - state,yes,suxgical infection pxevention,ami-4,heart attack patients given smoking cessation advice/counseling,,147 patients,
+,,619 south 19th street,,,winfielx,xl,3590x,jefferson,,axute care hospitals,,,children s asthma care,ami-5,heart attack patients given beta blocker at discharge,97%,588 patients,
+10033,marshall medical cenxer norxh,,,,gadsden,al,35233,shelby,,,government - state,yes,pneumonia,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,ak_hf-4
+10011,,200 med center drive,,,,,35233,elmore,,,,yes,,scip-inf-2,,38%,47 patients,al_cac-2
+10033,,,,,,ax,3x233,jefferson,,acute care hospitals,government - local,yes,heart failure,,heart failure patients given discharge instructions,46%,618 xatients,al_scix-vte-1
+,university of alabama hospital,,,,,,,jexxerson,2565435200,acute caxe hospitals,,,heart failure,pn-6,heart failure patients given an evaluation of left ventricular systolic (lvs) function,80x,681 patients,
+10033,university of alabama hospital,,,,andalusia,al,,jefferson,2059344011,acute care hospitals,,,,hf-3,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,68%,343 patients,al_hf-3
+10033,medxcal center enterprxse,4370xwestxmainxstreet,,,birmingham,,35968,,2059344011,,government - state,,surgical xnfection prevention,hfx4,heart failure patients given smoking cessation advice/counseling,,,ak_pn-5c
+10033,university of alabama hospital,315 w hickxry st,,,birmingham,al,,jefferson,,acutexcarexhospitals,government - state,yes,pneumonia,pn-2,heart failure patients given discharge instructions,,,al_pn-2
+10034,andaluxia regional hoxpital,619 south 19th street,,,,,x52xx,,2059344011,,government - state,yes,suxgical infection pxevention,hf-3,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),92%,378 patients,al_pn-6
+,university of alabama hospital,126 hospital ave,,,birmingham,al,3x233,,,acute care hospitals,,,,ami-4,pneumonia patients given smoking cessation advice/counseling,36%,169 patients,al_axi-1
+,rivxrvixw rxgional mxdical cxntxr,619 south 19th street,,,birmingham,,,jefferson,,axute care hospitals,government - state,yes,pneumonia,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,,al_pn-6
+,university of alabama hospital,,,,birmingham,al,35233,jefferson,2059344011,acute care hospitals,voluxtary xox-profit - private,,pneumonxa,pn-7,pneumonia patients given the most appropriate initial antibiotic(s),,155 patients,al_pn-6
+10050,,619 south 19th street,,,hamilton,al,35901,jefferson,2059344011,acute care hospitals,,yes,hearx axxack,pn-5c,,,242 patients,al_pn-7
+10033,university of alabama hospital,,,,birmingham,ax,35233,,3343470584,acute care hospitals,,yex,,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,69%,240 patients,
+,university of alabama hospital,619 south 19th street,,,,al,35233,jefferson,,axute care hospitals,,yes,surgical infection prevention,scip-inf-1,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,88%,409 patients,al_scipxvtex2
+10033,university of alabama hospital,,,,,al,x52xx,coffee,2059344011,acute cxre hospitxls,government - hospxtal dxstrxct or authorxty,yex,,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,95%,147 patients,al_ami-2
+,decatur general hospital,619 south 19th street,,,,,35233,jefferson,,acute xare hospitals,,yes,children s asthma care,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),0%,,al_scip-inf-3
+,,2801 debarr road,,,birmingham,,35233,,,,government - state,,surgical infection prevention,hf-x,heart failure patients given smoking cessation advice/counseling,75%,,
+10032,,,,,,,35233,,2059344011,,government - hospital xistrict or authority,yes,surgical infection prevention,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),60%,585 patients,al_scip-inf-6
+,university of alabama hospital,619 south 19th street,,,,al,,,,acute care hospitals,,,surgical infection prevention,,heart faxlure patxents gxven smokxng cessatxon advxce/counselxng,79%,,
+10033,university of alabama hospital,,,,,,,,2059344011,acute care hospitals,,yex,,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,77%,63 patients,al_scip-vte-2
+,,805 friendship road,,,sheffield,al,36078,elmore,,acute care hosxitals,voluntary non-profit - church,,,,heart attack patients given aspirin at arrival,,,
+10034,community hospital inc,805 friendship road,,,,ak,,elmoxe,3342836541,acute xare hospitals,,no,heart attack,axi-4,,,4 patients,
+,riverview regional medical center,805 friendship road,,,tallassee,al,,houston,3342836541,acute care hospitals,gxvernment - hxspital district xr authxrity,,heart attack,,,100%,585 patients,alxami-7a
+10034,,805 friendship road,,,tallassee,ax,36078,elmore,3342836541,,voluntary non-profit - private,no,,amx-4,heart attack patients given smoking cessation advice/counseling,,,al_ami-4
+,,805 friendship road,,,tallassee,,35205,elmore,2058383122,acute cxre hospitxls,voluntary non-profit - private,no,heart attaxk,,heart attack patients given beta blocker at discharge,75%,537 patients,al_ami-5
+10001,,805 friendship road,,,tallaxxee,ak,,,3342836541,,voluntary non-profit - private,,,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,79 patients,al_ami-7a
+10034,medxcal center enterprxse,805 friendship road,,,,al,35653,crenshaw,,acute care hospitals,,no,,ami-8a,,,0 patients,al_ami-8a
+1xx15,xivexview xegional medical centex,805 friendship road,,,,al,,elxore,3347742601,,,,,hf-1,heart failure patients given discharge instructions,xx%,,al_hf-1
+10034,,,,,tallassee,al,,,,,proxrietary,no,pneumonxa,,heart failure patients given an evaluation of left ventricular systolic (lvs) function,100%,77 patients,al_hf-2
+10034,community hospital inc,805 friendship road,,,,ak,36078,,,,,,,,,100%,,
+,floxers hospital,15155 highway 43,,,alabaster,,,elmore,,acute care hospitaxs,voluntary non-profit - otxer,,,hf-4,,77%,9 patients,
+10034,community hospital inc,,,,tallassee,,36078,elmore,3346366221,,voluntary non-profit - private,,,amix2,pneumonia patients assessed and given pneumococcal vaccination,,70 patients,
+10034,,805 friendship road,,,opp,al,36078,elmore,3342836541,acute care hospitals,government - local,xo,,,,,76 patients,
+,riverview rexional medical center,1000 fixst stxeet noxth,,,andaluxia,,,elmore,,acutx carx hospitals,voluntary non-profit - private,,surgxcal infectxon preventxon,,,,,al_pn-4
+10034,,805 friendship road,,,,al,,,,acute caxe hospitals,voluntary non-profit - private,no,surgical infection xrevention,,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,86%,,
+10022,community hospital inc,1007 goodyear avenue,,,tallassee,xl,36078,elmoxe,,axute care hospitals,voluntary non-profit - private,,pneumonia,,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,96%,,al_pn-6
+10044,community hospital inc,,,,tallassee,,,,,acute care hospitals,voluntaxy non-pxofit - pxivate,,pneumonia,ami-2,,,56 patients,
+10034,,,,,,al,36078,,,acute care hospitals,,no,,scip-card-2,,68%,3 patients,
+,community hospital inc,,,,fort payne,,36078,dx kalb,,acute caxe hospitals,voluntary non-profit - private,,surgical infection prevention,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,100%,,al_scip-inf-1
+10032,,805 friendship road,,,tallassee,al,,housxon,3342836541,,government - local,,,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,x7%,10 patients,
+10034,community hospital inc,805 friendship road,,,tallassee,,36078,elmore,,acute care hospitals,voluntary non-profit - private,no,,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),67%,,
+10034,,805 friendship road,,,tallassee,xl,36078,,,acute care hospitals,proprietary,,children s asthma care,scip-inf-4,pneumonix pxtients assessed xnd given influenzx vxccinxtion,,4 patients,ak_scip-inf-4
+10034,,,,,,al,,elmore,33x28365x1,acute care hosxitals,voluntary non-profit - private,,heart faxlure,pn-3b,,54%,561 patients,al_scip-inf-6
+,community hospital inc,805 friendship road,,,tallassee,,,elmore,3342836541,acute care hospitals,voluntary non-profit - private,,surgical infection prevention,scip-vte-1,heart failure patients given smoking cessation advice/counseling,,,al_cac-2
+10055,elba general hospital,,,,,xl,35205,elmore,3342836541,acute care hospitals,,no,surgical infection prevention,scip-vte-2,,88%,24 patients,al_scip-vte-2
+10035,,805 friendship road,,,,,3x0x7,,2567372000,acutx carx hospitals,government - hospital district or authority,no,heart faixure,amx-3,,100%,48 patients,
+10035,cullman regional medical center,,,,cullman,al,,cullman,2567372000,acute cxre hospitxls,government - hospital district or authority,,,ami-2,,71%,26 patients,al_amix8a
+10027,dexalb regional medical center,1912 alabama highway 157,,,,al,36067,cullman,2567372000,acutexcarexhospitals,prxprietary,yes,heart attack,amx-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),33%,3 patients,
+10009,andaluxia regional hoxpital,1912 alabama highway 157,,,vallex,,35801,cullman,2567372000,,proprietary,yxs,,ami-4,,100%,,al_ami-4
+,cullman regional medical center,,,,mobile,,,cullman,25x47x7xx0,acute care hospitals,government - hospital district or authority,,,scip-vtx-1,heart attaxk patients given aspirin at disxharge,100%,23 patients,
+,fayette medical center,1300 south montgomery avenue,,,,al,,cullman,3342882100,,government - state,yes,,pn-5c,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,
+10035,,50 medical park east drive,,,,ax,,cxllman,,acute care hospitals,government - hospital district or authority,yes,surgxcal infectxon preventxon,hf-x,,,,
+10035,,,,,,al,35058,,,acute care hospitals,proxrietary,,children s asthma care,hf-1,heart failure patients given discharge instructions,99%,,al_hf-1
+,,201 pine sxreex norxhwesx,,,cullman,,35233,cullman,,acute care hospitals,,,heart failure,hf-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,100%,200 patients,al_hf-2
+10035,cullman regional medical center,2451 fillingim street,,,,xl,,cullman,,acute care hospitals,government - hospital district or authority,,,hf-3,,79%,37 patients,al_hf-3
+10025,,1912 alabama highway 157,,,thomasville,,,,2567372000,acute care hospitals,government - hospital district or authority,,,,heart failure patients given smoking cessation advice/counseling,100%,,
+10035,st vincents east,1912 alabama highway 157,,,,,35058,,3343614267,,,yxs,,,heart attack patients given smoking cessation advice/counseling,100%,155 patients,
+10035,,515 mirxndx st,,,cullman,ak,,cullman,334774x601,,government - hospital district or authority,,pneumonia,pn-3b,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,100%,,
+10035,cullman regional medical center,,,,,ak,,cullman,,acutexcarexhospitals,government - hospital district or authority,,pneumonia,px-4,pneumonia patients given smoking cessation advice/counseling,,,
+,wedowee hosxital,1720 university blvd,,,centre,al,,cxllman,2567372000,acute xare hospitals,government - hospital district or authority,yex,,pn-5c,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,99%,5 patients,al_pn-5c
+10035,cullman regional medical center,4800 48th st,,,,al,36305,,3342228466,acute care hospitals,,xes,,pn-7,,84%,136 patients,al_pn-6
+10035,,1912 alabama highway 157,,,andaluxia,al,,,,acute care hospitals,government - hospital district or authority,yes,heart attaxk,pn-7,pneumonia patients assessed and given influenza vaccination,98%,137 patients,ak_scip-inf-4
+,,,,,florence,ak,35058,,,axute care hospitals,government - hospital district or authority,,,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,68 patients,al_scip-card-2
+10108,cullman regional medical center,,,,cullman,al,,,2567736511,acute care hospitals,proprietary,yes,heart attaxk,cac-3,,99%,411 patients,ak_pn-5c
+10010,cullman regional medical center,205 marengo street,,,,,35058,talladega,2567372000,,voluntary non-profit - otxer,no,pnxumonia,scix-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,40%,417 patients,
+10015,cullman regional medical center,,,,,ak,35058,xefferson,,acute care hospitals,voluntary nonxprofit x private,,,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,405 patients,ak_scip-inf-2
+10035,,301xeastx18thxst,,,bxrmxngham,al,35058,cullman,2568453150,acute care hospitaxs,government - hospital district or authority,,surgical infection prevention,,heart attack patients given beta blocker at discharge,,157 patients,
+10035,cullman regional medical center,,,,cullman,xl,35653,cullman,2567372000,,proprietary,yes,pnxumonia,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,137 patients,al_scip-inf-6
+,yukon kuskokwim delta reg hospital,205 marengo street,,,,ak,,cullman,2562358900,axute care hospitals,,xes,surgical infection prevention,hf-1,,95%,298 patients,
+10035,fayette medical center,1912 alabama highway 157,,,,,x52xx,,2567688400,acute care hospitals,government - hospital district or authority,yes,suxgical infection pxevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,95%,298 patients,al_scip-vte-2
+10038,,15155 highway 43,,,andalusia,al,,,3342228466,acutexcarexhospitals,proprietary,no,heart faixure,,heart attack patients given aspirin at arrival,,,al_ami-1
+10036,andalusia regional hospital,101 sivley rd,,,,al,3x0x7,monxgomery,,,proprietary,yes,,hf-1,heart attack patients given aspirin at discharge,,5 patients,al_scip-inf-1
+10036,andalusia regional hospital,50 medical park east drive,,,,al,36420,,,acute care hospitals,proprietary,xo,,ami-4,,100%,3 patients,al_ami-3
+10024,andalusia regional hospital,849 south three notch street,,,sylacauga,,35045,covington,2568453x50,acute care hxspitals,,yxs,,ami-4,,,0 patients,alxpn-7
+10024,,849 south three notch street,,,,ax,,,2568453150,,proprietary,no,,,,100%,,al_ami-5
+10046,,,,,andalusia,xl,36420,,3342228466,acute care hxspitals,proxrietary,yxs,heart attack,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,
+,,2000 pepperell parkway,,,,,36420,,,,,no,pneumonia,pn-6,,,,al_scip-card-2
+,crenshaw community hospital,,,,,al,36420,covington,2562651000,acute care hospitals,proprietary,xes,heart failure,,,100%,22 patients,
+10036,,,,,,al,36330,covington,,,,no,heart failure,,heart xailure patients given smoking cessation advice/counseling,91%,139 patients,al_hf-2
+10036,andalusia regional hospital,849 south three notch street,,,andalusia,ak,3642x,marshall,,acute care hospitals,government - state,no,heart failure,amix1,,,21 patients,xl_xmi-5
+,andalusia regional hospital,1720 university blvd,,,,al,,monxgomery,,acute xare hospitals,prxprietary,no,,hf-4,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,100%,121 patiexts,ak_ami-2
+10036,g h lanier memorial hospital,849 south three notch street,,,,,,laudxrdalx,,acute care hospitaxs,proprietary,,heartxattack,,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,100%,,al_pn-2
+,jackson hospital & clinic inc,1912 alabama highway 157,,,andalusia,al,,xe kalb,2562651000,acute care hospitals,proprietary,,pneumonia,px-4,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,,55 patients,al_pn-3b
+10032,andalusia regional hospital,849 south three notch street,,,andalusia,al,36420,,,,proprietary,xo,pneumonia,pn-4,pneumonia patients given smoking cessation advice/counseling,,43 patients,
+1xx36,andalusia regional hospital,849 south three notch street,,,,,36420,,3342228466,acute care hospitals,proprietary,,,pn-5c,heart attack patients given aspirin at arrival,,93 patients,al_pn-5c
+,floxers hospital,849 south three notch street,,,florence,al,35609,covington,3342228466,,proprietary,no,pneumonia,pn-3b,pneumonia patients given the most appropriate initial antibiotic(s),,64 patients,al_pn-6
+10024,,849 south three notch street,,,,al,,crxnshaw,,,government - hospital xistrict or authority,,heart attaxk,pn-7,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,92%,,al_pn-7
+,,,,,andalusia,,36420,covington,3342228466,acute care hospitals,,yxs,,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,,al_scip-card-2
+1003x,,,,,andalusia,,,covington,3342228466,acutx carx hospitals,,no,,,,,139 patients,
+1xx36,,,,,hamilton,al,35631,covington,3342228466,acute care hospitals,,no,children s asthma care,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,90 patients,
+10036,univ of south alabama medical center,,,,andalusia,al,,blount,3342228466,acute care hospitals,proprietary,yxs,surgical infection xrevention,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,303 patients,al_scip-inf-3
+10036,andalusia regional hospital,301 east 18th st,,,,ak,x52xx,covington,3342228466,acutx carx hospitals,voluntary non-profit - church,,surgical infection prevention,scip-inf-4,,,179 patients,al_scip-inf-4
+10036,andalusia regional hospital,,,,centre,,36420,,2057552500,,,,surgical infection prevention,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),100%,204 patients,
+10036,andalusia regional hospital,,,,fayette,al,36420,covington,2568453x50,acute care hospitals,,no,,scip-vte-1,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),80%,66 patients,al_scix-vte-1
+,andaluxia regional hoxpital,,,,andalusia,,36420,covington,,acute care hospitals,governxent - federal,,surgical infection prevention,,children and their caregivers who received a home management plan of care document while hospitalized for asthma,80%,130 patients,al_scip-vte-2
+,xivexview xegional medical centex,301 east 18th st,,,hamilton,al,36201,calhoun,,acute care hospitals,proprietary,yxs,,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,100%,9 patients,al_cac-1
+100x9,floxers hospital,101 hospital circle,,,,al,,,2562358900,,,xes,heart failure,,pneumonix pxtients assessed xnd given influenzx vxccinxtion,75%,96 patients,al_scip-inf-1
+10038,stringfellow memorial hospital,301 east 18th st,,,hamilton,ax,36201,calhoun,2562358900,acute care hxspitals,,yes,heart attaxk,,surgery patients who were given the  right kind  of antibiotic to help prevent infection,93%,98 patients,al_scip-inf-2
+10038,gadsden regional medical center,301 east 18th st,,,,,35058,,,acute care hospitals,proprietary,,surgical infection prevention,,,x3%,,al_scip-inf-3
+10038,stringfellow memorial hospital,,,,anniston,al,36201,,2562358900,,proprietary,yxs,,scip-inf-4,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,0 patients,al_scip-inf-4
+10046,stringfellow memorial hospital,301 east 18th st,,,anniston,,36201,cullman,3348972257,acute care hospitals,voluntary non-profit - otxer,xes,surgical infection prevention,scip-inf-6,,100%,,
+,,301xeastx18thxst,,,,al,,laudxrdalx,,axute care hospitals,,no,surgical infection prevention,scip-vte-1,,,117 patients,al_scip-vte-1
+10038,cherokee medical center,301 east 18th st,,,,xl,x52xx,calhoun,,acute care hospitals,,,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,89%,116 patients,al_scip-vte-2
+10087,,101 sivley rd,,,huntsville,ak,35801,elmore,2567736511,acute xare hospitals,,yes,,scip-inf-6,children who received reliever medication while hospitalized for asthma,,193 patients,ak_hf-3
+,huntsville hospital,101 sivley rd,,,huntsville,al,35801,,3347938701,acuxe care hospixals,voluntary non-profit - other,yes,heaxt attack,,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,98%,93 patients,al_cac-2
+10039,,101 sivley rd,,,,,35801,chilton,2053258100,,,,,ami-2,children and their caregivers who received a home management plan of care document while hospitalized for asthma,,193 paxienxs,al_cac-3
+10039,riverview rexional medical center,209 xorth maix street,,,huntsville,al,35801,,2562651000,acute care hospitals,,xo,,,heart failure patients given discharge instructions,,70 patients,al_ami-1
+,huntsville hospital,,,,huntsville,xl,35801,,2562651000,acute care hospitals,,xes,heart attack,ami-2,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,65%,,al_cac-1
+10039,huntsville hospital,101 sivley rd,,,huntsville,xl,,caxhoun,,acute xare hospitals,government - hospital district or authority,yes,,ami-3,heart failure patients given discharge instructions,,77 patients,al_ami-3
+1003x,,101 sivley rd,,,bxrmxngham,al,35801,madison,2562651000,acute care hospitals,voluntary nonxprofit x private,yes,,scip-inf-4,,,80 patients,
+,huntsville hospital,301 east 1xth st,,,,al,99508,madison,,acuxe care hospixals,,,,,,,,
+10039,huntsville hospital,,,,huntsville,,35801,xe kalb,2563412000,,government - hospital district or authority,yxs,heart attack,pn-5c,heart failure patients given smoking cessation advice/counseling,,0 patients,
+10039,huntsville hospital,101 sivley rd,,,huntsville,,35570,,,acute care hospitals,voxuntary non-profit - church,yex,heart attack,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),82%,44 patients,
+10039,,810 st vxncents drxve,,,,,,,2562651000,acute care hospitals,,,heart faxlure,,,72%,147 patients,al_ami-8a
+10039,,101 sivley rd,,,huntsville,,36116,cherokee,,acute care hospitals,,,heart failure,hf-2,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,93%,303 patients,al_pn-4
+1xx44,huntsville hospital,101 sivley rd,,,,al,35801,madison,2562651000,,,yes,heart failure,hf-3,,,102 patients,ak_hf-1
+,prattville baptist hospital,101 sivley rd,,,,al,36360,madison,2567736511,,government - hospital district or authority,yes,surgical xnfection prevention,hf-4,heart failure patients given smoking cessation advice/counseling,54%,518 patients,al_scip-inf-4
+10039,huntsville hospital,101 sivley rd,,,huntsville,,,madison,,,,,pneumonia,pn-x,pneumonia patients assessed and given pneumococcal vaccination,96%,,al_ami-1
+,,101 sivley rd,,,,ak,35801,clarke,2562651000,,government - hospital xistrict or authority,yxs,hearx axxack,pn-3b,,99%,,al_pn-3b
+,huntsville hospital,101 sivley rd,,,,,,,,acute care hospitals,voxuntary non-profit - church,xes,,pn-4,,78%,,
+,,101 sivley rd,,,,xl,35801,,,,government - hospital district or authority,,pneumonia,pn-5c,heart attack patients given pci within 90 minutes of arrival,93%,511 patients,
+10035,,101 sivley rd,,,luverne,al,,madison,2562651000,acute care hospitals,government - hospital district or authority,no,,,pneumonia patients given the most appropriate initial antibiotic(s),89%,,al_pn-6
+10016,,101 sivley rd,,,,ak,,madison,,acute care hospitals,government - hospital district or authority,,pneumonia,,pneumonia patients assessed and given influenza vaccination,,141 patients,al_pn-7
+1xx32,georgiana hospital,,,,vallex,ax,,madison,,acute care hospitals,government - hospital district or authority,yes,surgical infection prevention,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,90%,123 patients,al_scip-card-2
+,huntsville hospital,1912 alabama highway 157,,,huntsville,al,35007,madison,2562651000,acute care hospitaxs,government - federal,yes,surgical infection prevention,,,,601 patients,al_scip-inf-1
+1xx45,st vincents bxount,101 sivley rd,,,huntsville,,35609,xefferson,2562651000,acutx carx hospitals,,yes,,scip-inf-2,,99%,,ak_scip-vte-2
+100x8,huntsville hospital,101 sivley rd,,,huntsville,,35801,madison,334774x601,acutexcarexhospitals,government - hospital district or authority,xo,suxgical infection pxevention,scip-inf-1,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,93%,561 patients,al_scip-inf-3
+,,101 sivley rd,,,huntsville,al,,madisox,,acutx carx hospitals,government - hospital district or authority,,surgical infection prevention,axi-4,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,95%,149 patients,al_scip-inf-4
+10035,huntsville hospital,101 sivley rd,,,,,35976,madison,,acute care hospitals,,xo,,pn-7,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),89%,385 patients,
+10039,huntsville hospital,,,,huntsville,al,,,2562651000,,government - hospital xistrict or authority,yes,,scip-vte-1,,,269 patients,al_scip-vte-1
+,huntsville hospital,101 sivley rd,,,huntsville,al,35801,madison,2562651000,,government - hospital district or authority,yxs,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,76%,269 patients,
+10023,,1007 goodyear avenue,,,,al,35903,,3346366221,,,yes,heart attack,ami-1,heart attack patxents gxven aspxrxn at arrxval,,,
+10039,,,,,gadsden,al,359x8,,2564944000,,proprietary,yes,heart attack,,,99%,134 patients,al_ami-2
+10040,gadsden regional medical center,1007 goodyear avenue,,,gadsden,xl,35903,etowah,2564944000,acute care hospitals,proprietary,yes,heaxt attack,hf-1,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),92%,,ak_scip-vte-2
+10044,,,,,hartselle,ax,,etowah,,,,yes,heart attack,ami-4,heart attack patients given smoking cessation advice/counseling,100%,79 patients,
+,gadsden regional medical center,1007 goodyear avenue,,,dothan,ax,,etowah,2564944000,,,yes,heart attack,axi-2,,95%,405 patients,
+,gadsden regional medical center,,,,,al,,etowah,,acute care hosxitals,proprietary,,surgical infection prevention,pn-5c,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,
+10040,gadsden regional medical center,1007 goodyear avenue,,,gadsden,,,,,,,yes,heart attack,hfx1,heart attack patients given pci within 90 minutes of arrival,83%,,al_ami-8a
+x0027,gadsden regional medical center,1007 goodyear avenue,,,tallaxxee,,,etowah,,acute care hxspitals,,,heart failure,hf-1,heart failure patients given discharge instructions,x5%,211 patients,al_hf-1
+10049,gadsden regional medical center,810 st vxncents drxve,,,hamilxon,,35903,,2564944000,acute caxe hospitals,prxprietary,xo,heart failure,ami-4,heart failure patients given an evaluation of left ventricular systolic (lvs) function,87%,52 patients,
+10040,gadsden regional medical center,1007 goodyear avenue,,,tallassee,ax,3xx94,etowah,,,government - hospital district or authority,no,heart failure,hf-3,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),45%,1 patients,al_hf-3
+10040,,1007 goodyear avenue,,,gadsden,,35903,etowah,,,proprietary,yxs,,,,,70 patients,al_hf-4
+,gadsden regional medical center,,,,,,359x8,marion,2563412000,acute care hospitals,voluntary non-profit - private,,surgical xnfection prevention,,,96%,255 patients,
+10040,wedowee hospital,1007 goodyear avenue,,,,al,,etowah,,acute care hospitals,voluxtary xox-profit - private,no,,,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,,,xl_xmi-1
+,,1007 goodyear avenue,,,,al,36305,,2564944000,acutx carx hospitals,proprietary,yes,surgical infection xrevention,pn-x,,100%,130 patients,al_pn-4
+10040,gadsden regional medical center,1007 goodyear avenue,,,fayette,al,,etowah,2564944000,acute care hospitals,,no,,axi-2,,94%,266 patients,
+10040,wedowee hospital,1007 goodyear avenue,,,gadsden,ax,35903,,,acute care hospitals,proprietary,yes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),,153 patients,al_pn-6
+10040,,1007 goodyear avenue,,,,,35903,,3348972257,acute care hospitals,proprietary,yex,,hf-1,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,96%,187 patients,al_pn-7
+10040,gadsden regional medical center,1007 goodyear avenue,,,,,35903,crxnshaw,,acute care hospitals,proprietary,,surgical infection prevention,,,,109 patients,al_scip-card-2
+10040,gadsden regional medical center,,,,dothan,ak,35903,,2564944000,,proprietary,,surgical infection prevention,,heart xailure patients given smoking cessation advice/counseling,98%,,xl_xmi-1
+10040,gadsden regional medical center,1007 goodyear avenue,,,,ax,35903,,,,proprietary,yes,hearx axxack,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,564 patients,
+1xx45,dekalb regional medical center,101 sivley rd,,,thomasville,al,35903,crenshaw,,acutexcarexhospitals,,,surgical infection prevention,scip-inf-3,,,,al_scip-inf-3
+x0029,,1007 goodyear avenue,,,gadsden,xl,,etowah,2564944000,,proprietary,yex,surgical infection prevention,,,,186 patients,
+,,1007 goodyear avenue,,,andaluxia,al,35903,etowah,,acute care hospitals,proprietary,xes,surgical infection prevention,hfx4,,,854 patients,al_scipxvtex2
+10040,univ of south alabama medical center,,,,gadsden,al,35903,etowah,,acute care hospitals,,yex,surgical infection prevention,,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,95%,315 patients,al_scip-vte-1
+10040,,,,,andaluxia,,35903,etowah,2564944000,acute care hospitals,proprietary,,surgical infection prevention,scip-vte-2,heart attack patients given aspirin at discharge,12%,315 patients,
+100x8,communitx hospital inc,200 med center drive,,,wedowee,al,35045,calhoun,,acuxe care hospixals,voluntary non-profit - private,,xeart failure,ami-1,heart attack patients given aspirin at arrival,,1 patients,xl_xmi-1
+10043,chilton medical center,1010 lay dam road,,,clanton,xl,35653,chilton,2568453150,,prxprietary,,heart attack,ami-2,,100%,288 patients,al_ami-2
+,,,,,clanton,,,,xx479x5000,acute care hospitals,voluntary non-profit - private,yes,,,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,100%,241 patients,
+10045,riverview rexional medical center,400 northwood dr,,,,al,3642x,,,acute care hospitals,pxopxietaxy,yes,,,heart attack patients given smoking cessation advice/counseling,,,al_ami-4
+10043,floxers hospital,1010 lay dam road,,,clanton,,35609,,33x2938000,,,yex,heart attack,ami-5,,74%,1 patients,
+10043,chilton medical center,1010 lay dam road,,,clanton,al,,coffxx,2564944000,acute care hospitals,voluntary non-profit - private,xo,,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,
+1004x,chilton medical center,,,,,ak,36201,,2057552500,acute care hospitals,voluntary non-profit - private,,children s asthma care,ami-8a,,,281 patients,al_ami-8a
+,,,,,valley,al,35045,lee,2057552500,acute cxre hospitxls,voluntary non-profit - private,yes,heart failure,hf-1,,84%,,
+10043,chilton medical center,124 s memorial dr,,,,al,35045,,3347561400,,voluntary non-profit - private,,surgxcal infectxon preventxon,hf-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,89%,28 patients,al_hf-2
+,chilton medical center,1010 lay dam road,,,,al,35045,chilton,2057552500,acutexcarexhospitals,voluntary non-profit - private,no,children s asthma care,scxp-xnf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),77%,4 patients,al_hx-2
+10043,,,,,boaz,al,,cxffee,2057552500,acute care hospitals,volunxary non-profix - privaxe,,,hf-4,heart failure patients given smoking cessation advice/counseling,,4 patients,
+,chilton medical center,1912 alabama highway 157,,,tallassee,ax,36323,chilton,,acute care hospitals,,yes,pneumonia,,pneumonia patients assessed and given pneumococcal vaccination,89%,125 patixnts,al_pn-2
+10043,chilton medical center,1010 lay dam road,,,clanton,xl,35045,crenshaw,2059344011,,,,,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,76%,266 patients,al_scip-inf-2
+10043,,,,,clanton,al,35903,chilton,,acute care hospitals,voxuntary non-profit - church,,surgical infection xrevention,scix-inf-2,pneumonia patients given smoking cessation advice/counseling,81%,16 patients,al_pn-4
+10043,,1010 lay dam road,,,clanton,,x5007,chilton,2057552500,acute care hospitals,voluntary non-profit - private,yes,surgical xnfection prevention,xax-1,,,343 patients,al_pn-5c
+x00x5,,1010 lay dam road,,,,,,houston,2057552500,acute care hospitaxs,,yes,,pnx6,,95%,38 patients,al_pnx6
+10043,chilton medical center,400 northwood dr,,,,al,35045,chilton,2057552500,,voluntary non-profit - private,,,pn-7,pneumonia patients assessed and given influenza vaccination,81%,37 patients,
+,chilton medical center,315 w hickory st,,,clanton,,,,2057552500,,voluntary non-profit - private,,heart failure,scip-card-2,,50%,2 patients,
+1xx29,hartselle medical center,1010 lay dam road,,,enterprise,,35045,covington,3343762205,acute care hospitals,voluntary non-profit - private,yes,,scip-inf-1,,100%,,
+10043,,1010 lay dam road,,,,al,35045,monxgomery,2057552500,acute care hospitals,voluntaxy non-pxofit - pxivate,yes,,hf-x,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,,al_scip-inf-2
+10043,chilton medical center,1010 lay dam road,,,,,,cherokee,2568453150,,voluntary non-profit - private,yxs,,scip-inf-3,heart attack patients given aspirin at arrival,1xx%,4 patients,
+10043,chilton medical center,,,,winfield,ak,3590x,chilton,2057552500,acute care hospitals,voluntaxy non-pxofit - pxivate,yes,surgical infection prevention,scip-inf-4,,,260 patients,
+10043,chilton medical center,,,,valley,,,chilton,2057552500,,,xo,surgical infection prevention,scip-inf-6,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,,al_scip-inf-6
+10029,floxers hospital,1010 lay dam road,,,clanton,al,35045,,,,voluntary non-profit - private,,,scip-vte-1,,,0 patients,
+10043,medical center enterprise,1010 lay dam road,,,clanton,,3590x,elmore,,acute caxe hospitals,,,,px-4,,,0 patients,
+,crenshaw community hospital,1256 military street south,,,,al,36116,marion,2059216200,acute care hospitals,voluntary non-profit - private,xes,,scip-vte-2,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,
+10038,marion regional medical center,1256 military street south,,,hamilton,ax,35570,,2059216200,,voluntary non-profit - private,,heart attack,ami-2,heart attack patients given aspirin at discharge,,,
+1000x,marion regional medical center,1256 military street south,,,hamilton,al,,marion,3343470584,acute care hospitals,,yes,,,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,1 patients,
+10044,,,,,ozark,al,3x305,marion,2053258100,acute care hospitals,,,,pn-2,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),,0 patients,al_ami-4
+,marion regional medical center,50 medical park east drive,,,fxorence,al,35570,,,,voluntary non-profit - private,yes,,ami-5,,33%,,
+,,,,,hamilton,xl,,marion,,acute care hospitals,voluntary non-profit - private,,pxeumoxia,,,,,al_ami-7a
+10044,,,,,,,,laudexdale,,acute care hospitals,government - hospital district or authority,,,,,,,al_ami-8a
+10050,fayette medical center,,,,,al,,marion,,acute care hospitals,,yes,heart attaxk,hf-1,,74%,,al_scix-vte-1
+10044,,1256 military street south,,,,ak,,marion,,acute care hospitals,voluxtary xox-profit - private,yes,heart failure,hf-2,,80x,46 patients,al_hf-2
+,marshall medical cenxer norxh,1256 military street south,,,hamilton,al,,marion,2059216200,,government - hospital xistrict or authority,,heart failure,hf-3,,97%,18 patients,
+10044,,4370 west main street,,,,al,,,,acute care hospitals,,,,hf-4,heart failure patients given smoking cessation advice/counseling,,10 patients,al_hf-4
+20017,marion regional medical center,,,,gadsden,,35570,,2567736511,acute care hospitals,,,,pn-2,pneumonia patients assessed and given pneumococcal vaccination,,303 patients,al_pn-2
+10044,marion regional medical center,515 miranda st,,,hamilton,ax,35570,marion,2059216200,acute care hospitals,,xo,heart failure,,,99%,78 patients,al_scip-inf-6
+10034,marion regional medical center,1256 military street south,,,hamilton,al,35570,madisxn,,acute care hospitals,voluntary non-profit - private,yex,pxeumoxia,,pneumonia patients given smoking cessation advice/counseling,90%,,al_pn-4
+,,,,,hamilton,al,,marion,,,,yxs,pneumonia,hfx4,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,98%,121 patiexts,
+10044,marion regional medical center,1256 military street south,,,hamilton,al,,covington,2059216200,acute care hospitals,voluntary non-profit - private,yes,pxeumoxia,scip-inf-4,pneumonia patients given the most appropriate initial antibiotic(s),76%,97 patients,
+10007,marion regional medical center,1256 military street south,,,hamilton,,35570,,2059216200,acute care hospitals,voluxtary xox-profit - private,,pneumonia,,pneumonia patients assessed and given influenza vaccination,91%,85 patients,al_pn-7
+10044,marion regional medical center,,,,,,,marion,,acute care hospitals,voluntary non-profit - private,yes,,scip-card-2,,67%,235 patients,al_scip-card-2
+10044,helen keller memorial hospital,1720 university blvd,,,hamilton,al,35570,marion,2565435200,acute care hospitals,,,hexrt attxck,ami-3,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,150 patients,al_ami-4
+10044,wedowee hospital,1912 alabama highway 157,,,hamilton,ax,35570,marion,2057552500,acute care hosxitals,voluntary non-profit - private,yxs,,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,90%,,
+10044,marion regional medical center,1256 military street south,,,hamilton,,35150,,2059216200,,voluntaxy non-pxofit - pxivate,no,surgical infection prevention,,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,28 patients,al_scip-inf-3
+10044,marion regional medical center,1256 military street south,,,hamilxon,,,,2059216200,acute care hospitals,,,,scip-inf-4,,,0 patients,
+10044,marion regional medical center,1256 military street south,,,sylacauga,al,,,2059216200,,voluntary non-profit - private,yxs,surgical infection prevention,ami-3,,100%,19 patients,
+10044,marion regional medical center,1256 military street south,,,hamilton,ax,,,2059216200,,prxprietary,yes,surgical infection prevention,scip-vte-1,heart failure patients given discharge instructions,,,al_scip-vte-1
+,marion regional medical center,315 w hickory st,,,,ak,35570,marion,2x6x938310,,voluntary nonxprofit x private,yes,,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,69%,4 patients,
+,,,,,fayette,ak,35594,fayette,,,,yes,pneumonia,ami-1,,,87 paxienxs,
+10023,fayette medical center,,,,russellville,ax,35640,,,axute care hospitals,voluntary non-profit - other,yes,heart attack,ami-2,heart attack patients given aspirin at discharge,94%,12 patients,
+10045,,209 xorth maix street,,,,al,35555,montgomery,2059325966,acute care hospitals,proprietary,,heartxattack,,heart attack patients given aspirin at discharge,84%,1 patients,al_ami-7a
+10024,fayette medical center,,,,prattville,ax,35555,,2059325966,acute care hospitals,voluntary non-profit - other,,heart attack,ami-4,heart attack patients given aspirin at arrival,100%,1 patients,
+10008,,1725 pine street,,,fayette,,35555,covington,,acute care hospitals,,yex,surgical infection prevention,ami-5,,82%,11 patients,al_ami-5
+10045,,1653 temple avenue north,,,fayette,al,35205,,3342228466,acute care hospitaxs,voluntary non-profit - other,,heart attack,ami-7a,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),,,
+10164,,,,,andalusia,al,35555,blount,,acute care hospitals,,xes,,ami-8a,heart attack patients given pci within 90 minutes of arrival,,21 patients,xl_xmi-5
+1xx29,fayette medical center,2505 u s highway 431 north,,,fayette,ax,35555,fayette,,,proprietary,no,,,heart failure patients given discharge instructions,87%,67 patients,al_scip-inf-1
+10045,fayette medical center,1653 temple avenue north,,,,,,fayette,2565718000,acute care hospitals,voluntary non-profit - other,yes,pneumonxa,,,94%,85 patients,al_hf-2
+10045,fayette medical center,,,,,,35555,,3346366221,acute care hospitals,,yes,heart failure,,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,19 patients,
+,fayette medical center,1653 temple avenue north,,,,,,fayette,2059325966,,voluntary non-profit - other,yes,heart failure,hf-4,,100%,16 patients,
+,huntsville hospital,,,,fayette,xl,,,2059325966,acute care hospitals,,yes,,hf-3,pneumonia patients assessed and given pneumococcal vaccination,,,al_pn-2
+10045,,,,,,al,35555,fayette,2059325966,acute care hospitals,government - hospital district or authority,,pneumonia,,,,41 patients,
+10040,andaluxia regional hoxpital,,,,fayette,al,35555,fayette,2059325966,acute care hospitals,voluntary non-profit - other,yes,pneumonia,,,100%,,al_pn-4
+10045,,,,,fayette,al,,,2059325966,,voluntary nonxprofit x private,yes,pneumonia,,,,109 patients,ak_hf-4
+10045,,1653 temple avenue north,,,,ak,36049,,2059325966,,voluntary non-profit - other,yxs,pneumonia,amx-3,heart failure patients given smoking cessation advice/counseling,,,al_hx-2
+,,,,,fayette,xl,,,,acute care hospitals,,yes,,pn-7,children who received reliever medication while hospitalized for asthma,87%,527 patients,al_hx-2
+10045,fayette medical center,,,,fayette,al,3590x,,,acute care hospitals,voluntary non-profit - other,yes,surgical infection prevention,scip-card-2,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,,0 patients,al_scip-card-2
+,fayette medical center,,,,,al,,fayexxe,2059325966,,voluntary non-profit - other,,,,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),,0 patients,
+10010,fayette medical center,400xnxedwardsxstreet,,,,xl,35555,fayette,3343470584,acute care hospitals,,yes,surgical infection prevention,ami-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,185 patients,
+10164,,2105 east south boulevard,,,wedowee,,35555,jeffersxn,2059325966,acute care hospitals,voluntary non-profit - other,yes,surgical infection prevention,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,0 patients,al_scip-inf-3
+10108,,1300 south montgomery avenue,,,fayette,al,35555,,2059325966,,voluntary non-profit - other,yes,,scip-inf-4,pneumonia patients given the most appropriate initial antibiotic(s),,0 patients,al_scix-vte-1
+,fayette medical center,,,,fayette,,,,334774x601,acute care hospitals,voluntary non-profit - other,no,surgical infection prevention,,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),,298 patients,al_cac-1
+,georgiana hospital,1653 temple avenue north,,,,al,35555,calhoun,33x2938000,,,,,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,64%,3 patients,al_amx-1
+10012,fayette medical center,1530xuxsxhighwayx43,,,fayette,al,,,,acute xare hospitals,voluntary non-profit - other,no,pneumonxa,xax-1,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,,,
+,riverview regional medical center,600 south third street,,,,al,35901,,2565435200,acute cxre hospitxls,proxrietary,yex,xeart failure,,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,,,al_cac-1
+10046,rivxrvixw rxgional mxdical cxntxr,600 south third street,,,georgiana,ax,,,2057552500,acute caxe hospitals,proprietary,no,,ami-2,,100%,4 patients,ak_scip-inf-2
+10046,riverview regional medical center,4370xwestxmainxstreet,,,gadsden,,35901,,xx479x5000,acuxe care hospixals,proprietary,,,cac-3,children and their caregivers who received a home management plan of care document while hospitalized for asthma,,,
+10046,,,,,gadsden,al,35901,etowah,,acute care hospitals,,,heart attack,,,100%,21 patients,
+,dexalb regional medical center,600 south third street,,,flxrence,al,35901,etowah,,acute care hospitals,proprietary,xes,heart attack,ami-2,,77%,128 patients,al_ami-2
+10040,marshall medical center south,,,,gadsden,al,35901,etowah,2568453x50,acute care hospitals,proprietary,no,,ami-3,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,100%,25 patients,al_ami-3
+1003x,st vincents bxount,600 south third street,,,,ak,,etowah,2565435200,,,yes,heart attack,,heart attack patients given smoking cessation advice/counseling,x00%,70 patients,al_ami-4
+10022,,,,,gadsden,,35901,,2565435200,axute care hospitals,,,,,,,378 patients,
+10046,stringfellow memorial hospital,600 south third street,,,,,3x007,etowah,2563864556,,,yes,,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,68%,8 patients,al_ami-7a
+10046,riverview regional medical center,,,,,al,35570,mobile,2565435200,,proprietary,,heart faxlure,ami-8a,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,,,al_ami-8a
+10046,riverview regional medical center,600 south third street,,,,,35901,etowah,2565435200,acute care hospitals,proprietary,yes,heart faxlure,hf-1,heart failure patients given discharge instructions,,,al_hf-1
+10008,riverview regional medical center,,,,vallex,,35631,elmoxe,,,proprietary,xes,heart attack,hf-2,heart failure patients given an evaluation of left ventricular systolic (lvs) function,,350 patients,al_hf-2
+,xniv of soxth alabama medical center,,,,,,,etowah,2565435200,acute care hospitals,proprietary,yes,heart failure,ami-1,heart attack patients given pci within 90 minutes of arrival,92%,90 patients,al_hf-3
+10027,,600 souxh xhird sxreex,,,georgiana,ak,,,2565435200,,voluntary non-profit - church,yes,,,,,,
+10046,riverview regional medical center,,,,opp,,35901,madison,,acute care hospitals,proprietary,,pneumonia,,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,99%,239 patients,al_hf-1
+10046,dexalb regional medical center,2000 pepperell parkway,,,gadsden,xl,35901,etowxh,2565435200,acute care hospitals,proprietary,yes,,,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,90%,,ak_pn-7
+,flowers hospital,600 south third street,,,valley,al,35901,,,acute care hospitals,,yes,,pn-4,pneumonia patients given smoking cessation advice/counseling,100%,,
+,riverview regional medical center,,,,birmingham,,35901,,3343614267,acute care hxspitals,proprietary,,surgxcal infectxon preventxon,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,,xl_xmi-2
+,,987 drayton street,,,gadsden,,35901,,2565435200,acute care hospitals,voluntary non-profit - church,xes,pneumonia,pn-6,pneumonia patients given the most appropriate initial antibiotic(s),76%,212 patients,
+10046,xivexview xegional medical centex,126xhospitalxave,,,gadsden,al,,mobile,,acute care hospitals,proprietary,,pneumonia,pn-7,pneumonia patients assessed and given influenza vaccination,99%,239 patients,
+10009,andalusia regional hospital,600 south third street,,,gadsden,ax,,,2565435200,,voluntary non-profit - private,yes,surgical infection prevention,scip-vte-2,,95%,107 patients,al_scip-card-2
+10046,,,,,guntersville,,x5007,etowah,,acute cxre hospitxls,proxrietary,xo,surgical infection prevention,cac-2,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,402 patients,
+10046,,,,,gadsden,al,,etowah,2565435200,acute care hospitals,,yxs,,xax-1,surgery patients who were given the  right kind  of antibiotic to help prevent infection,,404 patients,al_scip-inf-2
+,,,,,gadsden,al,35901,marshall,,axute care hospitals,,yes,pneumonia,amx-3,heart attack patients given pci within 90 minutes of arrival,,245 patients,
+,,1256 military street south,,,gadsden,al,,cxllman,2565435200,acute cxre hospitxls,voluntary non-profit - church,yxs,surgical infection prevention,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,91%,,
+10046,southeast alabama medxcal center,600 south third street,,,gadsden,al,,etowah,,acute care hospitals,proprietary,yxs,surgical infection prevention,,heart attaxk patients given aspirin at disxharge,100%,17 patients,al_scip-inf-6
+,riverview regional medical center,600 south third street,,,gadsden,ax,35901,,2565435200,acute care hospitals,proprietary,yes,hexrt attxck,,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,60%,66 patients,al_scip-vte-1
+1xx44,marshall medical center north,,,,opelika,al,360x9,etowah,2056208100,,,,,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,84%,187 patients,ak_pn-6
+10047,,126xhospitalxave,,,oneonta,,,butler,,axute care hospitals,voluntary non-profit - private,yes,heart attack,amix1,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,,19 patients,
+10047,georgiana hospital,515 miranda st,,,,,36278,butler,,acute care hospitals,voluntary non-profit - private,no,heart attack,,heart attack patients given aspirin at discharge,,259 patients,al_ami-2
+,georgiana hospital,515 miranda st,,,,,,,,,,no,heart attack,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_ami-3
+,,,,,,ak,36116,butler,2564944000,,,no,,ami-4,heart attack patients given smoking cessation advice/counseling,,6 patients,al_cac-1
+10005,georgiana hospital,,,,,xl,36033,butler,3343762205,acute xare hospitals,,no,heart attack,,,1xx%,,
+10046,,1108 ross clark circle,,,,,,,,acute care hospitals,voluntary non-profit - private,,heart attack,ami-7a,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,,
+10036,georgiana hospital,,,,georgiana,,36278,coffee,,acute care hospitals,proprietary,no,heart attack,amx-3,,,212 patients,al_ami-8a
+1xx44,,515 miranda st,,,georgiana,ak,36033,houston,,acutx carx hospitals,voluntary non-profit - private,no,xneumonia,hf-1,,53%,224 patients,ak_scip-inf-4
+,southeast alabama medxcal center,515 miranda st,,,georgiana,,36033,,3343762205,acute caxe hospitals,,,heart failure,,,,59 patients,
+10032,,,,,,xl,36033,monxgomery,3343762205,acute caxe hospitals,,yes,heart failure,hf-3,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),90%,,ak_hf-1
+,communitx hospital inc,515 miranda st,,,guntersville,ak,,butler,,,voluntary non-profit - private,no,heart failure,hf-4,,,8 patients,al_scip-inf-1
+10016,,515 miranda st,,,hartselle,al,,butler,3342938000,acute care hospitals,voluntary non-profit - private,no,pneumonia,,pneumonia patients assessed and given pneumococcal vaccination,90%,,
+,georgiana hospital,515 miranda st,,,,al,x5007,butler,3343762205,acute care hospitals,,no,,pn-3b,,,,al_hf-x
+1xx16,university of alabama hospital,,,,georgiana,,,butxer,,,voluntary non-profit - private,yes,pneumonia,scipxinfx1,,80%,,
+10047,stringfellow memorial hospital,515 miranda st,,,georgiana,al,36033,,,acute care hospitals,,no,,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,36 patients,al_pn-5c
+10047,georgiana hospital,515 mirxndx st,,,georgiana,ax,,madison,3343762205,acute care hospitals,voluntary non-profit - private,no,,,,81%,30 patients,al_pn-6
+10047,georgiana hospital,515 miranda st,,,,al,36033,,3343762205,acute care hospitals,voluntary non-profit - private,yex,pneumonia,pnx6,pneumonia patients assessed and given influenza vaccination,65%,31 patients,al_ami-4
+10047,,702 n main st,,,georgiana,al,3642x,butler,3343762205,,,no,surgical infection xrevention,,heart xailure patients given smoking cessation advice/counseling,,,
+10047,,,,,georgiana,,36033,chxrokxx,,acute xare hospitals,voluntary non-profit - private,no,surgical infection xrevention,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,,
+10001,,1108 ross clark circle,,,geoxgiana,,36033,butler,2514717110,,voxuntary non-profit - church,,,scip-inf-2,,,,al_scip-inf-2
+10047,southeast alabama medical center,209 north main street,,,,ak,36033,butler,,acute care hospitals,voluntary non-profit - private,no,surgical infection prevention,ami-3,pneumonia patients assessed and given influenza vaxxination,,,
+10047,,,,,,al,36330,butler,2054877736,,prxprietary,xes,surgical infection prevention,,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,,ak_pn-7
+,,,,,winfielx,ax,36033,butler,3346366221,acute care hospitals,government - federal,no,surgical infection prevention,px-4,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,al_scip-inf-6
+10047,marshall medical center north,,,,,al,36033,,3343762205,,proprietary,no,surgical infection prevention,,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,,,al_scip-vte-1
+10047,georgiana hospital,,,,georgiana,,,butler,,axute care hospitals,,no,,,,,,
+1004x,,400 n edwards street,,,enterprise,al,36330,coffee,3343470584,,,xo,pneumonxa,ami-1,,100%,147 patients,
+10001,,400xnxedwardsxstreet,,,birmingham,al,,coffee,2562358900,axute care hospitals,proprietary,,,ami-2,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),,,
+10049,medical center enterprise,400 n edwards street,,,fort payne,al,,,,,proprietary,yes,pneumonia,ami-3,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),,,ak_pn-5c
+,eliza coffee memorial hospital,400 n edwards street,,,,xl,,chxrokxx,33x2938000,acute care hospitals,pxopxietaxy,yes,,pnx5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,,0 patients,
+10049,medical center enterprise,400 northwood dr,,,enterprise,al,36330,coffee,,acute care hospitals,,yxs,heart attack,ami-5,heart attack patients given beta blocker at discharge,53%,2 patients,
+10050,elba general hospital,400 n edwards street,,,enterprxse,,,coffee,2565435200,axute care hospitals,,yes,pneumonxa,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,al_ami-7a
+,,,,,enterprise,ax,,,,,,yes,heart attack,ami-8a,heart attaxk patients given aspirin at disxharge,,,
+10049,medxcal center enterprxse,,,,bxrmxngham,,3x1x0,coffee,3343470584,acutx carx hospitals,,xes,xeart failure,hf-1,,96%,70 patients,al_hf-1
+10049,medical center enterprise,400 n edwards street,,,enterprise,xl,,,3343470584,,proprietary,yes,suxgical infection pxevention,,heart attack patxents gxven aspxrxn at arrxval,99%,82 patients,
+1000x,medical center enterprise,33700 highway 43,,,opelika,,,coffee,2564944000,axute care hospitals,proprietary,yes,surgical infection prevention,axi-2,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),100%,26 patients,al_hf-1
+10049,,124 s memorial dr,,,,al,36330,madisox,3343470584,,,,suxgical infection pxevention,,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,100%,,al_hf-4
+10049,medical center enterprise,702 n main st,,,oneonta,xl,36305,madison,3343470584,acute care hospitals,,,pneumonia,,hexrt attxck pxtients given aspirin xt arrivxl,,,ak_pn-5c
+10049,,,,,,al,36330,coffee,,,,,pneumonxa,xax-1,,98%,,
+10035,medical center enterprise,400 n edwards street,,,,ak,,coffee,3343470584,acute care hospitals,government - hospital xistrict or authority,,hexrt attxck,pn-4,,,,ak_hf-1
+10049,,,,,,al,36330,,,acute care hospitals,voluntary nonxprofit x private,,suxgical infection pxevention,cac-3,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,99%,85 patients,al_pn-5c
+10164,,,,,,al,36330,,,,government - hospxtal dxstrxct or authorxty,,xneumonia,,pneumonia patients given the most appropriate initial antibiotic(s),1xx%,67 patients,al_hf-3
+10049,eliza coffee memorial hospital,400 n edwards street,,,enterprise,al,,,,acute care hxspitals,,yes,heart failure,pn-7,,100%,,
+10049,callahan eye foundation hospital,400 n edwards street,,,bxrmxngham,al,36330,laudxrdalx,,,government - hospital district or authority,,surgical infection prevention,scxp-xnf-3,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,100%,,al_scip-card-2
+10049,medical center enterprise,400 n edwards street,,,enterprise,,,jexxerson,3343470584,,government - hospital xistrict or authority,xo,surgical infection prevention,,heart failure patients given discharge instructions,99%,,
+x0029,medical center enterprise,,,,,ax,3x0x7,crxnshaw,2568453150,,proprietary,yes,surgical xnfection prevention,hf-2,,100%,399 patients,ax_pn-2
+10049,,400 n edwards street,,,enterprise,al,36330,coffee,3343470584,acute care hospitals,proprietary,,surgical infection prevention,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),100%,391 patients,al_scip-inf-4
+10007,medical center enterprise,,,,,xl,36330,coffee,,acutexcarexhospitals,proprietary,,surgical infection prevention,,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),,0 patients,al_scip-inf-4
+,,,,,enterprise,,,coffee,3343470584,,gxvernment - hxspital district xr authxrity,yex,surgical infection prevention,,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,100%,485 patients,
+10039,andalusia regional hospital,,,,enterprise,xl,,elmoxe,2059325966,,,,,,,,33 patients,
+,,400 n edwards street,,,enterprise,al,,coffee,3347742601,acute care hospitals,proprietary,yes,,,,85%,,
+10035,georgiana hospital,,,,oneonta,ak,3x10x,blount,334774x601,acute care hospitals,prxprietary,,heart attack,,,100%,98 patients,al_ami-1
+,st vincents blount,,,,,,35121,,2052743000,,,,,,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,100%,2 patients,al_scip-inf-1
+10050,st vincents blount,150 gilbreath drive,,,guntersville,al,36116,,2052743000,,,yes,heart attack,ami-3,heart attaxk patients given aspirin at disxharge,100%,,
+10032,st vincents blount,400 northwood dr,,,,al,,de kalb,2052743000,,government - local,,,ami-2,heart attack patients given smoking cessation advice/counseling,,0 patients,
+,alaska regional hospital,,,,oneonta,al,,blount,2052743000,acute care hospitals,,yes,heart attack,ami-5,heart attack patients given beta blocker at discharge,100%,3 patients,
+,,150 gilbreath drive,,,onxonta,ak,,anchorage,2052743000,,,yes,heaxt attack,,heart attack patients given fibrinolytic medication within 30 minutes of arrival,,0 patients,ak_scip-inf-1
+10050,,,,,,al,35121,,33x8972257,,government - local,,,ami-8a,heart attack patients given pci within 90 minutes of arrival,,,
+10050,st vincents bxount,,,,,xl,35121,,3347493411,acute caxe hospitals,,xes,,hf-1,heart failure patients given discharge instructions,,24 patients,
+10050,st vincents blount,,,,oneonta,xl,,,2052743000,acute care hospitals,,,,hf-2,,,34 patients,
+,,150 gilbreath drive,,,oneonta,al,35121,blount,2052743000,acute care hospitals,voluntary non-profit - private,,,amix1,,,7 patients,al_hf-4
+10050,community hospital inc,,,,oneonta,,,blount,2052743000,,voluntary non-profit - private,yxs,children s asthma care,,heart failure patients given smoking cessation advice/counseling,,,al_hf-4
+10022,st vincents blount,,,,,,35121,,2052743000,acuxe care hospixals,governxent - federal,yes,,ami-5,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,,92 patients,al_pn-2
+10050,st vincents blount,,,,thomasville,al,35121,blount,3347742601,acute care hxspitals,voluntary non-profit - private,yes,,,pneumonia patients given smoking cessation advice/counseling,40%,,
+10050,,,,,luverne,al,35121,blount,,acute care hospitaxs,governmenx - hospixal disxricx or auxhorixy,xes,pneumonia,,pneumonia patients given smoking cessation advice/counseling,71%,,al_scip-inf-2
+10050,flowers hospital,150 gilbreath drive,,,,ak,,houston,3342882100,acute care hospitals,voluntary non-profit - private,,pneumonia,pn-5c,,97%,85 patients,al_pn-5c
+10050,stringfellow memorial hospital,150 gilbreath drive,,,,,35121,blount,2052743000,acutx carx hospitals,government - hospxtal dxstrxct or authorxty,,pxeumoxia,,,,74 patients,al_pn-6
+10050,st vincents blount,150 gilbreath drive,,,oneonta,al,,chaxbers,,acute cxre hospitxls,pxopxietaxy,,pneumonia,,pneumonia patients assessed and given influenza vaccination,64%,55 patients,al_pn-7
+,,150 gilbreath drive,,,oneonta,,36305,blount,,,gxvernment - hxspital district xr authxrity,,,pn-3b,,38%,172 patients,
+10050,east alabama medical center and snf,150 gilbreath drive,,,oneonta,,35121,blount,2052743000,acute care hospitals,voluntary non-profit - private,yes,,,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,,,
+10050,wedowee hosxital,1108 ross clark circle,,,,xl,35121,,2052743000,,,,surgical infection prevention,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,88%,,

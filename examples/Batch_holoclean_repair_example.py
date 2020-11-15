@@ -83,8 +83,8 @@ for pair in pair_fracs:
 # hc.repair_errors(featurizers)
 #
 # # 5. Evaluate the correctness of the results.
-# # hc.evaluate(fpath='../testdata/hospital_clean.csv',
-# # hc.evaluate(fpath='../usecase/usecase3/hospital_clean.csv',
+# # hc.evaluate(fpath='../testdata/hospital_clean_recon.csv',
+# # hc.evaluate(fpath='../usecase/usecase3/hospital_clean_recon.csv',
 # eval_report = hc.evaluate(fpath='../usecase/usecase3/hos_clean_create.csv',
 #             tid_col='tid',
 #             attr_col='attribute',
@@ -146,8 +146,8 @@ for infile in infiles:
     hc.repair_errors(featurizers)
 
     # 5. Evaluate the correctness of the results.
-    # hc.evaluate(fpath='../testdata/hospital_clean.csv',
-    # hc.evaluate(fpath='../usecase/usecase3/hospital_clean.csv',
+    # hc.evaluate(fpath='../testdata/hospital_clean_recon.csv',
+    # hc.evaluate(fpath='../usecase/usecase3/hospital_clean_recon.csv',
     eval_report = hc.evaluate(fpath='../usecase/usecase3/hos_clean_create.csv',
                 tid_col='tid',
                 attr_col='attribute',
@@ -159,5 +159,5 @@ for infile in infiles:
 
 d = {'Missing': missing, 'Mismatched': mim, 'precision': precision, 'recall': recall, 'repaired_recall':repaired_recall, 'F1': f1}
 df = pd.DataFrame(d)
-df.to_csv('Missing-Mismatched-Eval_report.csv')
+df.to_csv('Missing-Eval_report.csv')
 pprint(df)

@@ -21,8 +21,9 @@ hc = holoclean.HoloClean(
     weight_norm=False,
     print_fw=True
 ).session
-hc.load_data('hospital', 'hos_internal/recon_hospital_clean.csv')
-hc.load_dcs('../testdata1/hospital_constraints.txt')
+# hc.load_data('hospital', '../../testdata1/hospital.csv')
+hc.load_data('hospital','../hos_internal/Tune_res/Missing/Aug_missing_v0_frac0.1.csv')
+hc.load_dcs('../../testdata1/hospital_constraints.txt')
 # hc.load_dcs('../testdata/adult_constraints.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
@@ -42,9 +43,9 @@ featurizers = [
 hc.repair_errors(featurizers)
 
 # 5. Evaluate the correctness of the results.
-# hc.evaluate(fpath='../testdata/hospital_clean.csv',
-# hc.evaluate(fpath='../usecase/usecase3/hospital_clean.csv',
-hc.evaluate(fpath='../usecase/usecase3/hos_clean_create.csv',
+# hc.evaluate(fpath='../testdata/hospital_clean_recon.csv',
+# hc.evaluate(fpath='../usecase/usecase3/hospital_clean_recon.csv',
+hc.evaluate(fpath='../../testdata1/hospital_clean.csv',
                           tid_col='tid',
                           attr_col='attribute',
                           val_col='correct_val')
