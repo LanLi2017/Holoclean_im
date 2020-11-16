@@ -22,6 +22,7 @@ def cal_nan(grd_tb, baseline_tb):
     na_coor_grd = [list(x) for x in grd_stack.index[grd_stack.isna()]]
     prop_grd = count_na_grd/size_tb
     logging.info(f'nan in ground truth/clean data: {count_na_grd} ==> proportion {prop_grd}')
+    print(f'nan in ground truth/clean data: {count_na_grd} ==> proportion {prop_grd}')
 
     # what's the proportion missing values HoloClean used?: baseline_tb
     baseline = pd.read_csv(baseline_tb)
@@ -30,6 +31,7 @@ def cal_nan(grd_tb, baseline_tb):
     na_coor_base = [list(x) for x in baseline_stack.index[baseline_stack.isna()]]
     prop_base = count_na_base/size_tb
     logging.info(f'nan in holoclean baseline: {count_na_base} ==> proportion {prop_base}')
+    print(f'nan in holoclean baseline: {count_na_base} ==> proportion {prop_base}')
 
     diff_null_list = [i for i in na_coor_grd + na_coor_base if i not in na_coor_grd or i not in na_coor_base]
     logging.info(f'if the nan position is equal? ==> {diff_null_list}')
@@ -69,7 +71,7 @@ def get_mismatch_sample(base, rand_coord, i, frac, col_list, domain_list):
     # [[19, 'Score'], [26, 'Score'], [27, 'Score'],...]
     count_na_grd = base.isna().values.sum()
     logging.info(f'before replacement: nan count {count_na_grd}')
-
+    error = 0
     for _, v in enumerate(rand_coord):
         row_id = v[0]
         col_name = v[1]
@@ -77,16 +79,18 @@ def get_mismatch_sample(base, rand_coord, i, frac, col_list, domain_list):
         domain_choices = domain_list[col_list.index(col_name)]
         # remove its initial value
         initial_v = base[col_name].iloc[row_id]
-        ava_choices = [x for x in domain_choices if x != initial_v  ]
-        logging.info(f'before replace: {initial_v}')
+        ava_choices = [x for x in domain_choices if x != initial_v ]
+        # logging.info(f'before replace: {initial_v}')
+        print(f'before replace: {initial_v}')
         # random replacement indexes
         replace_v =random.choice(ava_choices)
         base[col_name].iloc[row_id] = replace_v
         # df.loc[ran_rep_index, 'room_type'] = random.choice(avai_choices_rm_tp)
-        logging.info(f'after replace: {replace_v}')
+        # logging.info(f'after replace: {replace_v}')
+        print(f'after replace: {replace_v}')
     count_na_grd_af = base.isna().values.sum()
     logging.info(f'after replacement: nan count {count_na_grd_af}')
-    base.to_csv(f'Mismatch/Aug_mismatch_v{i}_frac{round(frac, 1)}.csv', index=False)
+    # base.to_csv(f'Mismatch/Aug_mismatch_v{i}_frac{round(frac, 1)}.csv', index=False)
 
 
 def aug_mis():
@@ -115,6 +119,7 @@ def aug_mimatch():
     for i, v in enumerate(frac_2):
         baseline_cp = baseline.copy()
         rand_count = int(size_tb * v)
+        print(rand_count)
         x_y = [[x, baseline_cp.columns[y]] for x, y in zip(*np.where(baseline_cp.values))] # enumerate all of cells in a table
         un_nan_xy = [coor for coor in x_y if coor not in na_coor_base] # remove nan cell
         rand_coord = random.sample(un_nan_xy, k=rand_count)  # randomly generate coordinates [[19, 'Score'],...]
@@ -181,12 +186,84 @@ def main_():
     cal_nan('Ground_truth/hospital_clean_recon.csv', 'Holoclean_test_input/hospital.csv')
 
 
+def demo3():
+    res_mixed_grd = [0.2, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5, 0.6, 0.4, 0.5, 0.6, 0.7, 0.5, 0.6, 0.7, 0.8]
+    count_list = [x*19000 for x in res_mixed_grd]
+    print(count_list)
+
+
+def demo2():
+    df = pd.read_csv('Mismatch/Aug_mismatch_v0_frac0.1.csv')
+    nan_count = df.isna().values.sum()
+
+    df1 = pd.read_csv('Holoclean_test_input/hospital.csv')
+    nan_count_compare = df1.isna().values.sum()
+
+    df1replace_na = df1.replace(np.nan, '', regex=True)
+    na_df1 = df1replace_na.isna().values.sum()
+
+    df_replace_na = df.replace(np.nan, '', regex=True)
+    na_df = df_replace_na.isna().values.sum()
+
+    diff = df_replace_na==df1replace_na
+    pprint(diff)
+    colname = list(diff.columns.values)
+
+    # count = diff.value_counts().loc[False]
+    count = 0
+    for col in colname:
+        try:
+            count += diff[col].value_counts().loc[False]
+        except:
+            print(col)
+            pass
+        # count += diff[col].value_counts().loc[False]
+    print(count)
+
+
+def demo():
+    df = pd.read_csv('Missing/Aug_missing_v0_frac0.1.csv')
+    nan_count = df.isna().values.sum()
+    df1 = pd.read_csv('Holoclean_test_input/hospital.csv')
+    nan_count_compare = df1.isna().values.sum()
+
+    colname = list(df1.columns.values)
+
+    df1_stack = df1.stack(dropna=False)
+    na_coor_df1 = [list(x) for x in df1_stack.index[df1_stack.isna()]]
+    print(len(na_coor_df1))
+
+    df_stack = df.stack(dropna=False)
+    na_coor_df = [list(x) for x in df_stack.index[df_stack.isna()]]
+    print(len(na_coor_df))
+    # df - df1
+    diff =[x for x in na_coor_df if not x in na_coor_df1]
+
+    print(len(diff))
+    # print(len(diff))
+    # res = (df equ df1)
+    # pprint(res)
+    # # print(list(res.columns.values))
+    # # print(res.ProviderNumber.value_counts())
+    # colname = list(res.columns.values)
+    # print(res['Address2'])
+    # print(colname)
+    # count = 0
+    # for col in colname:
+    #     count_false = res[col].value_counts().loc[False]
+    #     print(count_false)
+    #     count += count_false
+    # print(count)
+
+
 if __name__ == '__main__':
     # main_2()
     # main_()
     # aug_mis()
     # aug_mimatch()
-    aug_mis_mim()
+    # aug_mis_mim()
+    # demo2()
+    demo3()
 
 
 

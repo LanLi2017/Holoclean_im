@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pandas as pd
-import random
 
 sns.set(style="whitegrid", font_scale=2, rc={'figure.figsize':(7,6.5)}) #Change Figure/Font Size
 plt.rcParams["font.family"] = 'Times New Roman'
@@ -48,11 +47,12 @@ plt.bar([p + width*3 for p in pos], df['F1'], width, alpha=0.5, color="#FFC107",
 
 # set the y axis label
 ax.set_ylabel('Evaluation')
+ax.set_xlabel('(missing, mismatch)')
 ax.set_title('Evaluation Report for Tuning Mixed values')
 ax.set_xticks([p+1.5*width for p in pos])
 
 # set the labels for the x ticks
-ax.set_xticklabels(pair_fracs)
+ax.set_xticklabels(pair_fracs, size=10)
 plt.ylim([0, 1])
 
 # Adding the legend and showing the plot

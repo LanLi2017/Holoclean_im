@@ -1,0 +1,2 @@
+#diff ../Missing/Aug_missing_v0_frac0.1.csv ../Holoclean_test_input/hospital.csv  | grep "^>" | wc -l
+diff ../Missing/Aug_missing_v3_frac0.4.csv ../Holoclean_test_input/hospital.csv  | grep "^>" | wc -l
