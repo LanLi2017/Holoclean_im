@@ -7,6 +7,7 @@ from collections import Counter
 from operator import itemgetter
 from pprint import pprint
 import numpy as np
+import fasttext
 
 from gensim.models import Phrases, FastText
 from gensim.models.phrases import Phraser
@@ -19,6 +20,8 @@ from spacy.lang.en import English
 from spacy import displacy
 from pandas import read_csv
 from tqdm import tqdm
+
+from Sim_Embed.cal_similarity import pearson_corr, cos_simi
 
 
 class Tfidf_Embed:
@@ -60,6 +63,7 @@ class Tfidf_Embed:
         return model
 
     def tfidf(self):
+        # how to deal with nan?
         text = []
         for i in tqdm(self.tokens):
             string = ' '.join(i)
@@ -93,13 +97,88 @@ class Tfidf_Embed:
         return tfidf_sent_vectors
 
 
+def remove_nan(embed_vec:list):
+    # return the nan idx, and remove it jointly from two vectors
+    nan_list = []
+    for i,e in enumerate(embed_vec):
+        for j in e:
+            if math.isnan(j):
+                nan_list.append(i)
+    idx_nan = list(set(nan_list))
+    return idx_nan
+
+
+def cos_emb_vec(data, attr1, attr2, embed_size):
+    '''
+    data: csv file & pandas dataframe
+    attr1: long sequence column
+    attr2: short words column
+    embed size: normally 10
+    '''
+    # MeasureName & Condition: [[0.25519639]]
+    attr_name_1 = attr1
+    # long sequence: tf-idf weighted word embedding
+    embed1 = Tfidf_Embed(data[attr_name_1]).tfidf_sent_vectors
+
+    # short word embedding
+    attr_name_2 = attr2
+    model_attr4 = Tfidf_Embed(data[attr_name_2]).train_fastText()
+    w2v = []
+    for word in data[attr_name_2]:
+        try:
+            vec = model_attr4.wv[word]
+        except:
+            vec = [math.nan] * embed_size
+        w2v.append(vec)
+
+    # get nan index
+    idx_nan_1 = remove_nan(embed1)    # nan from long sequence
+    idx_nan_2 = remove_nan(w2v)       # nan from short sequence
+    join_nan = idx_nan_1 + list(set(idx_nan_2) - set(idx_nan_1))  # remove nan from both sides
+    embed1_unan = [item for idx, item in enumerate(embed1) if idx not in set(join_nan)]
+    w2v_unan = [item for idx, item in enumerate(w2v) if idx not in set(join_nan)]
+    res1 = remove_nan(embed1_unan)
+    res2 = remove_nan(w2v_unan)
+    # should be none of nan after removing
+    assert res1 == []
+    assert res2 == []
+
+    embed1_ary = np.array(embed1_unan)
+    np_w2v = np.array(w2v_unan)
+    assert embed1_ary.shape == np_w2v.shape
+
+    # capture core info from long sequence column, weighted tf-idf word embedding
+    # FastText embedding word into vectors
+    # calculate the similarity using cosine similarity
+    cos_res = []
+    error = 0
+    try:
+        cos_res = cos_simi(embed1_ary, np_w2v)
+        print(cos_res)
+    except:
+        error += 1
+        pass
+    assert error == 0
+    return cos_res
+
+
 def main():
     data = read_csv('data/hospital.csv')
-    attr_name = 'MeasureName'
-    c = Tfidf_Embed(data[attr_name])
-    pprint(c.tfidf_sent_vectors)
-    # tfidf_vec = c.tfidf_sent_vectors
-    # pprint(tfidf_vec)
+    colname_list = list(data.columns.values)
+    print(colname_list)
+    cos1 = cos_emb_vec(data,'MeasureName', 'Condition', 10)
+    #
+    # cos2 = cos_emb_vec(data, 'MeasureName', 'City', 10)
+    # assert cos2 < cos1
+
+    # cos3 = cos_emb_vec(data, 'MeasureName', 'HospitalOwner', 10)
+    # test_col = ['HospitalName','Address1','HospitalOwner','City','State','CountyName','EmergencyService','Condition']
+    # cos_res = []
+    # for col in test_col:
+    #     cos_res.append(cos_emb_vec(data, 'MeasureName', col, 10))
+    # pprint(cos_res)
+    # for att, cos in zip(test_col, cos_res):
+    #     print(f'{att} and "MeasureName" similarity is ==> {cos}')
 
 
 if __name__ == '__main__':

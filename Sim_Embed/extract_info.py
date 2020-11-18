@@ -5,7 +5,7 @@ from gensim.models import Word2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tqdm import tqdm
 
-from Sim_Embed.weighted_emb import Computation
+# from Sim_Embed.weighted_emb import Computation
 import numpy as np
 import pandas as pd
 
