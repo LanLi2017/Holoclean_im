@@ -69,7 +69,7 @@ class Tfidf_Embed:
             string = ' '.join(i)
             text.append(string)
         tf_idf_vec = TfidfVectorizer()
-        final_tf_idf = tf_idf_vec.fit_transform(text)
+        final_tf_idf = tf_idf_vec.fit_transform(text) # final_tf_idf is the sparse matrix with row=sentence, col=word and cell_val =tfidf
         tfidf_feat = tf_idf_vec.get_feature_names()
         return final_tf_idf, tfidf_feat
 
@@ -162,11 +162,54 @@ def cos_emb_vec(data, attr1, attr2, embed_size):
     return cos_res
 
 
+def langmodel(data, attr, emb_size):
+    model = Tfidf_Embed(data[attr]).train_fastText()
+    w2v = []
+    # wv: This object essentially contains the mapping between words and embeddings
+    for word in data[attr]:
+        try:
+            vec = model.wv[word]
+        except:
+            vec = [math.nan] * emb_size
+        w2v.append(vec)
+    return w2v
+
+
 def main():
-    data = read_csv('data/hospital.csv')
+    data = read_csv('../data/hospital.csv')
     colname_list = list(data.columns.values)
     print(colname_list)
-    cos1 = cos_emb_vec(data,'MeasureName', 'Condition', 10)
+    vec_1 = langmodel(data, 'MeasureName', 10)
+    vec_tfidf = Tfidf_Embed(data['MeasureName']).tfidf_sent_vectors
+
+
+    # vec_2 = langmodel(data, 'Condition', 10)
+    idx_nan_1 = remove_nan(vec_1)  # nan from long sequence
+    idx_nan_2 = remove_nan(vec_tfidf)  # nan from short sequence
+    join_nan = idx_nan_1 + list(set(idx_nan_2) - set(idx_nan_1))  # remove nan from both sides
+    vec_1_unan = [item for idx, item in enumerate(vec_1) if idx not in set(join_nan)]
+    vec_2_unan = [item for idx, item in enumerate(vec_tfidf) if idx not in set(join_nan)]
+    res1 = remove_nan(vec_1_unan)
+    res2 = remove_nan(vec_2_unan)
+    # # should be none of nan after removing
+    assert res1 == []
+    assert res2 == []
+
+    vec_1_ary = np.array(vec_1_unan)
+    vec_2_ary = np.array(vec_2_unan)
+    assert vec_1_ary.shape == vec_2_ary.shape
+
+    cos_res = []
+    error = 0
+    try:
+        cos_res = cos_simi(vec_1_ary, vec_2_ary)
+        print(cos_res)
+    except:
+        error += 1
+        pass
+    assert error == 0
+
+    # cos1 = cos_emb_vec(data,'MeasureName', 'Condition', 10)
     #
     # cos2 = cos_emb_vec(data, 'MeasureName', 'City', 10)
     # assert cos2 < cos1

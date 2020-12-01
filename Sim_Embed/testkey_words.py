@@ -2,7 +2,7 @@ import math
 from collections import Counter
 from operator import itemgetter
 
-from Sim_Embed.weighted_emb import TfIdf
+from Sim_Embed.Horizontal_emb.emb_col import TfIdf
 
 
 def computeTF(self, curr_row):
