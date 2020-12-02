@@ -24,7 +24,7 @@ default_values = {
     'n_dimensions': '30',
     'sentence_length': 10,
     'walks_strategy': 'basic',
-    'write_walks': 'walk/small.walk',
+    'write_walks': 'walk/med.walk',
     'ntop': '10',
     'ncand': '1',
     'max_rank': '3',
@@ -36,7 +36,7 @@ default_values = {
     'with_rid': 'first',
     'numeric': 'no',
     'backtrack': True,
-    'run-tag': 'emb',
+    'run-tag': 'med',
 }
 
 
@@ -402,12 +402,14 @@ def test_wf():
 
 
 def test_generate_walk_file():
-    df = pd.read_csv('dataset/small_demo.csv')
+    csv_f =  'Abl_study/dataset/med_demo.csv'
+    df = pd.read_csv(csv_f)
     G = generate_graph(df)
     # walk = random_walk(35660,10, G)
     sentences = generate_sentences(G, sentence_length=10)
     refine_res = refine_walk(sentences, G)
-    walks_file = 'walk/small.walk'
+    # walks_file = 'walk/small.walk'
+    walks_file = 'walk/med.walk'
     fp_walks = open(walks_file, 'w')
     for sen in refine_res:
         ws = ' '.join(str(v) for v in sen)
@@ -416,7 +418,8 @@ def test_generate_walk_file():
 
 
 def generate_embeddings():
-    walks_file = 'walk/small.walk'
+    # walks_file = 'walk/small.walk'
+    walks_file = 'walk/med.walk'
     embeddings_generation(walks_file)
 
 
@@ -439,4 +442,6 @@ if __name__ == '__main__':
     # test_generate_walk_file()
     # generate_embeddings()
     # wf_test()
-    main('dataset/small_demo.csv', 'walk/small.walk')
+    csv_file = 'Abl_study/dataset/med_demo.csv'
+    walk_f = 'walk/med.walk'
+    main(csv_file, walk_f)

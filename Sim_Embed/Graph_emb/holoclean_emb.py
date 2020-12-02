@@ -86,13 +86,16 @@ def load_error_file(error_file):
 def test_savefile():
     # save error into files
     # no need to ask Holoclean system every time
-    file, tb_name, constraints_f = 'dataset/small_demo.csv', 'hospital', 'constraints/hospital_constraints.txt'
+    file = 'Abl_study/dataset/med_demo.csv'
+    tb_name = 'hospital_med'
+    constraints_f = 'constraints/hospital_constraints.txt'
+    # file, tb_name, constraints_f = file, tb_name, constraints_f
     null_er_df, vio_er_df = req_holoclean(file, tb_name, constraints_f)
     null_coor = error_coordinate(null_er_df) # (rid, cid) record id, column id
-    null_error_fp = 'Error/Null_err.txt'
+    null_error_fp = 'Error/med/Null_err.txt'
     save_error_file(null_coor, null_error_fp)
     vio_coor = error_coordinate(vio_er_df)
-    vio_error_fp = 'Error/Violates_err.txt'
+    vio_error_fp = 'Error/med/Violates_err.txt'
     save_error_file(vio_coor, vio_error_fp)
 
 
@@ -122,7 +125,7 @@ def cal_pairwise(error_list):
     return pair_wise_res
 
 
-def _load_emb(model_file, start_str='idx__'):
+def _load_emb(model_file, clean_emb_file, start_str='idx__'):
     with open(model_file, 'r', encoding='utf-8') as fp:
         s = fp.readline()
         _, dimensions = s.strip().split(' ')
@@ -139,7 +142,7 @@ def _load_emb(model_file, start_str='idx__'):
                     viable_idx.append(row)
         # viable_idx = [row for idx, row in enumerate(fp) if idx > 0 and row.startswith('idx_')]
 
-    f = 'embeddings/dump/indices.emb'
+    f = clean_emb_file
     with open(f, 'w', encoding='utf-8') as fp:
         fp.write('{} {}\n'.format(len(viable_idx), dimensions))
         for _ in viable_idx:
@@ -189,7 +192,10 @@ def cal_pairwise_rid(error_list, emb_file):
 
 def test_loademb():
     # load index/record embedding
-    f,idx_emb = _load_emb('embeddings/emb.emb',start_str='idx__')
+    emb_file = 'embeddings/med.emb'
+    clean_emb_f = 'embeddings/dump/med_indices.emb'
+    # emb_file = 'embeddings/emb.emb'
+    f,idx_emb = _load_emb(emb_file,clean_emb_f,start_str='idx__')
 
 
 def test_cal_distance():
@@ -208,14 +214,15 @@ def test_cal_distance():
 
 def main():
     # load error
-    error_file = 'Error/Violates_err.txt'
+    error_file = 'Error/med/Violates_err.txt'
     vio_error_list = load_error_file(error_file)
-    emb_file = 'embeddings/dump/indices.emb'
+    emb_file = 'embeddings/dump/med_indices.emb'
     rid_l = cal_pairwise_rid(vio_error_list, emb_file)
     # print(rid_l)
 
 
 if __name__ == '__main__':
+    # test_savefile()
     # test_loademb()
     # test_cal_distance()
     # main_cal_distance()
