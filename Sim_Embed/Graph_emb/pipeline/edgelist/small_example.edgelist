@@ -1,0 +1,53 @@
+3#__tn,3$__tt,5$__idx,1$__cid
+idx__0,tt__10018,1,1.0
+tt__10018,cid__ProviderNumber,1.0,1
+idx__0,tt__callahan eye foundation hospital,1,1.0
+tt__callahan eye foundation hospital,cid__HospitalName,1.0,1
+idx__0,tt__1720 university blvd,1,1.0
+tt__1720 university blvd,cid__Address1,1.0,1
+idx__0,tt__birmingham,1,1.0
+tt__birmingham,cid__City,1.0,1
+idx__0,tn__35233,1,1
+tn__35233,cid__ZipCode,1,1
+idx__0,tt__jefferson,1,1.0
+tt__jefferson,cid__CountyName,1.0,1
+idx__0,tn__2053258100,1,1
+tn__2053258100,cid__PhoneNumber,1,1
+idx__1,tt__1xx19,1,1.0
+tt__1xx19,cid__ProviderNumber,1.0,1
+idx__1,tt__helen keller memorial hospital,1,1.0
+tt__helen keller memorial hospital,cid__HospitalName,1.0,1
+idx__1,tt__1300 south montgomery avenue,1,1.0
+tt__1300 south montgomery avenue,cid__Address1,1.0,1
+idx__1,tt__sheffield,1,1.0
+tt__sheffield,cid__City,1.0,1
+idx__1,tn__35660,1,1
+tn__35660,cid__ZipCode,1,1
+idx__1,tt__jefferson,1,1.0
+tt__jefferson,cid__CountyName,1.0,1
+idx__1,tn__2563864556,1,1
+tn__2563864556,cid__PhoneNumber,1,1
+idx__2,tt__10019,1,1.0
+tt__10019,cid__ProviderNumber,1.0,1
+idx__2,tt__helen keller memorial hospital,1,1.0
+tt__helen keller memorial hospital,cid__HospitalName,1.0,1
+idx__2,tt__1300 south montgomery avenue,1,1.0
+tt__1300 south montgomery avenue,cid__Address1,1.0,1
+idx__2,tt__sheffield,1,1.0
+tt__sheffield,cid__City,1.0,1
+idx__2,tt__jefferson,1,1.0
+tt__jefferson,cid__CountyName,1.0,1
+idx__2,tn__2563864556,1,1
+tn__2563864556,cid__PhoneNumber,1,1
+idx__3,tt__10001,1,1.0
+tt__10001,cid__ProviderNumber,1.0,1
+idx__3,tt__southeast alabama medical center,1,1.0
+tt__southeast alabama medical center,cid__HospitalName,1.0,1
+idx__3,tt__1108 ross clark circle,1,1.0
+tt__1108 ross clark circle,cid__Address1,1.0,1
+idx__3,tn__36302,1,1
+tn__36302,cid__ZipCode,1,1
+idx__3,tt__houston,1,1.0
+tt__houston,cid__CountyName,1.0,1
+idx__3,tn__3347938701,1,1
+tn__3347938701,cid__PhoneNumber,1,1
